@@ -8,7 +8,7 @@ Ever wanted to jot down your thoughts, feelings, or even code snippets and have 
 
 This project is a two-part symphony:
 
-1. **✍️ The Java Journaler:** A command-line Java app where you type your deepest thoughts (or just "I had pizza for dinner 🍕"). It then *automagically* saves your entry to a journal.json file, commits it to your local Git repo, and pushes it straight to GitHub\! No more forgetting to commit\!  
+1. **✍️ The Java Journaler:** A command-line Java app where you type your deepest thoughts (or just "I had pizza for dinner 🍕"). It then _automagically_ saves your entry to a journal.json file, commits it to your local Git repo, and pushes it straight to GitHub\! No more forgetting to commit\!
 2. **👀 The Web Viewer:** A sleek, modern webpage that pulls all your journal entries from that very same journal.json file and displays them beautifully in reverse chronological order. Got HTML in your entries? No problem, it renders it perfectly\! It's like your personal journal dashboard\!
 
 ## **🚀 Quick Start (Let's Get This Party Started\!)**
@@ -19,55 +19,57 @@ This project is a two-part symphony:
    git clone https://github.com/lkhanna1505/markUpJournal.git  
    cd markUpJournal
 
-2. **Java Setup:**  
-   * Make sure you have a Java Development Kit (JDK) installed (Java 8 or newer is good\!).  
-   * Ensure java and javac commands are accessible in your system's PATH.  
-3. **The Magic Batch File (run\_markup\_project.bat):**  
-   * This little gem handles compiling your Java code and running it. It's in the root of your repo.  
-   * **Pro-Tip:** Add the directory containing run\_markup\_project.bat to your system's PATH environment variable. This lets you run it from *anywhere* in your command prompt\! 🤯  
-     * *(Windows: Search "Environment Variables" \-\> "Edit system environment variables" \-\> "Environment Variables..." \-\> "Path" under System variables \-\> Edit \-\> New \-\> Add D:\\Coding\\Project\\markUp\_Journal\\)*  
-4. **Run It\!**  
-   * Open a **new** command prompt (after setting PATH).  
-   * Type run\_markup\_project and hit Enter\!  
-   * Type your entry when prompted. Watch it save, commit, and push\! ✨
+2. **Java Setup:**
+   - Make sure you have a Java Development Kit (JDK) installed (Java 8 or newer is good\!).
+   - Ensure java and javac commands are accessible in your system's PATH.
+3. **The Magic Batch File (run_markup_project.bat):**
+   - This little gem handles compiling your Java code and running it. It's in the root of your repo.
+   - **Pro-Tip:** Add the directory containing run*markup_project.bat to your system's PATH environment variable. This lets you run it from \_anywhere* in your command prompt\! 🤯
+     - _(Windows: Search "Environment Variables" \-\> "Edit system environment variables" \-\> "Environment Variables..." \-\> "Path" under System variables \-\> Edit \-\> New \-\> Add D:\\Coding\\Project\\markUp_Journal\\)_
+4. **Run It\!**
+   - Open a **new** command prompt (after setting PATH).
+   - Type run_markup_project and hit Enter\!
+   - Type your entry when prompted. Watch it save, commit, and push\! ✨
 
-**Important:** Make sure your Git repository (D:\\Coding\\Project\\markUp\_Journal) is properly configured with your remote (origin main). If you get a non-fast-forward error, it means someone (or you, on GitHub directly) pushed changes you don't have locally. The app will git pull before pushing to try and fix this, but sometimes manual intervention is needed if there are merge conflicts.
+**Important:** Make sure your Git repository (D:\\Coding\\Project\\markUp_Journal) is properly configured with your remote (origin main). If you get a non-fast-forward error, it means someone (or you, on GitHub directly) pushed changes you don't have locally. The app will git pull before pushing to try and fix this, but sometimes manual intervention is needed if there are merge conflicts.
 
 ### **Part 2: The Web Viewer (Your Stylish Dashboard)**
 
-1. **Local Server Time\!** 🌐  
-   * Browsers are security-conscious (which is good\!). They won't let your index.html directly read journal.json from your local disk.  
-   * You need a simple local web server. The easiest way:  
-   * **With Python (if installed):**  
-     * Open Command Prompt/PowerShell.  
-     * cd D:\\Coding\\Project\\markUp\_Journal\\  
-     * python \-m http.server 8000  
-     * Then open your browser to http://localhost:8000  
-   * **With VS Code Live Server Extension:**  
-     * Install "Live Server" extension.  
-     * Open D:\\Coding\\Project\\markUp\_Journal\\ in VS Code.  
-     * Right-click index.html \-\> "Open with Live Server".  
-2. **Behold Your Entries\!**  
-   * Your browser will open, and you'll see all your journal entries, beautifully formatted, with the latest ones at the top\!  
-   * HTML tags within your entries (\<h1\>, \<p\>, etc.) will render just as you intended\! 🎨
+1. **Local Server Time\!** 🌐
+   - Browsers are security-conscious (which is good\!). They won't let your index.html directly read journal.json from your local disk.
+   - You need a simple local web server. The easiest way:
+   - **With Python (if installed):**
+     - Open Command Prompt/PowerShell.
+     - cd D:\\Coding\\Project\\markUp_Journal\\
+     - python \-m http.server 8000
+     - Then open your browser to http://localhost:8000
+   - **With VS Code Live Server Extension:**
+     - Install "Live Server" extension.
+     - Open D:\\Coding\\Project\\markUp_Journal\\ in VS Code.
+     - Right-click index.html \-\> "Open with Live Server".
+2. **Behold Your Entries\!**
+   - Your browser will open, and you'll see all your journal entries, beautifully formatted, with the latest ones at the top\!
+   - HTML tags within your entries (\<h1\>, \<p\>, etc.) will render just as you intended\! 🎨
 
 ## **📁 Project Structure**
 
-markUpJournal/  
-├── java/  
-│   ├── markUp.java         \# The Java source code for your journal app  
-│   └── (markUp.class)      \# Compiled Java bytecode (generated by the batch file)  
-├── journal.json            \# Your precious journal entries (JSON array format)  
-├── index.html              \# The web viewer for your journal  
-├── run\_markup\_project.bat  \# The magical Windows batch file to compile & run Java  
-└── .gitignore              \# Keeps your repo clean\!
+```md
+markUpJournal/
+├── java/
+│ ├── markUp.java \# The Java source code for your journal app
+│ └── (markUp.class) \# Compiled Java bytecode (generated by the batch file)
+├── journal.json \# Your precious journal entries (JSON array format)
+├── index.html \# The web viewer for your journal
+├── run_markup_project.bat \# The magical Windows batch file to compile & run Java
+└── .gitignore \# Keeps your repo clean\!
+```
 
 ## **🧹 Gitignore Goodness**
 
 We've got a .gitignore file that helps keep your repository tidy by ignoring:
 
-* java/markUp.class: No need to track compiled Java files.  
-* java/: (This entry in your .gitignore is a bit broad and might ignore everything in the java folder. Usually, you'd just ignore .class files or build directories. If you intend to keep markUp.java tracked, ensure java/ is not literally ignoring the whole folder, but rather java/\*.class or java/build/ if you had a build output directory.)
+- java/markUp.class: No need to track compiled Java files.
+- java/: (This entry in your .gitignore is a bit broad and might ignore everything in the java folder. Usually, you'd just ignore .class files or build directories. If you intend to keep markUp.java tracked, ensure java/ is not literally ignoring the whole folder, but rather java/\*.class or java/build/ if you had a build output directory.)
 
 ## **🙏 Thanks for Checking It Out\!**
 
