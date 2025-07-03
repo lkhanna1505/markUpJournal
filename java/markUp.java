@@ -1,6 +1,8 @@
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -8,48 +10,89 @@ import java.util.Scanner;
 public class markUp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String filePath = "D:\\Coding\\Project\\markUp_Journal\\journal.json";
+        String journalFilePath = "D:\\Coding\\Project\\markUp_Journal\\journal.json";
+        String repoPath = "D:\\Coding\\Project\\markUp_Journal"; // Root of your Git repository
 
         try {
             System.out.println("Welcome to markUp Journal!");
             System.out.print("Enter your journal entry: ");
             String journalEntry = scanner.nextLine();
 
-            // 1. Append the user's string input to the JSON file
-            try (PrintWriter out = new PrintWriter(new FileWriter(filePath, true))) {
-                // For simplicity, we'll append each entry as a new line.
-                // For proper JSON, you'd need to read the file, parse it, add the new entry,
-                // and then rewrite.
-                // This example assumes a simple line-by-line append, suitable for a log-like
-                // journal.
-                // If you need strict JSON array/object, the file handling logic needs to be
-                // more complex.
-                out.println(journalEntry);
-                System.out.println("Journal entry saved to " + filePath);
+            // 1. Handle JSON file manually: Read, Update, Write
+            StringBuilder jsonContent = new StringBuilder();
+            File journalFile = new File(journalFilePath);
+
+            // Read existing content
+            if (journalFile.exists() && journalFile.length() > 0) {
+                try {
+                    String existingContent = new String(Files.readAllBytes(Paths.get(journalFilePath)));
+                    existingContent = existingContent.trim(); // Remove leading/trailing whitespace
+
+                    // Check if it's a valid JSON array start/end
+                    if (existingContent.startsWith("[") && existingContent.endsWith("]")) {
+                        // Remove the trailing ']' and any preceding newline to append new data
+                        jsonContent.append(existingContent.substring(0, existingContent.length() - 1));
+                        // If there are existing entries, add a comma before the new entry
+                        if (jsonContent.length() > 1) { // If it's not just "["
+                            jsonContent.append(",");
+                        }
+                    } else {
+                        System.err.println(
+                                "Warning: Existing journal.json is not a valid JSON array. Starting with a new empty array.");
+                        jsonContent.append("[");
+                    }
+                } catch (IOException e) {
+                    System.err.println("Error reading existing journal file: " + e.getMessage());
+                    jsonContent.append("["); // Start fresh if read fails
+                }
+            } else {
+                jsonContent.append("["); // Start with an empty array if file doesn't exist or is empty
+            }
+
+            // Create a new JSON string for the entry
+            LocalDateTime entryTime = LocalDateTime.now();
+            DateTimeFormatter entryFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            String timestamp = entryTime.format(entryFormatter);
+
+            // Manually construct the JSON object string for the new entry
+            // Escaping double quotes within the journalEntry if present
+            String escapedJournalEntry = journalEntry.replace("\"", "\\\"");
+            String newEntryJson = String.format("{\"timestamp\": \"%s\", \"entry\": \"%s\"}", timestamp,
+                    escapedJournalEntry);
+
+            // Append the new entry
+            jsonContent.append(newEntryJson);
+
+            // Close the JSON array
+            jsonContent.append("]");
+
+            // Write the entire updated JSON string back to the file (overwriting)
+            try (FileWriter fileWriter = new FileWriter(journalFile)) {
+                fileWriter.write(jsonContent.toString());
+                System.out.println("Journal entry saved to " + journalFilePath);
             } catch (IOException e) {
                 System.err.println("Error writing to journal file: " + e.getMessage());
                 return; // Exit if file writing fails
             }
 
             // 2. Prepare the commit message with current date and time
-            LocalDateTime now = LocalDateTime.now();
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            String formattedDateTime = now.format(formatter);
-            String commitMessage = "Journal update: " + formattedDateTime;
+            LocalDateTime now = LocalDateTime.now(); // Already in local system time
+            DateTimeFormatter commitFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss 'IST'");
+            String formattedDateTime = now.format(commitFormatter);
+            String commitMessage = "Journal update on " + formattedDateTime;
 
             // 3. Execute Git commands
             System.out.println("\nExecuting Git commands...");
 
             // Command 1: git add .
-            executeCommand(new String[] { "cmd.exe", "/c", "git add ." }, "D:\\Coding\\Project\\markUp_Journal");
+            executeCommand(new String[] { "cmd.exe", "/c", "git add ." }, repoPath);
 
             // Command 2: git commit -m "<message>"
-            executeCommand(new String[] { "cmd.exe", "/c", "git commit -m \"" + commitMessage + "\"" },
-                    "D:\\Coding\\Project\\markUp_Journal");
+            // Ensure the commit message is properly quoted for the command line
+            executeCommand(new String[] { "cmd.exe", "/c", "git commit -m \"" + commitMessage + "\"" }, repoPath);
 
             // Command 3: git push origin main
-            executeCommand(new String[] { "cmd.exe", "/c", "git push origin main" },
-                    "D:\\Coding\\Project\\markUp_Journal");
+            executeCommand(new String[] { "cmd.exe", "/c", "git push origin main" }, repoPath);
 
             System.out.println("\nGit operations completed.");
 
@@ -70,7 +113,7 @@ public class markUp {
      */
     private static void executeCommand(String[] command, String workingDirectory) {
         ProcessBuilder processBuilder = new ProcessBuilder(command);
-        processBuilder.directory(new java.io.File(workingDirectory));
+        processBuilder.directory(new File(workingDirectory));
         processBuilder.redirectErrorStream(true); // Redirect error stream to output stream
 
         try {
