@@ -88,8 +88,11 @@ public class markUp {
             executeCommand(new String[] { "cmd.exe", "/c", "git add ." }, repoPath);
 
             // Command 2: git commit -m "<message>"
-            // Ensure the commit message is properly quoted for the command line
             executeCommand(new String[] { "cmd.exe", "/c", "git commit -m \"" + commitMessage + "\"" }, repoPath);
+
+            // NEW STEP: Pull latest changes before pushing
+            System.out.println("\nPulling latest changes from remote...");
+            executeCommand(new String[] { "cmd.exe", "/c", "git pull origin main" }, repoPath);
 
             // Command 3: git push origin main
             executeCommand(new String[] { "cmd.exe", "/c", "git push origin main" }, repoPath);
@@ -129,13 +132,21 @@ public class markUp {
 
             int exitCode = process.waitFor(); // Wait for the process to complete
             System.out.println("Command exited with code: " + exitCode);
+            // It's often good to fail early if a critical command like pull/commit fails
+            // For example, if pull fails, you might not want to proceed with push.
+            // For now, we just report the error.
             if (exitCode != 0) {
                 System.err.println("Command failed: " + String.join(" ", command));
+                // Optional: You could throw an exception here to stop the program if a command
+                // fails
+                // throw new RuntimeException("Git command failed: " + String.join(" ",
+                // command));
             }
 
         } catch (IOException | InterruptedException e) {
             System.err.println("Error executing command '" + String.join(" ", command) + "': " + e.getMessage());
             Thread.currentThread().interrupt(); // Restore the interrupted status
+            // Optional: throw new RuntimeException("Error executing Git command", e);
         }
     }
 }
