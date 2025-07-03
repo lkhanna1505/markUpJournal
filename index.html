@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Journal Entries</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom styles for the Inter font and general body styling */
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f0f2f5; /* Light gray background */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Align items to the start of the cross axis */
+        min-height: 100vh; /* Ensure it takes full viewport height */
+        padding: 2rem 1rem; /* Add some padding around the content */
+      }
+      /* Style for the main container to center and limit width */
+      #app-container {
+        max-width: 800px; /* Max width for readability */
+        width: 100%; /* Full width on smaller screens */
+        background-color: #ffffff; /* White background for the content area */
+        border-radius: 1.5rem; /* More rounded corners */
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        padding: 2.5rem; /* Generous padding inside the container */
+      }
+      /* Styling for individual journal entry cards */
+      .journal-entry {
+        background-color: #f9fafb; /* Slightly off-white for entries */
+        border: 1px solid #e5e7eb; /* Light border */
+        border-radius: 1rem; /* Rounded corners for entries */
+        padding: 1.5rem; /* Padding inside each entry */
+        margin-bottom: 1.5rem; /* Space between entries */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+        transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+      }
+      .journal-entry:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+      }
+      .journal-entry:last-child {
+        margin-bottom: 0; /* No margin after the last entry */
+      }
+      .entry-timestamp {
+        font-size: 0.875rem; /* Small text for timestamp */
+        color: #6b7280; /* Gray color */
+        margin-bottom: 0.75rem; /* Space below timestamp */
+        font-weight: 500; /* Medium font weight */
+        border-bottom: 1px dashed #d1d5db; /* Dashed line separator */
+        padding-bottom: 0.5rem; /* Padding above the dashed line */
+      }
+      .entry-content {
+        font-size: 1rem; /* Base font size for content */
+        color: #374151; /* Darker gray for content */
+        line-height: 1.6; /* Good line height for readability */
+      }
+      /* Specific styling for HTML tags within entry-content */
+      .entry-content h1 {
+        font-size: 1.875rem; /* h1 size */
+        font-weight: 700; /* Bold */
+        margin-top: 1rem;
+        margin-bottom: 0.75rem;
+        color: #1f2937; /* Darker color for headings */
+      }
+      .entry-content p {
+        margin-bottom: 0.5rem;
+      }
+      .entry-content p:last-child {
+        margin-bottom: 0;
+      }
+      /* Message box styling */
+      #messageBox {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #4caf50; /* Green */
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        display: none; /* Hidden by default */
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      #messageBox.show {
+        display: block;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-container" class="flex flex-col items-center">
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-8 text-center">
+        My Journal
+      </h1>
+      <div id="journalEntries" class="w-full">
+        <!-- Journal entries will be loaded here by JavaScript -->
+        <p class="text-center text-gray-500 text-lg" id="loadingMessage">
+          Loading journal entries...
+        </p>
+      </div>
+    </div>
+
+    <div id="messageBox"></div>
+
+    <script>
+      // Function to display messages to the user
+      function showMessage(message, type = "success") {
+        const messageBox = document.getElementById("messageBox");
+        messageBox.textContent = message;
+        messageBox.className = "message-box"; // Reset classes
+        if (type === "error") {
+          messageBox.style.backgroundColor = "#f44336"; // Red for error
+        } else {
+          messageBox.style.backgroundColor = "#4CAF50"; // Green for success
+        }
+        messageBox.classList.add("show");
+
+        setTimeout(() => {
+          messageBox.classList.remove("show");
+        }, 3000); // Hide after 3 seconds
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const journalEntriesContainer =
+          document.getElementById("journalEntries");
+        const loadingMessage = document.getElementById("loadingMessage");
+
+        // Define the path to your journal.json file relative to the HTML file
+        // When served by a local server from D:\Coding\Project\markUp_Journal\,
+        // 'journal.json' will correctly point to D:\Coding\Project\markUp_Journal\journal.json
+        const jsonFilePath = "journal.json";
+
+        fetch(jsonFilePath)
+          .then((response) => {
+            if (!response.ok) {
+              // If the response is not OK (e.g., 404 Not Found), throw an error
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json(); // Parse the JSON from the response
+          })
+          .then((data) => {
+            loadingMessage.style.display = "none"; // Hide loading message
+
+            if (data.length === 0) {
+              journalEntriesContainer.innerHTML =
+                '<p class="text-center text-gray-600 text-lg mt-4">No journal entries found yet.</p>';
+              return;
+            }
+
+            // Sort entries in reverse chronological order (most recent first)
+            data.sort((a, b) => {
+              // Convert timestamp strings to Date objects for comparison
+              const dateA = new Date(a.timestamp);
+              const dateB = new Date(b.timestamp);
+              return dateB - dateA; // Sort descending
+            });
+
+            // Render each journal entry
+            data.forEach((entry) => {
+              const entryDiv = document.createElement("div");
+              entryDiv.className = "journal-entry"; // Apply Tailwind classes for styling
+
+              const timestampDiv = document.createElement("div");
+              timestampDiv.className = "entry-timestamp";
+              timestampDiv.textContent = entry.timestamp; // Display timestamp
+
+              const contentDiv = document.createElement("div");
+              contentDiv.className = "entry-content";
+              // Use innerHTML to render the content, allowing HTML tags to be parsed
+              contentDiv.innerHTML = entry.entry;
+
+              entryDiv.appendChild(timestampDiv);
+              entryDiv.appendChild(contentDiv);
+              journalEntriesContainer.appendChild(entryDiv);
+            });
+            showMessage("Journal entries loaded successfully!");
+          })
+          .catch((error) => {
+            loadingMessage.textContent = "Failed to load journal entries.";
+            loadingMessage.className = "text-center text-red-600 text-lg mt-4"; // Red text for error
+            console.error("Error fetching or parsing journal.json:", error);
+            showMessage(
+              `Error: ${error.message}. Make sure 'journal.json' is accessible and valid JSON, and you are running a local server.`,
+              "error"
+            );
+          });
+      });
+    </script>
+  </body>
+</html>
