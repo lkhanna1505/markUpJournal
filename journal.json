@@ -93,5 +93,9 @@
   {
     "timestamp": "2025-07-08 14:34:13",
     "entry": "There;'s some error in the entry. Trying once more"
+  },
+  {
+    "timestamp": "2025-07-08 14:36:41",
+    "entry": "This seems to be the final entry. Hope it works."
   }
-,,{"timestamp": "2025-07-08 14:36:41", "entry": "This seems to be the final entry. Hope it works."}]
+]
