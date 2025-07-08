@@ -109,5 +109,9 @@
   {
     "timestamp": "2025-07-08 14:41:09",
     "entry": "This is another test entry just this time, the input text is comparitively large so as to check the json formatting"
+  },
+  {
+    "timestamp": "2025-07-09 00:18:00",
+    "entry": "You know what, I just saw that the latest streak of mine on leetcode started on 1st of this month i.e. <i>01/07/2025 </i> which means that, to see my current streak, I just have to see today's date. Therefore, It's my 7th day of leetcode pushing streak. This implies that getting and calculating a 30 day streak won't be that hard. Therefore I can work on that pretty easily..."
   }
-,{"timestamp": "2025-07-09 00:18:00", "entry": "You know what, I just saw that the latest streak of mine on leetcode started on 1st of this month i.e. <i>01/09/2025 </i> which means that, to see my current streak, I just have to see today's date. Therefore, It's my 7th day of leetcode pushing streak. This implies that getting and calculating a 30 day streak won't be that hard. Therefore I can work on that pretty easily..."}]
+]
