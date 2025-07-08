@@ -90,4 +90,4 @@
     "timestamp": "2025-07-08 14:31:44",
     "entry": "this is another test entry to see if it automatially enters the comma after another entry is appended."
   }
-]
+,{"timestamp": "2025-07-08 14:34:13", "entry": "There;'s some error in the entry. Trying once more"},]
