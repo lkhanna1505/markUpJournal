@@ -102,5 +102,8 @@
   {
     "timestamp": "2025-07-08 14:38:35",
     "entry": "this is another entry with the original code"
-  }
-,{"timestamp": "2025-07-08 14:39:29", "entry": "Test entry number 1"},{"timestamp": "2025-07-08 14:39:47", "entry": "Test entry number 2"},{"timestamp": "2025-07-08 14:40:02", "entry": "test entry number 3"}]
+  },
+  { "timestamp": "2025-07-08 14:39:29", "entry": "Test entry number 1" },
+  { "timestamp": "2025-07-08 14:39:47", "entry": "Test entry number 2" },
+  { "timestamp": "2025-07-08 14:40:02", "entry": "test entry number 3" }
+,{"timestamp": "2025-07-08 14:41:09", "entry": "This is another test entry just this time, the input text is comparitively large so as to check the json formatting"}]
