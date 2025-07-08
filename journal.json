@@ -77,5 +77,13 @@
   {
     "timestamp": "2025-07-07 16:22:23",
     "entry": "Showing thie project to Raghav Anna"
+  },
+  {
+    "timestamp": "2025-07-07 16:24:54",
+    "entry": "<h1>This is heading </h1> <br> <ul> <li> This is list item 1 </li> <li> This is list item 2 </li> </ul>"
+  },
+  {
+    "timestamp": "2025-07-07 23:29:02",
+    "entry": "A lot of things happened. <br> Got in a disscussion with Lovely Bhaiya, my current PG owner. now, I need to change my room after two days. Not that of a deal. Though I've made sure... more like I need to make sure that the rent remain to half as that of the month only.<br> <br> Now, about the study and the fun I had sp far is simply the bubble sort. It does feel good to code in the father language, <b>C</b>. Next up is Insertion sort.<br><br> Also my roommate told, more like advised me, to focus more on DSA so, that's the thing."
   }
-,{"timestamp": "2025-07-07 16:24:54", "entry": "<h1>This is heading </h1> <br> <ul> <li> This is list item 1 </li> <li> This is list item 2 </li> </ul>"},{"timestamp": "2025-07-07 23:29:02", "entry": "A lot of things happened. <br> Got in a disscussion with Lovely Bhaiya, my current PG owner. now, I need to change my room after two days. Not that of a deal. Though I've made sure... more like I need to make sure that the rent remain to half as that of the month only.<br> <br> Now, about the study and the fun I had sp far is simply the bubble sort. It does feel good to code in the father language, <b>C</b>. Next up is Insertion sort.<br><br> Also my roommate told, more like advised me, to focus more on DSA so, that's the thing."}]
+,{"timestamp": "2025-07-08 14:31:44", "entry": "this is another test entry to see if it automatially enters the comma after another entry is appended."},]
