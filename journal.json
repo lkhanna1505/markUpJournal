@@ -326,5 +326,37 @@
   {
     "timestamp": "2025-08-03 16:00:49",
     "entry": "<h1> Next target: DRDO Intern</h1>"
+  },
+  {
+    "timestamp": "2025-08-03 19:47:28",
+    "entry": "<h1> You wanna read this, here you go... </h1>"
+  },
+  {
+    "timestamp": "2025-08-03 19:55:13",
+    "entry": "<h1> New Projects</h1> There are multiple projects that I wanna create but first, there are the below two <ul> <li> Search for SRM students </li> <li>SRM Help <li> </ul> The help one is really easy and it will be based on only forntend. The SRM students one is a bit tricky to make. <br> I'll be starting witht he SRM students one tonight. I'll be needing a lot of things for that. Let's start the research"
+  },
+  {
+    "timestamp": "2025-08-03 19:58:23",
+    "entry": "For startes, the google contact search thing is really cool as you can search enything as /search/&lt;name&gt; or &lt;registration_number&gt;. This is cool as this gets most of the things done really well. Now I need someway to make this acessible to everyone.<br> Before that, i think I can start with coding the scraper part first to get the info of the searhc result. I also need to think of all the edge cases and all the possible cases that you can search for in this app. that's gonna cost a lot of thinking... Anyways, I'll get back to it after dinner"
+  },
+  {
+    "timestamp": "2025-08-03 22:50:44",
+    "entry": "Don't know but was watching SpyxFamily after dinner. <br>Anyways, on a break now so will be getting back to the project thingy. The search query string of google contact is really simple actually, I can easily modify it as for my google account series. I'll need to look how do I make it compoletely dynamic. I'll think about that later.<br>For now, I can search for any name, mailID or registration number. i just need to extract that result somehow and get it into the python so that I can play with it."
+  },
+  {
+    "timestamp": "2025-08-03 23:04:23",
+    "entry": "That's weird... Google contacts use two layers to show the results and both of them show the same thing. Why use two same things that too ontop of each other when it can be done by only one thing? Guess that's a typical google thing. What I can think of is, one is used to add the UI part and other to add the functionality. <br> Anyways, I've got the divs that I wanna target, let's get the actually triggering them and moving ahead."
+  },
+  {
+    "timestamp": "2025-08-03 23:50:25",
+    "entry": "Meh, a bit tired of it. Will get back to it later. Anyways, I also forgot to edit the marudhara edits for this week, I also need to get those done. Guess I'll be making a whole lot just at once."
+  },
+  {
+    "timestamp": "2025-08-04 00:48:25",
+    "entry": "One edit down and submitted so far. Guess, Mushoku will keep me up for a while and then I'll get to the second one..."
+  },
+  {
+    "timestamp": "2025-08-04 10:46:56",
+    "entry": "<h1> I am way behind schedule!!</h1> There are a lot of things that I want to do but just that, I don't know why I'm not able to courage up and complete all the tasks. Anyways, I hope listing them here works: <ul style=\"list-style-type: none\"><li><input type=\"checkbox\"> Unpack bags </li><li><input type=\"checkbox\"> Complete MWCS assignment</li> <li><input type=\"checkbox\"> Clean the room's table </li> <li><input type=\"checkbox\"> Buy a maths notebook </li> <li><input type=\"checkbox\"> Wash all clothes </li> <li><input type=\"checkbox\"> Go and collect all the documents from Noida </li>  </ul> These are somethings that I can remeber for now, though there surely are a lot of things and then there are thigns to study and projects to build. URGH!!! There's a lot of things. Anyways, gotta get to them as soon as possible. <i>Off to college...</i>"
   }
-,{"timestamp": "2025-08-03 19:47:28", "entry": "<h1> You wanna read this, here you go... </h1>"},{"timestamp": "2025-08-03 19:55:13", "entry": "<h1> New Projects</h1> There are multiple projects that I wanna create but first, there are the below two <ul> <li> Search for SRM students </li> <li>SRM Help <li> </ul> The help one is really easy and it will be based on only forntend. The SRM students one is a bit tricky to make. <br> I'll be starting witht he SRM students one tonight. I'll be needing a lot of things for that. Let's start the research"},{"timestamp": "2025-08-03 19:58:23", "entry": "For startes, the google contact search thing is really cool as you can search enything as /search/&lt;name&gt; or &lt;registration_number&gt;. This is cool as this gets most of the things done really well. Now I need someway to make this acessible to everyone.<br> Before that, i think I can start with coding the scraper part first to get the info of the searhc result. I also need to think of all the edge cases and all the possible cases that you can search for in this app. that's gonna cost a lot of thinking... Anyways, I'll get back to it after dinner"},{"timestamp": "2025-08-03 22:50:44", "entry": "Don't know but was watching SpyxFamily after dinner. <br>Anyways, on a break now so will be getting back to the project thingy. The search query string of google contact is really simple actually, I can easily modify it as for my google account series. I'll need to look how do I make it compoletely dynamic. I'll think about that later.<br>For now, I can search for any name, mailID or registration number. i just need to extract that result somehow and get it into the python so that I can play with it."},{"timestamp": "2025-08-03 23:04:23", "entry": "That's weird... Google contacts use two layers to show the results and both of them show the same thing. Why use two same things that too ontop of each other when it can be done by only one thing? Guess that's a typical google thing. What I can think of is, one is used to add the UI part and other to add the functionality. <br> Anyways, I've got the divs that I wanna target, let's get the actually triggering them and moving ahead."},{"timestamp": "2025-08-03 23:50:25", "entry": "Meh, a bit tired of it. Will get back to it later. Anyways, I also forgot to edit the marudhara edits for this week, I also need to get those done. Guess I'll be making a whole lot just at once."},{"timestamp": "2025-08-04 00:48:25", "entry": "One edit down and submitted so far. Guess, Mushoku will keep me up for a while and then I'll get to the second one..."},{"timestamp": "2025-08-04 10:46:56", "entry": "<h1> I am way behind schedule!!</h1> There are a lot of things that I want to do but just that, I don't know why I'm not able to courage up and complete all the tasks. Anyways, I hope listing them here works: <ul style=\\"list-style-type: none\\"><li><input type=\\"checkbox\\"> Unpack bags </li><li><input type=\\"checkbox\\"> Complete MWCS assignment</li> <li><input type=\\"checkbox\\"> Clean the room's table </li> <li><input type=\\"checkbox\\"> Buy a maths notebook </li> <li><input type=\\"checkbox\\"> Wash all clothes </li> <li><input type=\\"checkbox\\"> Go and collect all the documents from Noida </li>  </ul> These are somethings that I can remeber for now, though there surely are a lot of things and then there are thigns to study and projects to build. URGH!!! There's a lot of things. Anyways, gotta get to them as soon as possible. <i>Off to college...</i>"}]
+]
