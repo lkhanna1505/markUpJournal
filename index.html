@@ -504,6 +504,94 @@
           padding: 0.75rem 1rem;
         }
       }
+
+      /* iFrame preview styles */
+      .iframe-preview {
+        position: relative;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        margin-bottom: 1.5rem;
+        transition: box-shadow 0.2s;
+        border: 1px solid #e5e7eb;
+        background: #f9fafb;
+        max-width: 50%;
+        /* padding-bottom: 4rem; */
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .iframe-preview iframe {
+        /* margin-bottom: 1rem; */
+        width: 50%;
+        height: 300px;
+        border: none;
+        display: block;
+        background: #f9fafb;
+        pointer-events: none; /* Prevent interaction in preview */
+        overflow: hidden;
+      }
+
+      .iframe-preview:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+      }
+
+      .iframe-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(15, 23, 42, 0.85);
+        z-index: 2000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .iframe-modal-content {
+        background: #fff;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        max-width: 80vw;
+        max-height: 90vh;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .iframe-modal-content iframe {
+        width: 80vw;
+        height: 70vh;
+        border-radius: 0.5rem;
+        border: none;
+      }
+
+      .iframe-modal-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: #475569;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        z-index: 10;
+        transition: background 0.2s;
+      }
+
+      .iframe-modal-close:hover {
+        background: #1e293b;
+      }
     </style>
   </head>
   <body class="dark">
@@ -692,6 +780,9 @@
           entryDiv.appendChild(timestampDiv);
           entryDiv.appendChild(contentDiv);
           journalEntriesContainer.appendChild(entryDiv);
+
+          // Enhance iframes in this entry
+          enhanceIframes(contentDiv);
         });
       }
 
@@ -777,6 +868,9 @@
           entryDiv.appendChild(timeDiv);
           entryDiv.appendChild(contentDiv);
           dayContent.appendChild(entryDiv);
+
+          // Enhance iframes in this entry
+          enhanceIframes(contentDiv);
         });
 
         fullScreenView.style.display = "block";
@@ -855,6 +949,67 @@
             );
           });
       });
+
+      // Add this function to your <script> section
+
+      function enhanceIframes(container) {
+        const iframes = container.querySelectorAll("iframe");
+        iframes.forEach((iframe) => {
+          // Skip if already wrapped
+          if (iframe.parentElement.classList.contains("iframe-preview")) return;
+
+          // Create preview wrapper
+          const preview = document.createElement("div");
+          preview.className = "iframe-preview";
+          preview.title = "Click to enlarge preview";
+
+          // Clone the iframe for preview (smaller size)
+          const previewIframe = iframe.cloneNode(true);
+          previewIframe.style.width = "100%";
+          previewIframe.style.height = "200px";
+          previewIframe.style.pointerEvents = "none"; // Prevent interaction in preview
+
+          preview.appendChild(previewIframe);
+
+          // Replace original iframe with preview
+          iframe.parentElement.replaceChild(preview, iframe);
+
+          // On click, show modal
+          preview.addEventListener("click", () => {
+            showIframeModal(iframe);
+          });
+        });
+      }
+
+      function showIframeModal(iframe) {
+        const modal = document.getElementById("iframeModal");
+        modal.innerHTML = `
+          <div class="iframe-modal-overlay">
+            <div class="iframe-modal-content">
+              <button class="iframe-modal-close" title="Close">&times;</button>
+              <iframe src="${iframe.src}" allowfullscreen></iframe>
+            </div>
+          </div>
+        `;
+        modal.style.display = "block";
+
+        // Close button
+        modal.querySelector(".iframe-modal-close").onclick = () => {
+          modal.style.display = "none";
+          modal.innerHTML = "";
+        };
+
+        // Close on overlay click
+        modal.querySelector(".iframe-modal-overlay").onclick = (e) => {
+          if (e.target === modal.querySelector(".iframe-modal-overlay")) {
+            modal.style.display = "none";
+            modal.innerHTML = "";
+          }
+        };
+      }
     </script>
+
+    <!-- The iframe previw and full imag toggle div -->
+    <div id="iframeModal" style="display: none"></div>
   </body>
 </html>
