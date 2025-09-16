@@ -10,8 +10,10 @@ import java.util.Scanner;
 public class markUp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String journalFilePath = "D:\\Coding\\Project\\markUp_Journal\\journal.json";
-        String repoPath = "D:\\Coding\\Project\\markUp_Journal"; // Root of your Git repository
+
+        // POSIX paths on Linux (note forward slashes and no escaping needed)
+        String journalFilePath = "/home/ccd/Coding/markUp_Journal/journal.json";
+        String repoPath = "/home/ccd/Coding/markUp_Journal"; // Root of your Git repository
 
         try {
             System.out.println("Welcome to markUp Journal!");
@@ -31,7 +33,7 @@ public class markUp {
                     // Check if it's a valid JSON array start/end
                     if (existingContent.startsWith("[") && existingContent.endsWith("]")) {
                         // Remove the trailing ']' and any preceding newline to append new data
-                        jsonContent.append(existingContent.substring(0, existingContent.length() - 1));
+                        jsonContent.append(existingContent, 0, existingContent.length() - 1);
                         // If there are existing entries, add a comma before the new entry
                         if (jsonContent.length() > 1) { // If it's not just "["
                             jsonContent.append(",");
@@ -55,7 +57,6 @@ public class markUp {
             String timestamp = entryTime.format(entryFormatter);
 
             // Manually construct the JSON object string for the new entry
-            // Escaping double quotes within the journalEntry if present
             String escapedJournalEntry = journalEntry.replace("\"", "\\\"");
             String newEntryJson = String.format("{\"timestamp\": \"%s\", \"entry\": \"%s\"}", timestamp,
                     escapedJournalEntry);
@@ -76,26 +77,27 @@ public class markUp {
             }
 
             // 2. Prepare the commit message with current date and time
-            LocalDateTime now = LocalDateTime.now(); // Already in local system time
+            LocalDateTime now = LocalDateTime.now();
             DateTimeFormatter commitFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss 'IST'");
             String formattedDateTime = now.format(commitFormatter);
             String commitMessage = "Journal update on " + formattedDateTime;
 
-            // 3. Execute Git commands
+            // 3. Execute Git commands (directly, no cmd.exe on Linux)
             System.out.println("\nExecuting Git commands...");
 
             // Command 1: git add .
-            executeCommand(new String[] { "cmd.exe", "/c", "git add ." }, repoPath);
+            executeCommand(new String[] { "git", "add", "." }, repoPath);
 
             // Command 2: git commit -m "<message>"
-            executeCommand(new String[] { "cmd.exe", "/c", "git commit -m \"" + commitMessage + "\"" }, repoPath);
+            // Pass arguments as separate tokens; no quoting required
+            executeCommand(new String[] { "git", "commit", "-m", commitMessage }, repoPath);
 
-            // NEW STEP: Pull latest changes before pushing
+            // Pull latest changes before pushing
             System.out.println("\nPulling latest changes from remote...");
-            executeCommand(new String[] { "cmd.exe", "/c", "git pull origin main" }, repoPath);
+            executeCommand(new String[] { "git", "pull", "origin", "main" }, repoPath);
 
             // Command 3: git push origin main
-            executeCommand(new String[] { "cmd.exe", "/c", "git push origin main" }, repoPath);
+            executeCommand(new String[] { "git", "push", "origin", "main" }, repoPath);
 
             System.out.println("\nGit operations completed.");
 
@@ -109,9 +111,8 @@ public class markUp {
 
     /**
      * Helper method to execute a command and print its output/errors.
-     * 
-     * @param command          The command array (e.g., {"cmd.exe", "/c", "git add
-     *                         ."}).
+     *
+     * @param command          The command array (e.g., {"git", "add", "."}).
      * @param workingDirectory The directory where the command should be executed.
      */
     private static void executeCommand(String[] command, String workingDirectory) {
@@ -132,21 +133,12 @@ public class markUp {
 
             int exitCode = process.waitFor(); // Wait for the process to complete
             System.out.println("Command exited with code: " + exitCode);
-            // It's often good to fail early if a critical command like pull/commit fails
-            // For example, if pull fails, you might not want to proceed with push.
-            // For now, we just report the error.
             if (exitCode != 0) {
                 System.err.println("Command failed: " + String.join(" ", command));
-                // Optional: You could throw an exception here to stop the program if a command
-                // fails
-                // throw new RuntimeException("Git command failed: " + String.join(" ",
-                // command));
             }
-
         } catch (IOException | InterruptedException e) {
             System.err.println("Error executing command '" + String.join(" ", command) + "': " + e.getMessage());
             Thread.currentThread().interrupt(); // Restore the interrupted status
-            // Optional: throw new RuntimeException("Error executing Git command", e);
         }
     }
 }
