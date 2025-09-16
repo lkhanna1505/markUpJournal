@@ -591,4 +591,4 @@
     "timestamp": "2025-09-16 19:41:22",
     "entry": "This is a test entry to check the shift to linux"
   }
-,{"timestamp": "2025-09-16 19:54:46", "entry": "This is to test is the porogram is working fine from remote locations also."},{"timestamp": "2025-09-16 20:01:35", "entry": "I hope it works this time"}]
+,{"timestamp": "2025-09-16 19:54:46", "entry": "This is to test is the porogram is working fine from remote locations also."},{"timestamp": "2025-09-16 20:01:35", "entry": "I hope it works this time"},{"timestamp": "2025-09-16 20:25:51", "entry": "This is another test entry. Changes the SSH key from the github setting but it prompted that github has stopped the supprt for shell. I still hope that it works."}]
