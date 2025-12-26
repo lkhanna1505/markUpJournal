@@ -1,100 +1,434 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!--   <head> -->
+<!--     <meta charset="UTF-8" /> -->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<!--     <title>My Journal Entries</title> -->
+<!--     Tailwind CSS CDN -->
+
+<!--     <script src="https://cdn.tailwindcss.com"></script> -->
+<!--     <style> -->
+
+<!--       -->
+
+<!--     </style> -->
+
+<!-- -->
+
+<!--     <link rel="stylesheet" href="style.css" /> -->
+<!--   </head> -->
+<!--   <body class="dark"> -->
+<!--      Theme Toggle Button -->
+
+<!--     <button id="themeToggle" title="Toggle theme">🌙</button> -->
+<!-- -->
+<!--     <div id="app-container" class="flex flex-col items-center"> -->
+<!--        Main Journal View -->
+
+<!--       <div id="mainView" class="w-full"> -->
+<!--         <h1 -->
+<!--           class="text-4xl font-extrabold text-primary mb-8 text-center responsive-title" -->
+<!--         > -->
+<!--           My Journal -->
+<!--         </h1> -->
+<!-- -->
+<!--          Navigation Buttons -->
+
+<!--         <div class="flex justify-center gap-4 mb-8 nav-buttons"> -->
+<!--           <button -->
+<!--             id="viewByDateBtn" -->
+<!--             class="btn-primary text-white font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105" -->
+<!--           > -->
+<!--             📅 View by Date -->
+<!--           </button> -->
+<!--           <button -->
+<!--             id="allEntriesBtn" -->
+<!--             class="btn-secondary font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105" -->
+<!--           > -->
+<!--             📖 All Entries -->
+<!--           </button> -->
+<!--         </div> -->
+<!-- -->
+<!--         <div id="journalEntries" class="w-full"> -->
+<!--            Journal entries will be loaded here by JavaScript -->
+
+<!--           <p class="text-center text-muted text-lg" id="loadingMessage"> -->
+<!--             Loading journal entries... -->
+<!--           </p> -->
+<!--         </div> -->
+<!--       </div> -->
+<!-- -->
+<!--        Date List View -->
+
+<!--       <div id="dateListView" class="w-full" style="display: none"> -->
+<!--         <div class="flex items-center justify-between mb-8 flex-wrap gap-4"> -->
+<!--           <h1 -->
+<!--             class="text-4xl font-extrabold text-primary text-center flex-1 responsive-title" -->
+<!--           > -->
+<!--             Journal Dates -->
+<!--           </h1> -->
+<!--           <button -->
+<!--             id="backToMainBtn" -->
+<!--             class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out" -->
+<!--           > -->
+<!--             ← Back -->
+<!--           </button> -->
+<!--         </div> -->
+<!--         <div id="datesList" class="w-full"> -->
+<!--            Date list will be populated here -->
+
+<!--         </div> -->
+<!--       </div> -->
+<!--     </div> -->
+<!-- -->
+<!--     Full Screen Day View -->
+
+<!--     <div id="fullScreenView" class="full-screen-view" style="display: none"> -->
+<!--       <div class="full-screen-container"> -->
+<!--         <div class="flex items-center justify-between mb-6"> -->
+<!--           <button -->
+<!--             id="backToDateListBtn" -->
+<!--             class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out" -->
+<!--           > -->
+<!--             ← Back to Dates -->
+<!--           </button> -->
+<!--         </div> -->
+<!--         <div id="dayContent"> -->
+<!--           Day content will be populated here -->
+
+<!--         </div> -->
+<!--       </div> -->
+<!--     </div> -->
+<!-- -->
+<!--     <div id="messageBox"></div> -->
+<!-- -->
+<!--      <script> -->
+
+<!--       -->
+
+<!--     </script> -->
+
+<!-- -->
+<!--      The iframe previw and full imag toggle div -->
+
+<!--     <div id="iframeModal" style="display: none"></div> -->
+<!--     <script src="script.js"></script> -->
+<!--   </body> -->
+<!-- </html> -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Journal Entries</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <style>
-      
-    </style> -->
 
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      :root {
+        --bg: #000;
+        --fg: #fff;
+        --muted: #9ca3af;
+      }
+
+      html,
+      body,
+      #hero {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      }
+
+      #hero {
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      .wrapper {
+        width: 100%;
+        max-width: 1100px;
+        text-align: center;
+        padding: 0 1rem;
+      }
+
+      .headline {
+        font-weight: 800;
+        line-height: 1.02;
+        font-size: clamp(1.6rem, 6.5vw, 3.8rem);
+        letter-spacing: -0.02em;
+        opacity: 0;
+        transform: translateY(18px);
+        animation: fadeInUp 0.6s ease forwards;
+        cursor: pointer;
+        user-select: none;
+        outline: none;
+      }
+
+      .headline:focus-visible {
+        outline: 2px solid rgba(255, 255, 255, 0.25);
+        outline-offset: 10px;
+        border-radius: 10px;
+      }
+
+      .sub {
+        margin-top: 0.6rem;
+        color: #ddd;
+        font-size: clamp(0.95rem, 2.2vw, 1.15rem);
+        opacity: 0;
+        transform: translateY(12px);
+        animation: fadeInUp 0.6s ease 0.12s forwards;
+      }
+
+      .loading {
+        margin-top: 1.05rem;
+        color: var(--muted);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono",
+          "Courier New", monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        opacity: 0;
+        transform: translateY(8px);
+        animation: fadeInUp 0.6s ease 0.24s forwards;
+      }
+
+      .dots {
+        display: inline-flex;
+        gap: 0.45rem;
+        align-items: center;
+      }
+
+      .dots span {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--muted);
+        display: inline-block;
+        animation: jump 1s infinite ease-in-out;
+        opacity: 0.5;
+      }
+
+      .dots span:nth-child(2) {
+        animation-delay: 0.12s;
+      }
+      .dots span:nth-child(3) {
+        animation-delay: 0.24s;
+      }
+
+      .cta {
+        display: inline-block;
+        margin-top: 1.1rem;
+        padding: 0.55rem 1rem;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--fg);
+        font-weight: 700;
+        cursor: pointer;
+        transition: transform 0.18s ease, background 0.18s;
+        user-select: none;
+      }
+
+      .cta:hover {
+        transform: translateY(-4px) scale(1.02);
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .cta:active {
+        transform: translateY(-2px) scale(1.01);
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes jump {
+        0%,
+        80%,
+        100% {
+          transform: translateY(0);
+          opacity: 0.45;
+        }
+        40% {
+          transform: translateY(-8px);
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .headline {
+          font-size: clamp(1.25rem, 9vw, 2.2rem);
+        }
+      }
+    </style>
   </head>
-  <body class="dark">
-    <!-- Theme Toggle Button -->
-    <button id="themeToggle" title="Toggle theme">🌙</button>
 
-    <div id="app-container" class="flex flex-col items-center">
-      <!-- Main Journal View -->
-      <div id="mainView" class="w-full">
-        <h1
-          class="text-4xl font-extrabold text-primary mb-8 text-center responsive-title"
-        >
-          My Journal
-        </h1>
+  <body>
+    <div id="hero">
+      <div class="wrapper" role="region" aria-label="Interactive header">
+        <div
+          id="headline"
+          class="headline"
+          tabindex="0"
+          title="Click to change phrase"
+          aria-label="Loading phrase. Click to change."
+        ></div>
 
-        <!-- Navigation Buttons -->
-        <div class="flex justify-center gap-4 mb-8 nav-buttons">
-          <button
-            id="viewByDateBtn"
-            class="btn-primary text-white font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105"
-          >
-            📅 View by Date
-          </button>
-          <button
-            id="allEntriesBtn"
-            class="btn-secondary font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105"
-          >
-            📖 All Entries
-          </button>
+        <div id="sub" class="sub">
+          Been going through a lot, not sure if it'd be ok for you to go
+          ahead...
         </div>
 
-        <div id="journalEntries" class="w-full">
-          <!-- Journal entries will be loaded here by JavaScript -->
-          <p class="text-center text-muted text-lg" id="loadingMessage">
-            Loading journal entries...
-          </p>
+        <div id="loading" class="loading" aria-hidden="false">
+          <div>loading</div>
+          <div class="dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
         </div>
-      </div>
 
-      <!-- Date List View -->
-      <div id="dateListView" class="w-full" style="display: none">
-        <div class="flex items-center justify-between mb-8 flex-wrap gap-4">
-          <h1
-            class="text-4xl font-extrabold text-primary text-center flex-1 responsive-title"
-          >
-            Journal Dates
-          </h1>
-          <button
-            id="backToMainBtn"
-            class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out"
-          >
-            ← Back
-          </button>
-        </div>
-        <div id="datesList" class="w-full">
-          <!-- Date list will be populated here -->
-        </div>
+        <button id="nextBtn" class="cta" aria-label="Next phrase">
+          next thought →
+        </button>
       </div>
     </div>
 
-    <!-- Full Screen Day View -->
-    <div id="fullScreenView" class="full-screen-view" style="display: none">
-      <div class="full-screen-container">
-        <div class="flex items-center justify-between mb-6">
-          <button
-            id="backToDateListBtn"
-            class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out"
-          >
-            ← Back to Dates
-          </button>
-        </div>
-        <div id="dayContent">
-          <!-- Day content will be populated here -->
-        </div>
-      </div>
-    </div>
+    <script>
+      (function () {
+        const phrases = [
+          "Unpacking today’s feelings. Handle with care.",
+          "Warming up the truth. No refunds.",
+          "Giving your thoughts names and tiny dramatic backstories.",
+          "Rinsing anxiety. Air-drying hope.",
+          "Indexing memories like a library that screams sometimes.",
+          "Translating ‘I’m fine’ into readable paragraphs.",
+          "Tuning the inner monologue—static included.",
+          "Filing chaos under: ‘character development.’",
+          "Pouring silence into sentences. Stir gently.",
+          "Collecting scattered versions of you. Please stand by.",
+          "Feeding the void a small snack of meaning.",
+          "Installing courage… permissions granted (mostly).",
+          "Proofreading emotions for spelling and sabotage.",
+          "Assembling a mood from spare parts.",
+          "Listening for the honest sentence hiding in the noise.",
+          "Summoning clarity. It’s on its way, walking dramatically.",
+          "Dusting off the day. Some glitter may remain.",
+          "Turning over stones to see what’s underneath ‘busy.’",
+          "Brewing a confession at irresponsible temperatures.",
+          "Stretching time so your thoughts can sit down.",
+          "Opening the vault labeled: ‘stuff we don’t talk about.’",
+          "Teaching your brain to exhale in complete sentences.",
+          "Sharpening pencils and boundaries.",
+          "Negotiating with yesterday. It’s being difficult.",
+          "Untangling what happened from what it meant.",
+          "Trying on a new perspective. Fits weird. Maybe perfect.",
+          "Coaxing the muse out from under the bed.",
+          "Rerouting the spiral into something usable.",
+          "Loading the soft parts. No armor required.",
+          "Making room for the sentence you’ve been avoiding.",
+        ];
 
-    <div id="messageBox"></div>
+        const headline = document.getElementById("headline");
+        const loading = document.getElementById("loading");
+        const nextBtn = document.getElementById("nextBtn");
 
-    <!-- <script>
-      
-    </script> -->
+        let idx = 0;
+        let typing = false;
+        const TYPE_SPEED = 38;
+        const PAUSE = 1200;
 
-    <!-- The iframe previw and full imag toggle div -->
-    <div id="iframeModal" style="display: none"></div>
-    <script src="script.js"></script>
+        function showLoading(show) {
+          loading.style.display = show ? "flex" : "none";
+          loading.setAttribute("aria-hidden", show ? "false" : "true");
+        }
+
+        function typeText(text, cb) {
+          typing = true;
+          headline.textContent = "";
+          let i = 0;
+          const t = setInterval(() => {
+            headline.textContent += text.charAt(i++);
+            if (i >= text.length) {
+              clearInterval(t);
+              typing = false;
+              cb && cb();
+            }
+          }, TYPE_SPEED);
+        }
+
+        function cycle(nextIdx) {
+          if (typing) return;
+
+          showLoading(false);
+
+          headline.style.opacity = 0;
+          headline.style.transform = "translateY(6px)";
+          headline.style.transition = "opacity .22s ease, transform .22s ease";
+
+          requestAnimationFrame(() => {
+            headline.style.opacity = 1;
+            headline.style.transform = "translateY(0)";
+          });
+
+          typeText(phrases[nextIdx], () => {
+            setTimeout(() => (headline.style.transition = ""), PAUSE);
+          });
+        }
+
+        // Initial sequence
+        showLoading(true);
+        setTimeout(() => {
+          showLoading(false);
+          cycle(idx);
+        }, 900);
+
+        function next() {
+          idx = (idx + 1) % phrases.length;
+          cycle(idx);
+        }
+
+        nextBtn.addEventListener("click", next);
+        headline.addEventListener("click", next);
+
+        // Keyboard accessibility
+        headline.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            next();
+          }
+        });
+
+        // Long-press shuffle (mobile)
+        let pressTimer = null;
+        headline.addEventListener("pointerdown", () => {
+          pressTimer = setTimeout(() => {
+            for (let i = phrases.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [phrases[i], phrases[j]] = [phrases[j], phrases[i]];
+            }
+            idx = 0;
+            cycle(idx);
+          }, 650);
+        });
+
+        ["pointerup", "pointerleave", "pointercancel"].forEach((ev) =>
+          headline.addEventListener(ev, () => clearTimeout(pressTimer))
+        );
+      })();
+    </script>
   </body>
 </html>
