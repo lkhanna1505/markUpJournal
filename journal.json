@@ -1,666 +1,714 @@
 [
-    {
-        "timestamp": "2025-07-03 18:01:53",
-        "entry": "This is the sixth entry"
-    },
-    {
-        "timestamp": "2025-07-03 18:02:39",
-        "entry": "This is the seventh entry"
-    },
-    {
-        "timestamp": "2025-07-03 18:03:07",
-        "entry": "This is the eighth entry"
-    },
-    {
-        "timestamp": "2025-07-03 18:03:49",
-        "entry": "<h1>Hurray</h1><p>If everything goes fine, this time, it will run really well</p>"
-    },
-    {
-        "timestamp": "2025-07-03 18:52:21",
-        "entry": "<h1>Finally</h1><p>This marks a new start of my new journey on build in public. Somehow, now I'll only upload on this platform. To access this, go onto <i>mark-up-journal.vercel.app</i> &lt;tu&gt;</p>"
-    },
-    {
-        "timestamp": "2025-07-03 19:05:18",
-        "entry": "<h2>This is to create and push the readme file</h2> <p>Everytime I push something from VS Code it creates a new master branch and pushes everything to it. I don't wanns go and merger again and again from github, so trying and checking if it pushes everything from this script or not. $lt;tu&gt;</p>"
-    },
-    {
-        "timestamp": "2025-07-03 19:09:39",
-        "entry": "<h1>Edit the readme on github</h1>I'll need to come back and edit the readme of this project sometime. Right now it is based on what gemini gave at the start. I'll need to optimize according to the new updates and the final project. <i>And yeah... I'm talking about the markUpJournal project</i>"
-    },
-    {
-        "timestamp": "2025-07-04 16:39:15",
-        "entry": "<p>Ok, this seems real fun to havet his kind of journal but, I'd also like to add a few more features in the future... like, <ul><li>Add a really good UI to add entries</li> <li>Make it public </li> <li>Make an option that makes all the entries visible as a story in a signle go </li></ul> <i>I'll leave that here for now and come back again in case I have new ideas. </i> </p>"
-    },
-    {
-        "timestamp": "2025-07-04 18:14:25",
-        "entry": "<h1>I am showing this to shubham sir</h1>"
-    },
-    {
-        "timestamp": "2025-07-04 18:15:52",
-        "entry": "Meh, showed this to shubham sir but the reaction was mid. Anyways, onto the next thing."
-    },
-    {
-        "timestamp": "2025-07-04 18:17:29",
-        "entry": "<h3> Bored of everything...<h3> <p>Want something real fun to build now. <br><br>Showed some of my stuff to Harpal Sir and he was okishly impressed. Guess so, he is real experienced person and his insights are really valuable </p>"
-    },
-    {
-        "timestamp": "2025-07-04 18:19:49",
-        "entry": "I really need to test with a lot of stuff... and get the hang of it too. <br> Other than this, I should also be optimising this a bit. The results UI is ok but really needs a lot of refinment. Guess, I'll just go with some AI tool to do so."
-    },
-    {
-        "timestamp": "2025-07-04 18:20:44",
-        "entry": "<strong>Does this text get bold... </strong>"
-    },
-    {
-        "timestamp": "2025-07-04 18:25:02",
-        "entry": "Great, the text does get bold. After this I shall get my things straight. <br> First of all, I should streamline my day process and tasks accordungly. <br> <br> <i>Did I study my MERN today... <b>NO</b> </i> <br>  <i>Did I study my DSA today... <b> NO </b> <br> Did I study my Python today... <b>NO </b>  <b> Wait </b> Did I study my Python Yesterday... <b>NO </b></i> A real big NO. <br> Shit! Things are really getting out of hands. Gotta get them to straighten out a bit fast"
-    },
-    {
-        "timestamp": "2025-07-04 18:29:37",
-        "entry": "First thing first, Go home and study some MERN. That interests me <br> After that, go home and study... I guess python next. <br> After that, I won't have much time. I guess I should move to academics. You know what, this is also something I should start roght now. Maths or Automata, whatever..."
-    },
-    {
-        "timestamp": "2025-07-05 18:34:19",
-        "entry": "Ok, so did noting so far today. The day's has been dedicated to proper resting, that's it. Now, going out for a walk and some snacks. Will come back later and see what can we do."
-    },
-    {
-        "timestamp": "2025-07-06 01:55:20",
-        "entry": "Though I have taken a break from LeetCode but I still did my question today. <br> Still, a lot confused, what should I do? I don't wanna waste it all and increase this much epentation. It just doesn't feel right. Breaking the streak also doesn't feel good. <br> <br> <h1> Ok, Let'e keep the sreak</h1> <br> Guess I'll just maintain the streak and not do the questions. Will get the days badge and nothing else. Also, the sterak look really good <hehe>"
-    },
-    {
-        "timestamp": "2025-07-06 23:11:27",
-        "entry": "had a great day today. Met tauji and discussed more about our idea. Have a really clear picture in mind and will really start working on it. Next up I need to carry my leetcode streak and just push a previous question, as usual."
-    },
-    {
-        "timestamp": "2025-07-07 14:30:55",
-        "entry": "Ok, start of a new day, what I'll be doing today will be first off, DSA leetcode push and then, some DSA learning only. After that moving to Python. <br> <i>Let the fun begin </i>"
-    },
-    {
-        "timestamp": "2025-07-07 14:33:05",
-        "entry": "<h3>From now on, I won't be calling it as some days or day of week or something the date or what so ever. </h3> Every day is out there to have and enjoy life at the fullest. And so, day should be called as \"fun\". Some funs are not that fun and some funs are really fun. This is the thing. Today's the target is to have a lot of fun."
-    },
-    {
-        "timestamp": "2025-07-07 15:19:55",
-        "entry": "<h1>We are not gonna see each other again</h1>Yesterday I met someone in the metro, a graphic designer starting hie career. He is originally from Odisha but was working somewhere in Gurgaon. He was a really nice guy, though a bit shy from nature but when I took the first few moves to start a conve, he really picked them up nicely and we had a good time knowing each other till We reached my station. Funny part of all, while departing, he asked me for my name and I said, \"Why do you wanna know the name when we are not gonna meet ever again.\" After that we both kinda smikerd and I lifted my hand for a hand shake and saying my name. He said, \"Suraj\" and we both parted ways."
-    },
-    {
-        "timestamp": "2025-07-07 16:22:23",
-        "entry": "Showing thie project to Raghav Anna"
-    },
-    {
-        "timestamp": "2025-07-07 16:24:54",
-        "entry": "<h1>This is heading </h1> <br> <ul> <li> This is list item 1 </li> <li> This is list item 2 </li> </ul>"
-    },
-    {
-        "timestamp": "2025-07-07 23:29:02",
-        "entry": "A lot of things happened. <br> Got in a disscussion with Lovely Bhaiya, my current PG owner. now, I need to change my room after two days. Not that of a deal. Though I've made sure... more like I need to make sure that the rent remain to half as that of the month only.<br> <br> Now, about the study and the fun I had sp far is simply the bubble sort. It does feel good to code in the father language, <b>C</b>. Next up is Insertion sort.<br><br> Also my roommate told, more like advised me, to focus more on DSA so, that's the thing."
-    },
-    {
-        "timestamp": "2025-07-08 14:31:44",
-        "entry": "this is another test entry to see if it automatially enters the comma after another entry is appended."
-    },
-    {
-        "timestamp": "2025-07-08 14:34:13",
-        "entry": "There;'s some error in the entry. Trying once more"
-    },
-    {
-        "timestamp": "2025-07-08 14:36:41",
-        "entry": "This seems to be the final entry. Hope it works."
-    },
-    {
-        "timestamp": "2025-07-08 14:37:27",
-        "entry": "Another test"
-    },
-    {
-        "timestamp": "2025-07-08 14:38:35",
-        "entry": "this is another entry with the original code"
-    },
-    {
-        "timestamp": "2025-07-08 14:39:29",
-        "entry": "Test entry number 1"
-    },
-    {
-        "timestamp": "2025-07-08 14:39:47",
-        "entry": "Test entry number 2"
-    },
-    {
-        "timestamp": "2025-07-08 14:40:02",
-        "entry": "test entry number 3"
-    },
-    {
-        "timestamp": "2025-07-08 14:41:09",
-        "entry": "This is another test entry just this time, the input text is comparitively large so as to check the json formatting"
-    },
-    {
-        "timestamp": "2025-07-09 00:18:00",
-        "entry": "You know what, I just saw that the latest streak of mine on leetcode started on 1st of this month i.e. <i>01/07/2025 </i> which means that, to see my current streak, I just have to see today's date. Therefore, It's my 7th day of leetcode pushing streak. This implies that getting and calculating a 30 day streak won't be that hard. Therefore I can work on that pretty easily..."
-    },
-    {
-        "timestamp": "2025-07-09 00:21:02",
-        "entry": "WOAH! would you believe that... This journal project was also released on 1st of july, so, my github and leetcode streak are going on the same pace. Therefore, this is the best to keep a track of both these platforms"
-    },
-    {
-        "timestamp": "2025-07-09 20:34:05",
-        "entry": "Did my leetcode push just now. Completed the task given by Shubham sir on SAP. Learning DSA sideways too. But no fun going onas such. Even started my Solo Levelling System project but goota work on it a lot. <br> I think I should also work a bit towards my academics. Then there's MERN too and I also wanna go a but into ML and stuff.<br><br> URGH!!! There are a lot of things..."
-    },
-    {
-        "timestamp": "2025-07-10 12:34:23",
-        "entry": "Ok, late again today and surprisingly Sanjeev sir is also not there. Anyways, back to where I should be. The upmost necessity right now is trim and laundry. Gotta do it by today positively. I should have got my UGs first. Anyways, plan right now... <ul> <li>Get free </li> <li>Buy hair oil </li> <li>Complete laundry, including socks, <b>Bedsheet, </b> Pants, shirts and most importantly, <b>UGs</b> </li> </ul> Anyways, for now, I need to review the hackathon PPt (hackathon with HSG and MV) and then do my ZPRG_MP_CRUD thing. <br><br> <i>Off to work...</i> "
-    },
-    {
-        "timestamp": "2025-07-10 12:40:35",
-        "entry": "Completed my daily leetcode submit and with this, I have also achiened 100 days on leetcode. Though it surely is a reason to be happy but still, I know the truth. Almost the last week has been of only of the same AC submission. Anyways, let's cheer and wait for the new badge. <br><br> <i>Now, off to work... </i>"
-    },
-    {
-        "timestamp": "2025-07-10 12:43:46",
-        "entry": "For the last entry, here's a more dramatic and elegant way of saying the same (accordign to chatGPT) <br> <br> <i>Today marks 100 consecutive days on LeetCode - a milestone that should feel triumphant. And yet, I can't help but smile wryly. The past week has been less about growth and more about just crossing the finish line, submitting the same accepted solution each day just to keep the streak alive. </i>"
-    },
-    {
-        "timestamp": "2025-07-10 12:46:28",
-        "entry": "<!-- Main Heading --> <h1>✒️ How to Develop an Elegant, Thoughtful Writing Tone</h1>\n<p>That introspective, articulate tone you admire can absolutely become second nature. Here's a structured way to build it:</p>\n<hr />\n<!-- Section 1 -->\n<h2>🧠 1. Read Writing with That Tone</h2>\n<p>To write elegantly, you must first absorb elegance.</p>\n<h3>✍️ Writers to Explore:</h3>\n<ul>\n<li><strong>Paul Graham</strong> – Essays on thinking and life</li>\n<li><strong>Ali Abdaal</strong> – Blogs and newsletter</li>\n<li><strong>Austin Kleon</strong> – “Show Your Work”</li>\n<li><strong>Oliver Burkeman</strong> – “Four Thousand Weeks”</li>\n<li><strong>Naval Ravikant</strong> – Short‑form wisdom (tweets, podcast quotes)</li>\n</ul>\n<blockquote>\n<p><em>Practice:</em> Every day or two, read a short piece by any of these authors. Pay attention not just to <em>what</em> they say, but <em>how</em> they say it — rhythm, vocabulary, restraint, and structure.</p>\n</blockquote>\n<hr />\n<!-- Section 2 -->\n<h2>✍️ 2. Freewrite in a Journal Daily (Short but Honest)</h2>\n<p>Write a short reflection at the end of the day — just one paragraph is enough.</p>\n<h3>💡 Prompt Ideas:</h3>\n<ul>\n<li>“What did I pretend not to notice today?”</li>\n<li>“Where did I cut corners, and why?”</li>\n<li>“What’s something small that deserves applause today?”</li>\n</ul>\n<blockquote>\n<p>This habit builds clarity, self‑awareness, and your authentic voice.</p>\n</blockquote>\n<hr />\n<!-- Section 3 -->\n<h2>🧱 3. Rewrite Casual Thoughts with Elevated Language</h2>\n<p>Take a simple thought and rewrite it like you're crafting a thoughtful blog or memoir entry.</p>\n<p><strong>Example:</strong></p>\n<ul>\n<li><em>Plain</em>: “I just kept submitting the same solution for the last week.”</li>\n<li><em>Elevated</em>: “For the past week, it wasn’t progress I chased — just the illusion of it. The same stale solution, submitted like a daily ritual, kept the flame alive.”</li>\n</ul>\n<blockquote>\n<p>Do this regularly. It trains narrative instinct and word economy.</p>\n</blockquote>\n<hr />\n<!-- Section 4 -->\n<h2>🧰 4. Keep a ‘Tone Toolkit’</h2>\n<p>Maintain a personal Notion, Obsidian, or text file where you collect:</p>\n<ul>\n<li>Phrases or metaphors you like</li>\n<li>Elegant sentence openers</li>\n<li>Quotes that match the vibe you’re aiming for</li>\n</ul>\n<blockquote>\n<p>This is your go‑to vault whenever your writing feels flat or rushed.</p>\n</blockquote>\n<hr />\n<!-- Section 5 -->\n<h2>🕰️ 5. Let It Happen Gradually</h2>\n<p>The goal is not to sound “smart” — it’s to sound <strong>authentically you</strong>, just with more grace and clarity.</p>\n<h3>🔁 Review Habit:</h3>\n<ul>\n<li>Revisit old reflections or notes weekly.</li>\n<li>Ask: “How would I say this now?”</li>\n</ul>\n<hr />"
-    },
-    {
-        "timestamp": "2025-07-10 18:47:21",
-        "entry": "<h1> I have the solution but not the code </h1> The day was good and I completed all my tasks for the day <ul> <li> &check; Pushed my LeetCode daily submit </li> <li> &check; I also did my t-code tasks I have in mind </li> <li> &check; I also reviewed and submitted my AI Day PPT from my side. </li> <li> I have to buy hair oil and do laundry... <b> LAUNDRY IS A MUST TODAY</b> </li> <li> I'll also do some DSAAA </li> <li> I'll also look if I can do some MERN too </li> </ul> I think, that'll wind up the day for now."
-    },
-    {
-        "timestamp": "2025-07-10 18:48:26",
-        "entry": "Just recalled, I also have to buy some detergent. Guess a small pack would also work &lt;tu&gt;"
-    },
-    {
-        "timestamp": "2025-07-10 18:58:17",
-        "entry": "Kanishk bhaiya was the reason that we all started LeetCode. Actually it all started on 31t of march, 2025 when I, out of no where, challenged him for a continuous 30 day of leetcode streak on leetcode for atleast a submission (or even better, a question) daily. This is where it all started. <i> Not to mention, the loser has to give a pizza to the winner </i>. Later on, slowly and stedily most of the seniors out there joined us for the same, be it Kushagra bhaiya, Shreshth bhaiya, Zuhaib Bhaiya, Sara didi and so on... SO, the big thing is that, I and Kanishk bhaiya completed our 30 days together. It was what, about 2 - 2.5 months back. Here are we today now, even completing our 100 days of leetcode together. ( <i> Obvioulsy not a streak of 100 days </i> ) but a total of 100 days &lt;hehe&gt;"
-    },
-    {
-        "timestamp": "2025-07-11 12:47:48",
-        "entry": "<h1>Great!</h1> Yesterday I almost completed my task list, bought hari oil and most importantly, did my laundry. <br>Really happy for Rautish bhaiya (my 2 day roommmate from Pratham Homes and PG), he got somewhat of a talk with his CTO and the CTO challenged him for a DSA round to get the promotion he asked for. The SWE working in that company, got only 1 question out of 5 in 1hr15min whereas, he got 3 full questions and 50% of the other two questions in the same time. Now, he'll be joining under the new role in september. He gave me a Pattern printing sheet with some medium level questions, I solved it all in around 1 hr. Feeling great. Now will learn further DSAAA. Also, will be doing my general LeetCode Submit now."
-    },
-    {
-        "timestamp": "2025-07-13 10:28:56",
-        "entry": "<h1>Missed my LeetCode as well as GitHub streak </h1> Probably beacuase of that shifting to Prince PG all of a sudden. No worries, not a bad time to start over."
-    },
-    {
-        "timestamp": "2025-07-14 15:35:56",
-        "entry": "<h1>100 days Leetcode Badge </h1> Hurray!! Got my 100 days leetcode badge. Finally, the thing has paid off. Though they are not genuine 100 days but the 100+ guestions are genuine... <i> or atleast, most of them are </i>. Other than this, started my MERN again. Been off to DSA for a while but now, back from the Prince PG task and will be getting back to this skill stuff. <br><br> Started with RESTful API and soon move to SQL in this. As oer Java is concerned, I think, I'll jump to Collection Framework. I don't know if that is a good idea or not but still, recommended by Routish bhaiya. &lt;tu&gt;"
-    },
-    {
-        "timestamp": "2025-07-14 15:45:22",
-        "entry": "Also, there has been a lot of updated in the haveloc app. So, the placement drive is still up and companies have already started to come to college for this placement and intern process. We've got somewhat of 6 companies so far, namely: <ul> <li><b> JPMC - </b>for which I was late in filling out the form</li> <b> Flipkart - </b> I on't remember exaclty if it was flipkart or not, but that posting was only for girls so, no chance.</li> <li> <b> SprinklR </b> I think, this is a regret that will be there for a while. This company had a really loose shotylisting process, it's just that I missed it's registration so, nothing here too</li> <li> <b>NextQ -  </b> This is not a bad thing, but the intern they are offering is unpaid and remote. Though I don't feel that to be a bad option for a fresher but Shubham bhaiya and Nandini both told me that unpaid it not to be opted for. And Shibham bhaiya recommened to not go for remore interns as there won't be much of learning in those.</li> <li> <b> Fidelity Investment - </b> I was not eligible for this due to not cutting the cap of 80% in 12th standard </li> <li> <b> BnY Mellon - </b> now we are talking about the big names. Though it's shortlisting process or onf the steps, I think one of the test round id offline at the KTR campus, but that too only when you get shortlisted no <i> hehe</i> </li> </ul> Anyways, that's that. Let's see what happens."
-    },
-    {
-        "timestamp": "2025-07-15 02:33:55",
-        "entry": "<h1> Showing the project to Sara didi </h1> I am showing the project to sara did on local host"
-    },
-    {
-        "timestamp": "2025-07-15 10:58:59",
-        "entry": "<h1> Solved the two N-Queens problem on leetcode today. </h1> Saw Sanchit's profile today and noticed that he solved the N-Queens problem. Then I realised that I also have solved this problem when it was actually taught to us in DAA aat College. Monir modifications so the code and voila, there you have the solution altered according to the constraints in the leetcode question. Later on, solved the N-queens-II problem too. <br> Great so far... <br> <br> Made Sara Didi's portfolio yesterday and it was fun. Touched that CSS and HTML after a long time and it was bit of an adventure. Though I did my somewhat best and the result was satisfying. Now, she has the code with her and she will edit the content according to her. <i> So far so good...</i> <a href=\"https://github.com/lkhanna1505/SD-Portfolio\"> portfolio git repo link </a>"
-    },
-    {
-        "timestamp": "2025-07-15 11:39:03",
-        "entry": "<h1> <i> Mail dekh, SAP ke course ke liye 35,000 pay krne hai kal tk </i> </h1> <h3> A really funny thing happened yesterday. </h3> So, there's our college, launching a SAP course for the students without half of the students not even knowing about this, <i> Typical SRM behaviour... </i> Anyways... I was really interested to take up that course and continue my SAP journey but yet again, this is SRM we are talking about, the deadline for the course was 10AM and they already closed the form by 9:28. I even shared the screenshot of the same and raised the query to the mentro s and whereever I could but, don't forget, this is SRM we are talking about, <b> No response</b> <br> A few weeks have passed and yesterday, my teacher shared a document stating the compensatory course fees is to be paid by the students possitively. Later someone called me, I won't say the name but for reference, it was from <i> RA2311003030193. </i>Ahem Ahem! So, the person on the other side of the phone told me that the course form has been opened again and you have to 35k or so to avail the course. I was shoched! simply shocked but deep inside I also had an intuition that on surplus request, they might have opened the form again. Yeah, and the person also said that we have got a mail and mentor replied to my query about the course. I was so into the thing to get the course that I checked my mail twice and found nothing. Later I realised that the person was thinking that message shared by the mentor is a reply to my message whereas it was just a message that the mentor had to share in the group. The way panic struck on that side of the call, I still find it really funny to know that someone can be this naive.<br> Anyways, someone other than me in my year also knows about SAP and knows it's worth. What really should I do to stand out then?"
-    },
-    {
-        "timestamp": "2025-07-15 11:42:51",
-        "entry": "I'm still in doubt, not in doubt but pretty sure actually, that they might me wondering and still thinking and more overly, still inquiring here and there to get to know that this course is still open and they can enroll to this."
-    },
-    {
-        "timestamp": "2025-07-15 11:46:06",
-        "entry": "<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 8px 32px rgba(0,0,0,0.1);\"><h1 style=\"color: white; text-align: center; margin: 0; font-size: 2.5em; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);\">How to Set Up a Local Git Repository and Push to GitHub</h1></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><p style=\"margin-bottom: 20px; font-size: 1.1em; line-height: 1.7; color: #555; text-align: justify;\">This guide outlines the steps to initialize a local Git repository and push your code to a new GitHub repository. It is assumed that Git is already installed on your system and configured with your desired username and email ID.</p></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #3498db; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">1</span>Initialize Local Git Repository</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Navigate to your local project directory using the VS Code CLI terminal and create a new local Git repository:</p><pre style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 20px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\"><code style=\"color: #61dafb; font-weight: 600;\">git init</code></pre></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #e74c3c; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">2</span>Commit Your Changes</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Once the repository is initialized, you can commit your files. You have two options:</p><ul style=\"list-style: none; padding-left: 0;\"><li style=\"margin-bottom: 15px; padding: 20px; background: #f8f9fa; border-left: 4px solid #28a745; border-radius: 8px; position: relative;\"><strong style=\"color: #28a745; font-weight: 600; font-size: 1.1em;\">Using VS Code Source Control:</strong><p style=\"margin: 10px 0 0 0; color: #555; line-height: 1.6;\">Click on the 'Source Control' icon on the left navbar in VS Code. You should see your files ready to be committed. Click the 'Commit' button, provide a comment, stage your changes, and then commit the files.</p></li><li style=\"margin-bottom: 15px; padding: 20px; background: #f8f9fa; border-left: 4px solid #17a2b8; border-radius: 8px;\"><strong style=\"color: #17a2b8; font-weight: 600; font-size: 1.1em;\">Using CLI:</strong><p style=\"margin: 10px 0 0 0; color: #555; line-height: 1.6;\">Alternatively, run the following command in the terminal:</p></li></ul><pre style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 20px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\"><code style=\"color: #61dafb; font-weight: 600;\">git commit -am \"Your comment\"</code></pre></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #9b59b6; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #9b59b6; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">3</span>Create a New GitHub Repository</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Visit your GitHub account and create a new repository.</p><div style=\"background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 20px; margin: 20px 0; border-left: 5px solid #f39c12;\"><p style=\"margin: 0; color: #856404; font-weight: 600;\"><span style=\"background: #f39c12; color: white; padding: 3px 8px; border-radius: 4px; margin-right: 10px; font-size: 0.9em;\">⚠️ Important:</span>When creating the repository, do not create a 'README.md', '.gitignore' file, or add any license to the repo. These settings can sometimes cause issues during the initial push.</p></div><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">After creating the repository, copy its link.</p></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #f39c12; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #f39c12; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">4</span>Connect Local and Remote Repositories and Push</h2><p style=\"margin-bottom: 20px; color: #555; line-height: 1.6;\">Return to the terminal in VS Code and execute the following commands in succession:</p><div style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 25px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0; line-height: 1.8;\"><div style=\"margin-bottom: 15px;\"><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git remote add origin &lt;Link to GitHub Repo&gt;</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Maps the remote repository link to your local Git repository</span></div><div style=\"margin-bottom: 15px;\"><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git remote -v</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Verify the link to your remote repository</span></div><div><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git push -u origin master</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Push your changes to the remote GitHub repository</span></div></div></div><div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 25px; margin: 30px 0; box-shadow: 0 6px 25px rgba(102,126,234,0.3);\"><p style=\"margin: 0; color: white; font-size: 1.1em; line-height: 1.6;\"><span style=\"background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 20px; margin-right: 15px; font-weight: 600;\">📝 Note:</span>If this is the first time your local Git account is connecting to GitHub, you may be prompted to enter your GitHub credentials in a separate window.</p></div>"
-    },
-    {
-        "timestamp": "2025-07-16 14:06:52",
-        "entry": "<h1> Started SQL </h1> Did my leetcode push just now and also <strong> I caught upon to the last chapter of Blue Lock manga. </strong>I know that I was on break with this but Meenal messaged me and that sparked the fire in me once again. Guess what, Kira will be coming back. <br> Other than this, everything seems to be going fine. College is about to start soon and yeah, I don't feel like going there anytime soon.<br> I have my bus tickets for 23rd's night journey but before that, I also have the task to throw some of my stuff at Price PG. Guess, I'll be taking my laptop with me then. Anyways, I'll just have to carry the bigger bag with me the, nothing else seems plausible. <br/> I alsi have to buy mirror and get a screen guard on my phone, these two are the only taks at the point."
-    },
-    {
-        "timestamp": "2025-07-18 14:46:33",
-        "entry": "<h1>URGH</h1> Missed both of my LeetCode and GitHub streak yesterday. I'm not feeling well since last week so am not able to focus fully and give it my all to work and fun. Gotta correct these thigs. <br> Next up I have the upcoming two days to cut down the stuff that I have with me to just one bag that I can take to village on next thuraday. I'll have to shift the stuff to Prince PG, this weekend. Gotta plan that too. Other than this, I need to buy a mirror for my bathroom. rest everything seems good to go. I want to short it all down to just the laptop bag to be carried on the journey. Let's see.<br> <br> Firstly, gotta do my LeetCode submit right now."
-    },
-    {
-        "timestamp": "2025-07-18 15:34:40",
-        "entry": "<h1>I like goodies </h1> Who doesn't. I'm really behind this LeetCode goodies but you need hell a points to order those. What I'm thinking is to make another leetcode account and do something or the other thing there and exract all the points that I can out there and have te goodies somehow. On to the planning part."
-    },
-    {
-        "timestamp": "2025-07-18 15:38:43",
-        "entry": "There's this website <a href =\"walkcc.me/LeetCode\">walkccc.me </a> that has a lot of solutions for LeetCode questions. I think I'll be scrapping that to get the solution and somehow make a bot to paste all of those on LeetCode and automate the submission. <br> Firstly, I'll need a way to get the question name, it's leetcode link and the solution from the website. "
-    },
-    {
-        "timestamp": "2025-07-18 15:43:57",
-        "entry": "the website is really sorted and has a solution page which divides the problems into 4 vategores, <ul> <li>Data Structures</li> <li>Algorithms</li> <li>System Design </li>  <li>Special Topics</li> </ul> Further, these topics are then divided into several sub-categories like tree, graph, hashing, stack, queue etc. etc. <br> I'll smply be using selenium and beautiful soup to get all the solutions from them. <br> Every page has tons of link to each question. Luckily, each link has the number and the name of question as it's text, that too inscribed in a single &lt;ul&gt; with multiple &lt;li&gt;. How noob of them, haha."
-    },
-    {
-        "timestamp": "2025-07-18 16:37:04",
-        "entry": "Got the code, using the webchrome-driver to get the website, using selenium to get all the question number and their name as well as the leetcode links. Next, up I'm able to get to their solution page and extract the solution. Though it has some problems, sometimes it gets the java solution and sometimes not, in that case, it extracts the C++ solution. I think I'll completely move to getting the C++ solution as my main motive is just to get the leetcode answers, no matter the language it is in. <i>Back to the code...</i>"
-    },
-    {
-        "timestamp": "2025-07-18 17:01:29",
-        "entry": "<h4> Great </h4> Ok, so things are working well. Though, it is a really slow process but yeah, nothing much i can do. Now, I'd like to complete the leetcode solver by sdding the functionlaity to get the solutions, open the leetcode link, paste the solution, submit, wait for it to be accepted and then move onto the next question. Firstly I thought of a process to do it with another script but now I'm thinking to modify the existing script to do this task. I think I'll be going with somewhat of the same logic to open that link and paste the solutiob, check if the accepted code tab is activated or not and then move onto the next solution extracting and leetcode submitting. <br> For the future, I'm thinking to add a way that, if've done 10 questions on leetcode, it should not get those quetions and start from the up next questions. It's like, if I stop the script in between and start it the next time, it should not waste the time in answering the previous questions again but just skip those and start with the next questions. <br> Let me get the initial part first. <i>On to the code... </i>"
-    },
-    {
-        "timestamp": "2025-07-18 17:26:27",
-        "entry": "made a new leetcode accout, everything was going fine until hit the cloudflare are you human error. that's really irritating, need to resolve that somehow. I think I'll just use a different way to open my chrome sothat it does not have to login into with the account as I'll have the login pass saved into my chrome or even already logged into it. <br> <br> I'd have started to work on it quickly, but... <i> Samose ki khushbu aa rhi hai bahut acchi...</i>"
-    },
-    {
-        "timestamp": "2025-07-18 17:29:48",
-        "entry": "Aanways, back to it. So, the plan it <ul> <li> Create a back file that will take the url link as input and open that into the chrome using the chrome destination link so that it opens the actual chrome from my device, not any driver or such. This will, in a way, bypass the login required to get the problem.</li> <li>next up, opent he problem link from the json file and solve them as planned, submit, wait for acceptance </li> <li> Move onto the next question </li> </ul> I think this shiuld work fine. <i> Back to the code... </i>"
-    },
-    {
-        "timestamp": "2025-07-18 17:57:57",
-        "entry": "Nah, not working. I tried opening it in the general chrome in the device but it says the account needs to be verified to submit the solution. Guess, I'tt just have to do that and then move ahead. I think I'll use my someother already created gmails this time for this task and the sake of simplicity. <br> Also, there's an issue, it is not pasting the solutions automatically, that bit is still manually. Not that much of the hassle as you just have to press ctrl+V and ctrl+Enter. It'd still like to have it automatic. Let's say this is added to the future scope. For Now, I just have to get a verified LeetCode account and test it for the submission. Before that, I'll need to parse the solution once to remove all the code in a single line error. Guess I'll spending some more time on the <a href=\"https://www.walkccc.me/LeetCode\">walkccc.me </a> website"
-    },
-    {
-        "timestamp": "2025-07-18 18:42:54",
-        "entry": "Getting a bit tired and out of focus. I have some different plan too. I am thinking of creating a scraper that will take to the first leetcode solution and then click on the next button to get to the next question and extract it's solution. As in walkccc.me, you can have the solution in order by this way. I think this will somehow easeup the process and help in time complexity, I think it will be a but quicker than going back on the list of all questions website and then going to the next page every time."
-    },
-    {
-        "timestamp": "2025-07-18 19:12:41",
-        "entry": "It is working but I'd still like to automate the process of pasting and submitting the solution but it's getting a bit hard. <i> I should have taken backup of the last working code </i>. Anyways, will get back to it a bit later"
-    },
-    {
-        "timestamp": "2025-07-18 19:21:24",
-        "entry": "<h1> Got the working thing back into action</h1> Got my working thing back from the chat history. Will work on it later. So far, it can take the solution from the walkccc.me, get it into you clipboard, you just have to manually paste it and submit the answer, rest everything it does automatically. I'll look into the rest of the things later"
-    },
-    {
-        "timestamp": "2025-07-21 10:32:50",
-        "entry": "<h1> Missed everything in the last 2 days</h1>"
-    },
-    {
-        "timestamp": "2025-07-21 11:48:57",
-        "entry": "<h1>LeetCode Killed </h1> Finally, over with it. I left the thing where ever it was and it is working fine. As per sny changes are concerned... <h3> it will not waste time on any already solved question </h3> Yeah, I added a thing that if the question is already there in the json file, it means that it is also been solved, so do not waste time on scraping it again and submitting it on leetcode. After that, I've also pushed the poejct ont github. I'm thinking to add that to my resume, my portfolio and also making a separate websote for this project too. Let's see... Here's the link in case you wanna check it <a href =\"https://github.com/lkhanna1505/LeetCode-Killer\"> <i> repo-link/Leetcode-Killer </i></a>"
-    },
-    {
-        "timestamp": "2025-07-21 17:33:55",
-        "entry": "Updated my resume and also somethings on my portfolio. Somewhat completed my LeetCode-Killer Project and also hosted it's website. Everything seems to be going pretty godd. I'll now hurry for ghaziabad to leave some of my things there and retrn back empty handed so that I can have a easy journay back to BKTW. <br>on to the next step..."
-    },
-    {
-        "timestamp": "2025-07-23 11:58:55",
-        "entry": "<h1> Last day, it is...</h1> Let's see, how it goes."
-    },
-    {
-        "timestamp": "2025-07-24 22:26:37",
-        "entry": "<h1> Emergency!</h1> Forgot my mobile phone's password!!! <br> actually, it's not that of an issue 'cause most o the thing are backed, and the major loss will only be of the movies and webseries episodes that I've downloaded in that but still, I wanna explore the ways, I can to unlock it somehow.<br> <i> onto the grind...</i>"
-    },
-    {
-        "timestamp": "2025-07-24 23:17:15",
-        "entry": "Formatting my phone. I don't think I'll loose anythin major. Even if I do, there has to be some ways to recover all of them, right. Let's see, infact, I was about to do it, if not today."
-    },
-    {
-        "timestamp": "2025-07-24 23:22:45",
-        "entry": "Great, now it is even not getting into factory reset mode. URGH! Why does it always happens with me. Anyways, guess gotta ponder over it more."
-    },
-    {
-        "timestamp": "2025-07-25 17:14:56",
-        "entry": "Finally, remembered my phone's password. HASH! It's relief that I reacalled that and you know what, it wasn't that hard"
-    },
-    {
-        "timestamp": "2025-07-25 17:38:25",
-        "entry": "What is it with my brain!?<br>It can remember numbers like <br>1004928184793579 <br>1088539048956013 <br>46393939 <br>2147483647<br>3.141592653589793238462643387950<br>34768<br>32333435<br>And a hell lot of phone numbers of different people like Harjot Bhaiya, Abhinav Bhaiya, Sara Didi, kushagra bhaiya, shreshth bhaiya, harshil, tejasvi, nandini, himansh, thanesha, sanchit, mummy, papa, grandpa, grandma, maternal-grandma, massi, bua, tauji, tai-mumma, lakshita, aadi bhaiya, Rijul, purva didi, Bhaa-G... Aur bhi pta nhi, kitno ke numbers yaad honge.<br>Lekin sala, phone ka password, \"11223344\" nhi yaad aa rha tha 😅😅"
-    },
-    {
-        "timestamp": "2025-07-29 06:57:04",
-        "entry": "<h1>After so long </h1>I have came back to college and it's been so long that I've written anything here. Just been busy with a lot of tuff,. Anyways, listing some of the major events that happened: <ul> <li> <b> Missed my BnY test by just 20 seconds </b> The time to login the window was from 11:00AM to 11:20AM. Though I sat in front ofmy setup at 11:09 but still, I somehow messed up with my credentials and got late to finally proceed to the test screen.</li> <li> <b> Got back to college </b>and still there is some stuff left in to unpack and settle things up. Will do it soon</li> <li> <b>Collect the certificate form Noida </b>For once I need to go there and collect my final things to finish everythong up. Also, I need to get my pillow too.</li> <li> <b>Finish everythin up here in this PG too </b>I need to buy some stuff, just one visit to modinagar market and it'll be done. Let's keep it today's task, just after college to complete this and get all the things that I need to buy from the market.</li> </ul> That seems like it for now. As I'm back to college, I also need to start some other things, like DSA, LeetCode, the BodCon project, MERN, SQL, also gotta focus on my academics from now only. Well. there are some other goals of mine too, for this academic year (the ones' written in the blue diary) need to do everything keeping those in mind. Hash! For starters, need to wake up and do my daily chores first. <i>We'll see...</i>"
-    },
-    {
-        "timestamp": "2025-07-30 12:04:02",
-        "entry": "Got some of stuff, thanks to Alok and Adarsh as they were going modinagar and brought the stuff for me. <br> Didn't go to first half of college today... Meh! wasn't feeling like that today. Anyways, gotta settle and unpack the bags and get back tot he grind, 'cause ut's been really long. I have some more mini-project ideas that I'm thining to build and also some of those major peojects. Then, there's MERN and other things. Nothing will happen if Idon't move, so... <br><i> Gotta go...</i>"
-    },
-    {
-        "timestamp": "2025-07-31 00:37:55",
-        "entry": "<h1>Using this with my external portronics hydra 10 keyboard for the first time. It really is intertesting and also, I'm using my keyboard after a pretty long time. Feels fun and suddenly I'm realising that my keyboard is really less noisy and quite and moreoverly, super smooth to operate.</h1> Great, now back to work..."
-    },
-    {
-        "timestamp": "2025-07-31 00:40:56",
-        "entry": "Cool, now I'l be starting with the so called grind. I've a lot of projets on mind and for starters, I really need to get over with those BidCon parts and bits. Firstly, I'll start with some study in SaaS platforms  and how can I build them? Will my current knowlwdge be sufficient? If not, whatr all do I need tio learn further? <i>Let the research begin...</i>"
-    },
-    {
-        "timestamp": "2025-07-31 00:50:04",
-        "entry": "Registered for some hackathon Nandini shared with me that she got from the haveloc platform."
-    },
-    {
-        "timestamp": "2025-08-01 06:42:34",
-        "entry": "missed yesterday's leetcode <br> Did genuine leetcode after so many days, solved some 3 questions. Learned about System.arraycopy() in Java. It is a function that accepts five parameters (sourceArray, sourceArray_startIndex, destinationArray, destinaionArray_startIndex, lengthTillHowMuchIsItToBeCopied)"
-    },
-    {
-        "timestamp": "2025-08-02 16:22:16",
-        "entry": "<h1>Backend done </h1>Login is working good so far, I'll test it a bit more and move to other aspects soon <br> Remind me to change the passwords to the bcrypted form later and correct the loin accordignly"
-    },
-    {
-        "timestamp": "2025-08-03 16:00:49",
-        "entry": "<h1> Next target: DRDO Intern</h1>"
-    },
-    {
-        "timestamp": "2025-08-03 19:47:28",
-        "entry": "<h1> You wanna read this, here you go... </h1>"
-    },
-    {
-        "timestamp": "2025-08-03 19:55:13",
-        "entry": "<h1> New Projects</h1> There are multiple projects that I wanna create but first, there are the below two <ul> <li> Search for SRM students </li> <li>SRM Help <li> </ul> The help one is really easy and it will be based on only forntend. The SRM students one is a bit tricky to make. <br> I'll be starting witht he SRM students one tonight. I'll be needing a lot of things for that. Let's start the research"
-    },
-    {
-        "timestamp": "2025-08-03 19:58:23",
-        "entry": "For startes, the google contact search thing is really cool as you can search enything as /search/&lt;name&gt; or &lt;registration_number&gt;. This is cool as this gets most of the things done really well. Now I need someway to make this acessible to everyone.<br> Before that, i think I can start with coding the scraper part first to get the info of the searhc result. I also need to think of all the edge cases and all the possible cases that you can search for in this app. that's gonna cost a lot of thinking... Anyways, I'll get back to it after dinner"
-    },
-    {
-        "timestamp": "2025-08-03 22:50:44",
-        "entry": "Don't know but was watching SpyxFamily after dinner. <br>Anyways, on a break now so will be getting back to the project thingy. The search query string of google contact is really simple actually, I can easily modify it as for my google account series. I'll need to look how do I make it compoletely dynamic. I'll think about that later.<br>For now, I can search for any name, mailID or registration number. i just need to extract that result somehow and get it into the python so that I can play with it."
-    },
-    {
-        "timestamp": "2025-08-03 23:04:23",
-        "entry": "That's weird... Google contacts use two layers to show the results and both of them show the same thing. Why use two same things that too ontop of each other when it can be done by only one thing? Guess that's a typical google thing. What I can think of is, one is used to add the UI part and other to add the functionality. <br> Anyways, I've got the divs that I wanna target, let's get the actually triggering them and moving ahead."
-    },
-    {
-        "timestamp": "2025-08-03 23:50:25",
-        "entry": "Meh, a bit tired of it. Will get back to it later. Anyways, I also forgot to edit the marudhara edits for this week, I also need to get those done. Guess I'll be making a whole lot just at once."
-    },
-    {
-        "timestamp": "2025-08-04 00:48:25",
-        "entry": "One edit down and submitted so far. Guess, Mushoku will keep me up for a while and then I'll get to the second one..."
-    },
-    {
-        "timestamp": "2025-08-04 10:46:56",
-        "entry": "<h1> I am way behind schedule!!</h1> There are a lot of things that I want to do but just that, I don't know why I'm not able to courage up and complete all the tasks. Anyways, I hope listing them here works: <ul style=\"list-style-type: none\"><li><input type=\"checkbox\"> Unpack bags </li><li><input type=\"checkbox\"> Complete MWCS assignment</li> <li><input type=\"checkbox\" checked disabled> Clean the room's table </li> <li><input type=\"checkbox\" checked disabled> Buy a maths notebook </li> <li><input type=\"checkbox\"> Wash all clothes </li> <li><input type=\"checkbox\"> Go and collect all the documents from Noida </li>  </ul> These are somethings that I can remeber for now, though there surely are a lot of things and then there are thigns to study and projects to build. URGH!!! There's a lot of things. Anyways, gotta get to them as soon as possible. <i>Off to college...</i>"
-    },
-    {
-        "timestamp": "2025-08-04 10:53:15",
-        "entry": "There's one m09ore thing. I want to change my schedule and make it so that I'm up all night and sleep durig the day but I just can't pull this off. no worries, ione day, and soon enough, one day I'll nmake that my new habit and get on with it. when will I sleep then, you ask? Oh! ayways, they don't teach something important or worthy in class. That seems to be the best spot for this."
-    },
-    {
-        "timestamp": "2025-08-04 19:48:35",
-        "entry": "I don't think I did anything worth it so far, today but still, this day was really fun.<br> Anyways, getting to the point, introduced 085 to 217. Though they both were really shy and nervous, infact I also did not have any idea how do you make one of your friend meet another friend but it was fun. As they both said over call, afterwards, they both were ok with it. i just wish I didn't make any of them uncomfortable, they also didn't tell me anything. is it wrong foir me to trust them completely? i jsut wish they are telling me the truth. I am more concerned about 085 , at the end, 217 is also a boy and we boys don't feel things that much. I won't hope that everything was fine but I just hope, more like wish that they tell me if anything was not OK. <br> Spent time with 313. Told him my new philosophy about how human define work and on what basis do they take rest even after any recreational activity. he is also thinking to get more into coding. <br> Gave grabhacks unstop test, let's wait for the results. <br> Will be having dinner soon and was plannig to sleep but just recalled that there are some things that I need to take care of, will be going for them. <i>Till then, Sayonara...</i>"
-    },
-    {
-        "timestamp": "2025-08-05 10:42:14",
-        "entry": "going to Noida to collect documents. Before that, need to submit Nikhi's Anti ragging. Also, will be getting my deliverytoday, gotta be prepared for that too.<br> Wil be buying my maths notebook from noida.<br> ALso, this is serious, need to complete my OD project as soon as I get back 'cause that's something that will actually help others. Harshil needed that and I was unable to give that, shame on me!<br> You know what you need to know, <i> get you r ass off to work </i>"
-    },
-    {
-        "timestamp": "2025-08-05 10:42:53",
-        "entry": "<h1> Missed my LeetCode yesterday! </h1>"
-    },
-    {
-        "timestamp": "2025-08-05 13:34:58",
-        "entry": "Got my Laptop stand and the HDMI cable and also the cleaner kit delivered today. Super excited for this and also looking forward to all it brings along. <br> it's gonna change having fun..."
-    },
-    {
-        "timestamp": "2025-08-06 07:24:13",
-        "entry": "New day, new start, more fun.<br> They have some sort of conference or something at College today, gotta get in formals for this just a formality thingy. Anyways, I'll just leave for noida after that session and get my documents finally done.<br> <i> Off to it... </i>"
-    },
-    {
-        "timestamp": "2025-08-06 08:30:52",
-        "entry": "<h1> Try to turn your head upside down</h1> Just now, I was getting ready for the college and then the <i> aunty </i>came to clean my room. Along with her she also bought her son, seemed like 4-5 years old. I jumped over my bed to give her proper space to clean the room, so did her son. Well, he was sitting there and I was just standing behind him. When he tried to look at me, his head was naturally upside down and to help him, I also turned my head a bit. I don't know what got into him but now whereever he looks at me, he just turns his head to the left and in turn, I turn it to the right just so that we can see each other clearly ??. Great start, to be honest. Shared with him a banana as well. Oh... his name is Vansh by the way."
-    },
-    {
-        "timestamp": "2025-08-06 08:32:08",
-        "entry": "The 2 quetion marks in the previous entry are actually <i> Laughing emojis</i>. I don't know why but they are being shown like that..."
-    },
-    {
-        "timestamp": "2025-08-06 20:30:24",
-        "entry": "Hash! Finally, completed my Noida task. Got the documents. Anyways, snap back to reality... oh there goes gravity... WHAT!! no, no, no.<br>I have piled up a lot of tasks and I need to get over them soon. But firstly, gotta list them. <ul> <li><input type=\"checkbox\"> MWCS Assignment </li> <li><input type=\"checkbox\"> ML Project </li> <li><input type=\"checkbox\"> Maths notes </li> <li><input type=\"checkbox\"> Some Automata </li> <li><input type=\"checkbox\"> Gotta study maths too </li> <li><input type=\"checkbox\"> Update Resume </li> <li><input type=\"checkbox\"> Complete your OD project </li> <li><input type=\"checkbox\"> Complete your portfolio </li> <li><input type=\"checkbox\"> SRM cc help </li> <li><input type=\"checkbox\"> Search for SRM students </li> </ul> This is what I can think of right now and I just wish that they must be it but they actually aren't. For starters, <ul> <li><input type=\"checkbox\"> Reel edit </li> </ul> URGH!! <div class=\"gif-container\"><img src=\"https://media1.tenor.com/m/PL52nlgbrhoAAAAd/saala-ye-dukh-kahe-khatam-nahi-hota-bey.gif\" alt=\"Saala ye dukh kahe khatam nahi hota bey GIF\"></div><br><br> Tried something new. I hope it works..."
-    },
-    {
-        "timestamp": "2025-08-06 21:01:53",
-        "entry": "Dinner done. Will be sleeping now, good night! Now, good morning at 00:00 (midnight)"
-    },
-    {
-        "timestamp": "2025-08-06 21:08:40",
-        "entry": "<h1> Community Connect</h1> I also need to get the photos for the same. Make it's ppt and also the report for the same."
-    },
-    {
-        "timestamp": "2025-08-07 01:54:06",
-        "entry": "<h1> Great! </h1> Finally, woke somewhat on time and feeling great. Let's begin"
-    },
-    {
-        "timestamp": "2025-08-07 01:55:47",
-        "entry": "First thing that I wanna make is the OD gen porject. I wanna name it public OD Generator. I do have the script with me, I just need to modify it a bit, correct the formatting and make it more dynamic to get both the excel sheet and google sheets. I think I'll be going with the excel sheet format first. Let the coding begin"
-    },
-    {
-        "timestamp": "2025-08-07 01:57:17",
-        "entry": "First of all, I'll get the formatting to be done and final. I just need to rectify some borders for the heading portion and also try, if I can to get the table sezing to better so that it covers the whole page and gives space top everything on the page sufficiently."
-    },
-    {
-        "timestamp": "2025-08-07 02:17:32",
-        "entry": "great, got the formatting in place and also the reusult is now sorted in semester-wise format. getting the formatting in place now. I'm thinking to reduce to column name. You know what, scrap that, I'll leave that as it is. Getting to get it from python to JS somehow and then going ot host it somehow. Lemme research it a bit more"
-    },
-    {
-        "timestamp": "2025-08-07 02:40:09",
-        "entry": "<h1> Streamlit </h1> Great, tried streamlit for the first time and it is really good. I am thinking to go with it. Let's try it for once."
-    },
-    {
-        "timestamp": "2025-08-07 03:11:17",
-        "entry": "Streamlit rally is an amazing tool. Easy to user and super easy to integrate. I am done with the website and it works really well. I'll add some more validations and things to make the app more dynamic and streamlined in the future but so far, it has be really amazing. Below is the app link if you want to curate any OD for your event:<br> <a href=\"srmodgen.streamlit.app\"> srmodgen.steramlit.app</a>"
-    },
-    {
-        "timestamp": "2025-08-07 04:34:42",
-        "entry": "Everything up and ready to go. I'm just thinking to make another website for this project too. I think i'll be going with some ideas here too. Initially it was looking easy but I didn't like the first design. So, I'm thinking to make one oue of glass morphism design and a single page website. let's see, I do have some context ideas from pinterest."
-    },
-    {
-        "timestamp": "2025-08-07 05:07:46",
-        "entry": "<h1> OD Generator deployed </h1>Completed one more projecrt and added it to the collection. You can check this out from the link below: <br> <a href=\"http://srmodgen.vercel.app\">srmodgen.vercel.app</a><br>This somehow is my first glassmorphism website, it was interesting making it but I'm still wondering what is so special in this design format. Anyways, might be that it is more sppealing when it comes to the design of some particular websites only and not some whole websites."
-    },
-    {
-        "timestamp": "2025-08-07 05:14:07",
-        "entry": "<h1> Analytics </h1>Found a way to get the analytics of the number of hits on your webpages and all. It's really great feature by vercel but you project needs to be atleast in npm or a node project. Will shoft all my projects to this and implement it in some of my important projects next. Anyways, enough of this, off to Mushoku Tensei"
-    },
-    {
-        "timestamp": "2025-08-07 13:00:18",
-        "entry": "Guess I'll sleep super hard during today's PRP lecture."
-    },
-    {
-        "timestamp": "2025-08-07 13:03:56",
-        "entry": "I have everything harmony now. I think I have everything under sync now.."
-    },
-    {
-        "timestamp": "2025-08-07 22:20:46",
-        "entry": "<h1>Shhh!!!</h1> <!--<div id=\"hiddenContent\" style=\"display:none;\"></div>Accha bete, zyada dimag nhi hai kya tumhare mein? Yaha tk pahunch gye! Bahut badiya. Yaha koi halwa-pudi bat rha hai? Chalo, ulte pair wapis bhaag jao.. jao jao</div> --> <div id=\"hiddenMessage\" style=\"font-style:italic; color: red; display:block;\"> This content is hidden by the administrator and you need special access to see the actual content</div>"
-    },
-    {
-        "timestamp": "2025-08-09 09:59:55",
-        "entry": "Starting a new weekend with new zeal and enthu, but the same old project idea that is yet to be turned into reality. <i> on to coding...</i>"
-    },
-    {
-        "timestamp": "2025-08-09 18:13:15",
-        "entry": "<h4> Change the design and theme of this journal webapp to something more minimalist and glassmorphism type. </h4>"
-    },
-    {
-        "timestamp": "2025-08-10 07:16:39",
-        "entry": "While working on a major project, getting onto the working desk even before properly openinig my eyes this morning felt great..."
-    },
-    {
-        "timestamp": "2025-08-10 21:47:54",
-        "entry": "<h1>YRGH!! </h1> So I was trying to change the domain of my leetcode killer project to <i>fuckleetcode.vercel.app </i> but it said that this domain is already in use and not available. Then, I looked upto to search for this domain and look what I found out <br> <a href=\"fuckleetcode.vercel.app\"> <i>Click here</i> </a><br> Can I really not change the domain of my application because this domain is already bokked by this ugly ass, shitty, only HTML, chatGPT half prompt website..."
-    },
-    {
-        "timestamp": "2025-08-10 22:21:47",
-        "entry": "Life is like a script for an really interesting, adventure packed, filled with multiple impromptu scenes, frequent bloopers, every genre touching movie, handed over to you with you being the first casting preference and have the privilege to choose whatever role you want. Now it's upto you what role you decide for yourself and how you shape your script further. "
-    },
-    {
-        "timestamp": "2025-08-10 22:22:33",
-        "entry": "Also, the only director and the camera man is God, not those people around you who are just some supporting cast or side characters�in�your�script."
-    },
-    {
-        "timestamp": "2025-08-10 22:22:43",
-        "entry": "But remember, every scene is just one take... Act Carefully"
-    },
-    {
-        "timestamp": "2025-08-11 21:43:14",
-        "entry": "I have really low attendance in CN and ML. Gotta attend their lectures to cover those up.<br> Also gotta look for this IAF. It has only one lecture per week so gotta be regular in that."
-    },
-    {
-        "timestamp": "2025-08-13 04:06:43",
-        "entry": "."
-    },
-    {
-        "timestamp": "2025-08-13 10:20:39",
-        "entry": "feels great to be back to full fledged DSA after long time. Today's target is to have a lot of fun and make a hell lot of pregress. I have done my DSA of the day but am still thinking to do some more questions for the day. <br> Also, I'm thinking ot resume my One Piece journey. I check it this morning and I had left previously on episode 155."
-    },
-    {
-        "timestamp": "2025-08-13 15:10:56",
-        "entry": "What more can I ask for than to a chance to rewatch Haikyuu!"
-    },
-    {
-        "timestamp": "2025-08-14 18:39:11",
-        "entry": "Did two questions on LeetCode and it's just 10 days of streak &lt;cry&gt; When will I be back to my 47 days streak and that max streak on my leetcode will eventually show my current streak too... <br> Anyways, gotta travel early morning tomorrow and also pack my bags. URGH! <br> <i> On to haikyuu... </i>"
-    },
-    {
-        "timestamp": "2025-08-16 01:00:00",
-        "entry": "At my home as mom needed help with some stuff. Wasn't able to make much updates here becuase of this travel and all things. Just did my leetcode for the day. Recently was wining about not having that good af a streak so far and was about to miss it today also. Thanks to 085, got it in time. <br> Roaming around in super sleep deprived state and mistakenly also drank coffee... gotta see, how things goes. I think I should keep my headache medicines nearby..."
-    },
-    {
-        "timestamp": "2025-08-17 00:52:32",
-        "entry": "I know I'm not that much active now-a-days BUT if this time, somehow I miss my leetcode streak. I don't think I'll ever continue that in the future. It's really frustrating sometimes. "
-    },
-    {
-        "timestamp": "2025-08-22 08:03:57",
-        "entry": "A lot has happend in the past few days. Came back from home and am notfeeling well since that day. Life's really out of track and that is costing me a lot, really need to look into that. <br> There are a lot of people whose rent I willnever be able to pay. This time it's someone whose registration, If I'll write will know whom am I talking about. But yeah, thaks for telling me and asking me to try NeetCode. That's exatly the solution I was looking for. <br>Anyways, also gotta complete my assignment, edit that reel, study a lot, and moreoverly, work on that big project. <br>You know. it might be just beacuse of that not feeling well and that travel fatigue but I don't feel like doing anything rigt now. Ijust want a big long rest, watching Haikyuu, sipping coffee and eating smething tasty and interesting. For now, what I can do is <strong>hope</strong>. As said by someone, \"Koshish, aur kr bhi kua skte hai...\""
-    },
-    {
-        "timestamp": "2025-08-22 08:07:44",
-        "entry": "It's just that the most prminent examples out there are not matured enough and alo not having even the slightest kink of a normal sane person who thinks and feel about his/her and their partners' future. Thay just have nothing but shit and relationships have lost what they were actaully supposed to be. For starters, it's about supporting each other and bein there for each other.<br> But for me, I could use someone just to talk things out and share evereything with them. In turn, I'd also like to hear for to what thery have to say. But you know what... aven't found someone likewise, so far. Meh! i've got you and that's enough...<br> <i> 22-08-2025, 08:15:05</i><br>PS: by talk things out I just wanna convey that, I like sharing with someone what all happened in that day. Even more that that, I like to know from the other person what happened with them, in their day. My uncle says Iinherited it from my grandma, the thing to listen carefully and with full attention to what someone has to say. What I believe is that a relationship is where you do these things with your partner, at the very least. Though these all just become another speculation, 'cause never ben into an actual relationship, so, ca't say much..."
-    },
-    {
-        "timestamp": "2025-08-22 08:10:56",
-        "entry": "I also need to trim my beard but the day tat I plan to do so, the electricty bulb got fused.<br> Which reminds me of that, yesterday there was some sort of electricity outage at out PG and t make things worse, I even fucked the things that were working. I was just out there with the switch board opened and trying to get the right thing but instead, what I did was even shortcircuit the power back-up there... <br> Though right now, things are backl up, well and better but still, I need to get my elctric bulbs changed. On to start the new day."
-    },
-    {
-        "timestamp": "2025-08-22 13:18:27",
-        "entry": "Back from lunch, it was quick today. Anyways, getting to the main thing. <br> First of all, getting my things straight, I will work on that project tonight. i really need to make some progress in that... whatever it takes. Other than that, I am also thinking to get this journal entry thing over mobile phone too. I just need to figure out a way to do this via flutter aplication. The little that I researched, we surely can do it via mobile but the question is how???"
-    },
-    {
-        "timestamp": "2025-08-22 13:22:42",
-        "entry": "how did I made this for PC... I simply used bash scripting to do so. I have a script written in Java.. no some JavaScript. That script has bash codes to pusht the string input on github using bash script and that program's class file is written in my bash script folder, already added in the environment variables so that I can run the script from anywhere in the computer, anywhere in the cmd. <br> I just realised that I have not document this \"mrun\" project of mine and then I realised that this mrun project itself is used to document the projects. If this was still under making how could I have documented it. Anyways, getting back to the logic of the code, there was a lot of bash sripting involved. I just need to figure out a way to do so from the mobile. "
-    },
-    {
-        "timestamp": "2025-08-22 13:39:57",
-        "entry": "just had hook, went there and searched for it and to te surprise, there exists a dart package for github. It also has some attributes for the github repio link and the branch name. I think I can go with that to proceed with the project. I'll also need to look into that markup inpu being converted into json format. <br> Will look into that later. Right now, I'm late and I need to go the college. Will get back to it as soon as I'm back, If I don't sleep &#128517;"
-    },
-    {
-        "timestamp": "2025-08-22 13:42:39",
-        "entry": "Just now, almost lost the backup files. Was really scared but retrieved them from the original file. <br> <i> Hask!!! That was scary... </i>"
-    },
-    {
-        "timestamp": "2025-08-23 11:41:10",
-        "entry": "<h1>Ok ji... </h1> Good morning! I know it's alot late but morningslike these where the last night ended with you doing what you like, and dy starts with a cup of coffee in your hand (thoung it's a bit late) are still EPIC. <br> Anyways, about last night, you know, I like to rea books bu have never comopleted any of them ever. Still out of all the books that I've started somehow or other, I was really influenced by this one and is the only one I recommed everyone to give a try... It's the Bhagvd Gita. I know it sounds really religious and related stuff but this book really shows you the tiny detials in the bigger picture and also leaves somethings for you to figure out. Had a really reminiscing time to read it after a long time. Will write about the quote that I read, later.<br> Will be getting to the fun now..."
-    },
-    {
-        "timestamp": "2025-08-23 12:11:18",
-        "entry": "What do I think of today... <ul> <li> <input type=\"checkbox\"> Java</li> <li> <input type=\"checkbox\"> Academics</li> <li> <input type=\"checkbox\"> The Poject</li></ul> I also need to trim my beard and for that I need to get the light at my bathroom fixed. Guess I'll alsdo the laundry at night. <br>The keyboard is getting really sticky, I'll cean this later too. Anyways, onto the hostel now."
-    },
-    {
-        "timestamp": "2025-08-24 19:50:13",
-        "entry": "<h2>Now I think I shouldn't have let Gojo butt in... morelike, head in</h2><iframe src=\"https://drive.google.com/file/d/1t_6fCWZT5FozWM_Q835-PCI5QaZADfiu/preview\" allow=\"autoplay\" frameborder=\"0\"></iframe><p>Feels great to relive your old hobbies. Will surely be doing more of this in the future. </p>"
-    },
-    {
-        "timestamp": "2025-08-24 20:54:22",
-        "entry": "This has been on my mind since this evening and while continuing rewatching Hakyuu, I've made my decision to re-read haikyuu Manga... Chapter 295, wartch out!"
-    },
-    {
-        "timestamp": "2025-08-24 22:56:55",
-        "entry": "<h1> Next target: 200 day LeetCode badge! </h1>"
-    },
-    {
-        "timestamp": "2025-08-27 04:31:23",
-        "entry": "<h1> You just need to submit on LeetCode for 300 days to get the 365 days LeetCode badge</h1>"
-    },
-    {
-        "timestamp": "2025-08-27 05:02:48",
-        "entry": "I used to do that tanaka slap. You know the one, where he used to merci-less-ly slap his face with both of his hands and snapo back to reality. Guess that's something I'll be doing again. <br> Anyways, got up on time today and feels great. Will be studying something for the exam now and going for a little run afterwards. On to the day. <br> <br> By the way, I've done the DSA for the day"
-    },
-    {
-        "timestamp": "2025-08-27 06:57:42",
-        "entry": "<h1>Felt Great!</h1> Did this after not so long... Realised that Bikanerwala is not that far... Infact, <i>Chhota-SRM</i> is not far at all... Still, the feeling of catching breath is an unknown territory."
-    },
-    {
-        "timestamp": "2025-08-27 08:18:41",
-        "entry": "Though it's also something to feel shameful of but personally, it also feels great to rewatch Haikyuu, having forgot some of the small epic scenes so that I can relive the nerve reacking spikes and those goosegumps combo and block shut outs..."
-    },
-    {
-        "timestamp": "2025-08-29 05:40:20",
-        "entry": "<i>This entry is for <strong>17-08-2025 </strong> </i> <br> Past few days have been supercaliafragilisticexpialidocious-ly hectic. My sleep schedule has been something like... Did I mention that I've also had a lot of work between those sleeping�napping�periods. So how these went were, I was called home as my father just got transferred and mummy needed help with packing, shifting and stuff. I was not unable to get the proper tickets so had to get the earliest tickets for the next day. It was a day journey which exhausted be badly. Did I mention that I also did not get proper sleep the night before the journey. To add to this, some relatives were also visiting us between those days. and GOD, it's gets messy when your younger sister who's already to much to handle pacts up with her favourite cousin and they both just don't let you sleep in the first place, the games they wanna play are something that we should not talk about.<br>Anyways, so, I have 2 days of sleep pent up and guess what, the children force everyone to go the swimming pool the next day. URGH! that was tiresome but fun at the same time. Thanks to me sneaking upto them and pulling them underwater just to scare everyone... Though at the end it got me outcasted and every one was scared of me but not my sister. What she did was she herself was dedicated to pull the prank on me. Though she failed miserably but still, I liked and support that spirit. And who can forget Charvi... The way she was dedicated to learn to swim and even encouraged me to pull her underwater. I found that  bit funny. Anyways, what I want to say is that, the day was also hectic. I think I got a proper sleep of 6hrs that day. But still, the next 2 days were actual hell. Full on work, running here and there, no breakfast, no lunch. What, sleep? Don't make me laugh. Somehow made through those and the day I came back, there was this SkillCrest test. Well, that's a different story that will be covered later."
-    },
-    {
-        "timestamp": "2025-08-29 06:03:34",
-        "entry": "These exams are just there to disrupt ourt schedule. Life wes going fun and great and then they pop up so that you don't feel easy and relieved for even once."
-    },
-    {
-        "timestamp": "2025-08-29 06:17:15",
-        "entry": "<h1><i>Last seen chhupane wali duniya mein loyalty dhundh�rhe�ho </i></h1>"
-    },
-    {
-        "timestamp": "2025-08-29 06:33:11",
-        "entry": "I'll ve making some serious changes in the website so won't be making entries for some time"
-    },
-    {
-        "timestamp": "2025-09-16 19:41:22",
-        "entry": "This is a test entry to check the shift to linux"
-    },
-    {
-        "timestamp": "2025-09-16 19:54:46",
-        "entry": "This is to test is the porogram is working fine from remote locations also."
-    },
-    {
-        "timestamp": "2025-09-16 20:01:35",
-        "entry": "I hope it works this time"
-    },
-    {
-        "timestamp": "2025-09-16 20:25:51",
-        "entry": "This is another test entry. Changes the SSH key from the github setting but it prompted that github has stopped the supprt for shell. I still hope that it works."
-    },
-    {
-        "timestamp": "2025-09-16 20:28:31",
-        "entry": "I think it worked. Just to be sure, this is another entry from the terminal froma random location"
-    },
-    {
-        "timestamp": "2025-09-16 20:31:16",
-        "entry": "Damn! and we are back in business. Now, I have a lot of backlog in entries so the first thing is to cover them all and after that getting onto the odgen project 'cause I recently got to know that I have this project that has some actual use case and in fact, there are actual folks from differnet clubs using it so, change of plan, not giving it to hackhound now. Will be developing it simply as my own project now."
-    },
-    {
-        "timestamp": "2025-09-17 12:37:46",
-        "entry": "<div style=\"color:red;font-size:1.2rem;\"><i>This content is not as such hidden by the user, if you can breath, you surely can look up for the text. It's just that I was raelly pissed while writing this and I don't want you to change my image after reading his. I know you don't judge people an to be precise there are just some curse words in here but still, I just don't want you to know about these directly. Hope it's ok...</i></div><div style=\"content-visibility: hidden;\">I surely am a part of really smart people of my class. Smart people, no, smart ass bithces. <br> What the hell is worng with them! Though they are really pricky about the thing that there aren't many successful mass-bunks from our class and when I go and confirm the thing from the teacher himslef/hersilf at that time, they are in a life-edeath situation to attend the class and presnt their stupud-ass project to the teacher that the teacher has already told that they can present it in her cabin only whihc is far better considering you won't have to face this stupid class if you mess up something but I don't know why they just want a big old load up their ass and fuck this presentation of theirs in the lab only. What if some senior teacher sees and questions this low attendance in the class? But no, why would they think this much they just don't have the capacity to load this info up their peanut sized dick brain to comprehend even if the teacher itself is screaming this up their ears.<br> Then their comes super smart ass who have just kicked off some lucky shots up their bats and think that they are the god of this game. Those stupid, fat belly, shit eating, woblly hanging cunts think that what they do is absolute cool and smart. Why can't just they realise that this disrupts the harmony as lot. Simple thing, if something happens to them, they'll simply go upto the seniors crying their asses off and infact when the senior even gets to know the truth, kicked his ass too. I know I'm not making mu sense but there is someone 241 who thinks that he's just the ruler of the world and the society revolves around them. Stupid idiot, just live a diy without fater's money, then you'll realise what life it. URGHH!!!!! I'm just totally fed up of this class, but there's no where to go. I just no one thing, from now on, I don't want to be the part of any mass bunk of this well of dick-heads.</div>"
-    },
-    {
-        "timestamp": "2025-09-19 02:43:09",
-        "entry": "<h1>Borderline saved from anti-ratgging today</h1>What happened was that had some with the PR person and infact she also had fun but called her friends. Them being typical boys, wanted to become hero and had some not-good interactions with me before cause a lot of trouble. But it ended with me and 313 being mature and getting low. Though we had full support and advice not to back down but you know what, that was the best course of action. Not for us, not for them but for her character, 'cause society... They can forget us, can forget the fight but a girl's charcter, that's more sensitive than a glass of wine. URGH! Life throws pretty weird things and tackling them can be really nerve racking. Thanks to my friends that I'm out of it and girls out there are genuily super dumb."
-    },
-    {
-        "timestamp": "2025-09-19 03:34:31",
-        "entry": "I need to completely finish around 10-15 questions on LeetCode so that I can start the thing of 1 One Piece Episode and then 1 LeetCode question. All thanks to 085 for the suggestion..."
-    },
-    {
-        "timestamp": "2025-10-30 01:06:39",
-        "entry": "this is an entry where I am showing my project to Samradh"
-    },
-    {
-        "timestamp": "2025-12-17 23:23:58",
-        "entry": "Kassh ek mahilla mitra hoti jo ki bass yeh sab sunn leti ki aaj din mein kya-kya hua. Kuchh nhi, 30min mein sab bta deta and I'm damn sure ki usse bahut mza aata. Uske baad, bass use usme bhi interest hota, yeh event management planning and sab aur inn sab ke baare mein bhi sunti.Kasam se, itna mann lga ke kaam krta na!!! Halanki abhi bhi bahut mann lagta hai lekin tb alag ho motivation pr kaam krta 🔥🔥🔥"
-    },
-    {
-        "timestamp": "2025-12-17 23:26:23",
-        "entry": "Things have gone really crazzy revently and It's a shame that I was not able to update everything here lately. Might cover everything shortly. <h2> I have written something. Tried that for the first time. I don't think it's gonne reach till there...</h2>"
-    },
-    {
-        "timestamp": "2025-12-17 23:27:44",
-        "entry": "<i>I like her<br>How do I tell her?<br><br>More important question,<br>Should I actually tell her?<br><br>If I were to tell her,<br>Would she have told me to wait for her?<br>Or it was nothing to wait for her?<br><br>If I were to keep it to myself,<br>Why bother, if I should tell her?<br><br>All this, for the first time,<br>It's not should I tell her...<br>Now it's, how do I tell her?"
-    },
-    {
-        "timestamp": "2025-12-18 00:46:33",
-        "entry": "Did my today's leetcode just now and to be honest, I don't find it fun anymore. I also don't want something new or anything in my life. What I want is that, I want some results, I want to imply on it and I want to apply my skill somewhere. I just want to work it out somewhere and vent it all out. Going with the flow till I get there."
-    },
-    {
-        "timestamp": "2025-12-18 01:14:24",
-        "entry": "I actually forgot a lot about this json editing of mine. Gotta revise all the concepts that too from really basic!!"
-    },
-    {
-        "timestamp": "2025-12-18 01:17:32",
-        "entry": "I feel really sad that she is not gonna read all this. I feel more sad that she might not even be reading my texts. GOD, OH GOD! If I could just talk to her, just talk to her. If all I could do is just talk to her that's be really all I would have needed. But if this is what the nature and the universe thinks, be it. Though I am adviced to not think this way but what can I do if she is better than me. If she's so good that I don't even deserve her... no no no Lakshya, you should not be thinking about all this..."
-    },
-    {
-        "timestamp": "2025-12-18 22:58:46",
-        "entry": "Came to village and kinda actually enjoying holidays. Working on GIT and also on my LEETCODE. Was not able to do much other than these but will try my best tomorrow. Can't seem to loose her thoughts, recalled her again today while I was driving my bike. I have her messages on my WhatsApp, just not on seen. Oh God! What should I do!!??? One side says as she is not happy with me, I should just let her go and on the other side I just can't let her go as I'm damn sure that I won't be able to find someone else even close to her! Like, how many girls are out there who have the similar intersts as of me in entertainment and are also pretty goal oriented, are logical regarding things, study hard, are sensible and a bit socially awkward at the same time. URGH!!! Anyways, can't do much you know! I just shouldn't force myself on her. She deserves a lot better than me, she deserves someone surely not like me, weak and good for nothing shit! Yup, this thought haunts me more, what have I actually done so far? Nothing!! The uncool, not talented, socially awkward, party pooper, good for nothing, pain in the ass, no self esteem, pulling down others idiot, trying to fit in everywhere and not caring for himself. <br>God just don't... but what you can do. I just can't stop myself from thinking shit of me and here I am begging to you, making me look even worse."
-    },
-    {
-        "timestamp": "2025-12-19 18:00:12",
-        "entry": "also done with today's question. things going pretty smooth but not satisfied with this all. rajveer is taking pretty long for the run of the show. Asked him to take Varun's help for the same. gagandeep is working on the pitch deck. This is his first time wokring on something thsi formal of a design but he'll figure it out.<br> I don't feel like talking about this texted her, more like replied to her today. Still don't know if I'm doing the right thing or not.<br> Anyways, Will br going back to SGNR tomorrow and coming back again the day after tomorrow.<br> Watching One Piece. Just completed I guess some 180 episodes or 190 something. I think my One Piece episodes will soon cross my LeetCode questions. <strong> talking about the leetcode questions, I also got the Knight badhe on LeetCode</strong>, figuers that It wasn't that hard all along. Anyways, don't get so high. This all is still not enough. Any just need to solve atleast 3 questions for just 4 contests and they'll get the knight badge. I need to work on my other skills too. <br> I want to make a cool project, will think o some ideas soon and start woking on them. I also need to update my LinkedIn and possibly my resume. I'd like to add the volunteering section to both and add som eof my GitHub projects to LinkedIn."
-    },
-    {
-        "timestamp": "2025-12-19 18:02:16",
-        "entry": "Recently saw the profile of Satwik and he has done quite a lot of things. I will quickly need to get some intern and start getting something in hand. There are a lot of things, for starters, I can work on Social Boooster's website. That might be a great thing.<br> I simply can't forget how she humilated my mother. <strong> Come on Lakshya, you have to work for this... </strong>"
-    }
-,{"timestamp": "2025-12-23 21:37:10", "entry": "Will be starting codeforces now..."},{"timestamp": "2025-12-24 13:57:19", "entry": "Got a LeetCode ban form those people who submitted the code after me. That's really absurd, what the hell was LeetCode even thinking while doing this. Anyways, I've raised a request to look into the matter and I really hope that this gets resolved. Fingers crossed..."},{"timestamp": "2025-12-25 17:14:44", "entry": "Nothing progressive in getting my LeetCode Contest vilation and LeetCoins up so far. This is not good. Anyways, what has happened, has happened. I'll need to keep extra care from now onward."},{"timestamp": "2025-12-25 17:20:29", "entry": "<h2>Icing on the cake</h2>Here I lost my right to attend any contest, and there I also lost my Knight Badge and to regain that, I'll have to give contests. URGHH!!!! Why is everything supposde to go wrong now at the same time. Guess that's god's way of saying <i>Merry Christmas</i>"},{"timestamp": "2025-12-26 10:36:24", "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."},{"timestamp": "2025-12-26 11:22:53", "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."},{"timestamp": "2025-12-26 11:28:21", "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."},{"timestamp": "2025-12-26 11:34:53", "entry": "Just now it was showing that the git operation failed and now it has three same entries at different times. I think I'll need to look into the code once again."},{"timestamp": "2025-12-26 18:12:15", "entry": "Setting up flutter in Linux. I had the deadline to submit the project by this evening but here I'm setting up the SDK and all. Anyways, on the happy note, talked to her today and won't forget this day now. Now, she is following me on Instagram................................. <br> Don't worry much, these dots just show me hiding my face user the blanket............. Anyways, now I just need to make sure that I don't seem creepy by sending her too much reels. Aur yeh khuda bhi na jane kyu ab mahobbat ki reels bhejne lga hai, jaha kabhi hassi aur Haikyuu hua krta tha..........."},{"timestamp": "2025-12-26 19:16:37", "entry": "Never knew that installing and setting up FLutter was this tideous"},{"timestamp": "2025-12-26 20:50:28", "entry": "<h2>Are you still reading this????...................</h2>"},{"timestamp": "2025-12-27 02:48:14", "entry": "Android Studio not working that well and I'm feeling really sleepy. I will look into that tomorrow but!!! I just recalled that I have not done today's leetcode DCC... URGH!!! Guess, I'll also have to force that now."}]
+  {
+    "timestamp": "2025-07-03 18:01:53",
+    "entry": "This is the sixth entry"
+  },
+  {
+    "timestamp": "2025-07-03 18:02:39",
+    "entry": "This is the seventh entry"
+  },
+  {
+    "timestamp": "2025-07-03 18:03:07",
+    "entry": "This is the eighth entry"
+  },
+  {
+    "timestamp": "2025-07-03 18:03:49",
+    "entry": "<h1>Hurray</h1><p>If everything goes fine, this time, it will run really well</p>"
+  },
+  {
+    "timestamp": "2025-07-03 18:52:21",
+    "entry": "<h1>Finally</h1><p>This marks a new start of my new journey on build in public. Somehow, now I'll only upload on this platform. To access this, go onto <i>mark-up-journal.vercel.app</i> &lt;tu&gt;</p>"
+  },
+  {
+    "timestamp": "2025-07-03 19:05:18",
+    "entry": "<h2>This is to create and push the readme file</h2> <p>Everytime I push something from VS Code it creates a new master branch and pushes everything to it. I don't wanns go and merger again and again from github, so trying and checking if it pushes everything from this script or not. $lt;tu&gt;</p>"
+  },
+  {
+    "timestamp": "2025-07-03 19:09:39",
+    "entry": "<h1>Edit the readme on github</h1>I'll need to come back and edit the readme of this project sometime. Right now it is based on what gemini gave at the start. I'll need to optimize according to the new updates and the final project. <i>And yeah... I'm talking about the markUpJournal project</i>"
+  },
+  {
+    "timestamp": "2025-07-04 16:39:15",
+    "entry": "<p>Ok, this seems real fun to havet his kind of journal but, I'd also like to add a few more features in the future... like, <ul><li>Add a really good UI to add entries</li> <li>Make it public </li> <li>Make an option that makes all the entries visible as a story in a signle go </li></ul> <i>I'll leave that here for now and come back again in case I have new ideas. </i> </p>"
+  },
+  {
+    "timestamp": "2025-07-04 18:14:25",
+    "entry": "<h1>I am showing this to shubham sir</h1>"
+  },
+  {
+    "timestamp": "2025-07-04 18:15:52",
+    "entry": "Meh, showed this to shubham sir but the reaction was mid. Anyways, onto the next thing."
+  },
+  {
+    "timestamp": "2025-07-04 18:17:29",
+    "entry": "<h3> Bored of everything...<h3> <p>Want something real fun to build now. <br><br>Showed some of my stuff to Harpal Sir and he was okishly impressed. Guess so, he is real experienced person and his insights are really valuable </p>"
+  },
+  {
+    "timestamp": "2025-07-04 18:19:49",
+    "entry": "I really need to test with a lot of stuff... and get the hang of it too. <br> Other than this, I should also be optimising this a bit. The results UI is ok but really needs a lot of refinment. Guess, I'll just go with some AI tool to do so."
+  },
+  {
+    "timestamp": "2025-07-04 18:20:44",
+    "entry": "<strong>Does this text get bold... </strong>"
+  },
+  {
+    "timestamp": "2025-07-04 18:25:02",
+    "entry": "Great, the text does get bold. After this I shall get my things straight. <br> First of all, I should streamline my day process and tasks accordungly. <br> <br> <i>Did I study my MERN today... <b>NO</b> </i> <br>  <i>Did I study my DSA today... <b> NO </b> <br> Did I study my Python today... <b>NO </b>  <b> Wait </b> Did I study my Python Yesterday... <b>NO </b></i> A real big NO. <br> Shit! Things are really getting out of hands. Gotta get them to straighten out a bit fast"
+  },
+  {
+    "timestamp": "2025-07-04 18:29:37",
+    "entry": "First thing first, Go home and study some MERN. That interests me <br> After that, go home and study... I guess python next. <br> After that, I won't have much time. I guess I should move to academics. You know what, this is also something I should start roght now. Maths or Automata, whatever..."
+  },
+  {
+    "timestamp": "2025-07-05 18:34:19",
+    "entry": "Ok, so did noting so far today. The day's has been dedicated to proper resting, that's it. Now, going out for a walk and some snacks. Will come back later and see what can we do."
+  },
+  {
+    "timestamp": "2025-07-06 01:55:20",
+    "entry": "Though I have taken a break from LeetCode but I still did my question today. <br> Still, a lot confused, what should I do? I don't wanna waste it all and increase this much epentation. It just doesn't feel right. Breaking the streak also doesn't feel good. <br> <br> <h1> Ok, Let'e keep the sreak</h1> <br> Guess I'll just maintain the streak and not do the questions. Will get the days badge and nothing else. Also, the sterak look really good <hehe>"
+  },
+  {
+    "timestamp": "2025-07-06 23:11:27",
+    "entry": "had a great day today. Met tauji and discussed more about our idea. Have a really clear picture in mind and will really start working on it. Next up I need to carry my leetcode streak and just push a previous question, as usual."
+  },
+  {
+    "timestamp": "2025-07-07 14:30:55",
+    "entry": "Ok, start of a new day, what I'll be doing today will be first off, DSA leetcode push and then, some DSA learning only. After that moving to Python. <br> <i>Let the fun begin </i>"
+  },
+  {
+    "timestamp": "2025-07-07 14:33:05",
+    "entry": "<h3>From now on, I won't be calling it as some days or day of week or something the date or what so ever. </h3> Every day is out there to have and enjoy life at the fullest. And so, day should be called as \"fun\". Some funs are not that fun and some funs are really fun. This is the thing. Today's the target is to have a lot of fun."
+  },
+  {
+    "timestamp": "2025-07-07 15:19:55",
+    "entry": "<h1>We are not gonna see each other again</h1>Yesterday I met someone in the metro, a graphic designer starting hie career. He is originally from Odisha but was working somewhere in Gurgaon. He was a really nice guy, though a bit shy from nature but when I took the first few moves to start a conve, he really picked them up nicely and we had a good time knowing each other till We reached my station. Funny part of all, while departing, he asked me for my name and I said, \"Why do you wanna know the name when we are not gonna meet ever again.\" After that we both kinda smikerd and I lifted my hand for a hand shake and saying my name. He said, \"Suraj\" and we both parted ways."
+  },
+  {
+    "timestamp": "2025-07-07 16:22:23",
+    "entry": "Showing thie project to Raghav Anna"
+  },
+  {
+    "timestamp": "2025-07-07 16:24:54",
+    "entry": "<h1>This is heading </h1> <br> <ul> <li> This is list item 1 </li> <li> This is list item 2 </li> </ul>"
+  },
+  {
+    "timestamp": "2025-07-07 23:29:02",
+    "entry": "A lot of things happened. <br> Got in a disscussion with Lovely Bhaiya, my current PG owner. now, I need to change my room after two days. Not that of a deal. Though I've made sure... more like I need to make sure that the rent remain to half as that of the month only.<br> <br> Now, about the study and the fun I had sp far is simply the bubble sort. It does feel good to code in the father language, <b>C</b>. Next up is Insertion sort.<br><br> Also my roommate told, more like advised me, to focus more on DSA so, that's the thing."
+  },
+  {
+    "timestamp": "2025-07-08 14:31:44",
+    "entry": "this is another test entry to see if it automatially enters the comma after another entry is appended."
+  },
+  {
+    "timestamp": "2025-07-08 14:34:13",
+    "entry": "There;'s some error in the entry. Trying once more"
+  },
+  {
+    "timestamp": "2025-07-08 14:36:41",
+    "entry": "This seems to be the final entry. Hope it works."
+  },
+  {
+    "timestamp": "2025-07-08 14:37:27",
+    "entry": "Another test"
+  },
+  {
+    "timestamp": "2025-07-08 14:38:35",
+    "entry": "this is another entry with the original code"
+  },
+  {
+    "timestamp": "2025-07-08 14:39:29",
+    "entry": "Test entry number 1"
+  },
+  {
+    "timestamp": "2025-07-08 14:39:47",
+    "entry": "Test entry number 2"
+  },
+  {
+    "timestamp": "2025-07-08 14:40:02",
+    "entry": "test entry number 3"
+  },
+  {
+    "timestamp": "2025-07-08 14:41:09",
+    "entry": "This is another test entry just this time, the input text is comparitively large so as to check the json formatting"
+  },
+  {
+    "timestamp": "2025-07-09 00:18:00",
+    "entry": "You know what, I just saw that the latest streak of mine on leetcode started on 1st of this month i.e. <i>01/07/2025 </i> which means that, to see my current streak, I just have to see today's date. Therefore, It's my 7th day of leetcode pushing streak. This implies that getting and calculating a 30 day streak won't be that hard. Therefore I can work on that pretty easily..."
+  },
+  {
+    "timestamp": "2025-07-09 00:21:02",
+    "entry": "WOAH! would you believe that... This journal project was also released on 1st of july, so, my github and leetcode streak are going on the same pace. Therefore, this is the best to keep a track of both these platforms"
+  },
+  {
+    "timestamp": "2025-07-09 20:34:05",
+    "entry": "Did my leetcode push just now. Completed the task given by Shubham sir on SAP. Learning DSA sideways too. But no fun going onas such. Even started my Solo Levelling System project but goota work on it a lot. <br> I think I should also work a bit towards my academics. Then there's MERN too and I also wanna go a but into ML and stuff.<br><br> URGH!!! There are a lot of things..."
+  },
+  {
+    "timestamp": "2025-07-10 12:34:23",
+    "entry": "Ok, late again today and surprisingly Sanjeev sir is also not there. Anyways, back to where I should be. The upmost necessity right now is trim and laundry. Gotta do it by today positively. I should have got my UGs first. Anyways, plan right now... <ul> <li>Get free </li> <li>Buy hair oil </li> <li>Complete laundry, including socks, <b>Bedsheet, </b> Pants, shirts and most importantly, <b>UGs</b> </li> </ul> Anyways, for now, I need to review the hackathon PPt (hackathon with HSG and MV) and then do my ZPRG_MP_CRUD thing. <br><br> <i>Off to work...</i> "
+  },
+  {
+    "timestamp": "2025-07-10 12:40:35",
+    "entry": "Completed my daily leetcode submit and with this, I have also achiened 100 days on leetcode. Though it surely is a reason to be happy but still, I know the truth. Almost the last week has been of only of the same AC submission. Anyways, let's cheer and wait for the new badge. <br><br> <i>Now, off to work... </i>"
+  },
+  {
+    "timestamp": "2025-07-10 12:43:46",
+    "entry": "For the last entry, here's a more dramatic and elegant way of saying the same (accordign to chatGPT) <br> <br> <i>Today marks 100 consecutive days on LeetCode - a milestone that should feel triumphant. And yet, I can't help but smile wryly. The past week has been less about growth and more about just crossing the finish line, submitting the same accepted solution each day just to keep the streak alive. </i>"
+  },
+  {
+    "timestamp": "2025-07-10 12:46:28",
+    "entry": "<!-- Main Heading --> <h1>✒️ How to Develop an Elegant, Thoughtful Writing Tone</h1>\n<p>That introspective, articulate tone you admire can absolutely become second nature. Here's a structured way to build it:</p>\n<hr />\n<!-- Section 1 -->\n<h2>🧠 1. Read Writing with That Tone</h2>\n<p>To write elegantly, you must first absorb elegance.</p>\n<h3>✍️ Writers to Explore:</h3>\n<ul>\n<li><strong>Paul Graham</strong> – Essays on thinking and life</li>\n<li><strong>Ali Abdaal</strong> – Blogs and newsletter</li>\n<li><strong>Austin Kleon</strong> – “Show Your Work”</li>\n<li><strong>Oliver Burkeman</strong> – “Four Thousand Weeks”</li>\n<li><strong>Naval Ravikant</strong> – Short‑form wisdom (tweets, podcast quotes)</li>\n</ul>\n<blockquote>\n<p><em>Practice:</em> Every day or two, read a short piece by any of these authors. Pay attention not just to <em>what</em> they say, but <em>how</em> they say it — rhythm, vocabulary, restraint, and structure.</p>\n</blockquote>\n<hr />\n<!-- Section 2 -->\n<h2>✍️ 2. Freewrite in a Journal Daily (Short but Honest)</h2>\n<p>Write a short reflection at the end of the day — just one paragraph is enough.</p>\n<h3>💡 Prompt Ideas:</h3>\n<ul>\n<li>“What did I pretend not to notice today?”</li>\n<li>“Where did I cut corners, and why?”</li>\n<li>“What’s something small that deserves applause today?”</li>\n</ul>\n<blockquote>\n<p>This habit builds clarity, self‑awareness, and your authentic voice.</p>\n</blockquote>\n<hr />\n<!-- Section 3 -->\n<h2>🧱 3. Rewrite Casual Thoughts with Elevated Language</h2>\n<p>Take a simple thought and rewrite it like you're crafting a thoughtful blog or memoir entry.</p>\n<p><strong>Example:</strong></p>\n<ul>\n<li><em>Plain</em>: “I just kept submitting the same solution for the last week.”</li>\n<li><em>Elevated</em>: “For the past week, it wasn’t progress I chased — just the illusion of it. The same stale solution, submitted like a daily ritual, kept the flame alive.”</li>\n</ul>\n<blockquote>\n<p>Do this regularly. It trains narrative instinct and word economy.</p>\n</blockquote>\n<hr />\n<!-- Section 4 -->\n<h2>🧰 4. Keep a ‘Tone Toolkit’</h2>\n<p>Maintain a personal Notion, Obsidian, or text file where you collect:</p>\n<ul>\n<li>Phrases or metaphors you like</li>\n<li>Elegant sentence openers</li>\n<li>Quotes that match the vibe you’re aiming for</li>\n</ul>\n<blockquote>\n<p>This is your go‑to vault whenever your writing feels flat or rushed.</p>\n</blockquote>\n<hr />\n<!-- Section 5 -->\n<h2>🕰️ 5. Let It Happen Gradually</h2>\n<p>The goal is not to sound “smart” — it’s to sound <strong>authentically you</strong>, just with more grace and clarity.</p>\n<h3>🔁 Review Habit:</h3>\n<ul>\n<li>Revisit old reflections or notes weekly.</li>\n<li>Ask: “How would I say this now?”</li>\n</ul>\n<hr />"
+  },
+  {
+    "timestamp": "2025-07-10 18:47:21",
+    "entry": "<h1> I have the solution but not the code </h1> The day was good and I completed all my tasks for the day <ul> <li> &check; Pushed my LeetCode daily submit </li> <li> &check; I also did my t-code tasks I have in mind </li> <li> &check; I also reviewed and submitted my AI Day PPT from my side. </li> <li> I have to buy hair oil and do laundry... <b> LAUNDRY IS A MUST TODAY</b> </li> <li> I'll also do some DSAAA </li> <li> I'll also look if I can do some MERN too </li> </ul> I think, that'll wind up the day for now."
+  },
+  {
+    "timestamp": "2025-07-10 18:48:26",
+    "entry": "Just recalled, I also have to buy some detergent. Guess a small pack would also work &lt;tu&gt;"
+  },
+  {
+    "timestamp": "2025-07-10 18:58:17",
+    "entry": "Kanishk bhaiya was the reason that we all started LeetCode. Actually it all started on 31t of march, 2025 when I, out of no where, challenged him for a continuous 30 day of leetcode streak on leetcode for atleast a submission (or even better, a question) daily. This is where it all started. <i> Not to mention, the loser has to give a pizza to the winner </i>. Later on, slowly and stedily most of the seniors out there joined us for the same, be it Kushagra bhaiya, Shreshth bhaiya, Zuhaib Bhaiya, Sara didi and so on... SO, the big thing is that, I and Kanishk bhaiya completed our 30 days together. It was what, about 2 - 2.5 months back. Here are we today now, even completing our 100 days of leetcode together. ( <i> Obvioulsy not a streak of 100 days </i> ) but a total of 100 days &lt;hehe&gt;"
+  },
+  {
+    "timestamp": "2025-07-11 12:47:48",
+    "entry": "<h1>Great!</h1> Yesterday I almost completed my task list, bought hari oil and most importantly, did my laundry. <br>Really happy for Rautish bhaiya (my 2 day roommmate from Pratham Homes and PG), he got somewhat of a talk with his CTO and the CTO challenged him for a DSA round to get the promotion he asked for. The SWE working in that company, got only 1 question out of 5 in 1hr15min whereas, he got 3 full questions and 50% of the other two questions in the same time. Now, he'll be joining under the new role in september. He gave me a Pattern printing sheet with some medium level questions, I solved it all in around 1 hr. Feeling great. Now will learn further DSAAA. Also, will be doing my general LeetCode Submit now."
+  },
+  {
+    "timestamp": "2025-07-13 10:28:56",
+    "entry": "<h1>Missed my LeetCode as well as GitHub streak </h1> Probably beacuase of that shifting to Prince PG all of a sudden. No worries, not a bad time to start over."
+  },
+  {
+    "timestamp": "2025-07-14 15:35:56",
+    "entry": "<h1>100 days Leetcode Badge </h1> Hurray!! Got my 100 days leetcode badge. Finally, the thing has paid off. Though they are not genuine 100 days but the 100+ guestions are genuine... <i> or atleast, most of them are </i>. Other than this, started my MERN again. Been off to DSA for a while but now, back from the Prince PG task and will be getting back to this skill stuff. <br><br> Started with RESTful API and soon move to SQL in this. As oer Java is concerned, I think, I'll jump to Collection Framework. I don't know if that is a good idea or not but still, recommended by Routish bhaiya. &lt;tu&gt;"
+  },
+  {
+    "timestamp": "2025-07-14 15:45:22",
+    "entry": "Also, there has been a lot of updated in the haveloc app. So, the placement drive is still up and companies have already started to come to college for this placement and intern process. We've got somewhat of 6 companies so far, namely: <ul> <li><b> JPMC - </b>for which I was late in filling out the form</li> <b> Flipkart - </b> I on't remember exaclty if it was flipkart or not, but that posting was only for girls so, no chance.</li> <li> <b> SprinklR </b> I think, this is a regret that will be there for a while. This company had a really loose shotylisting process, it's just that I missed it's registration so, nothing here too</li> <li> <b>NextQ -  </b> This is not a bad thing, but the intern they are offering is unpaid and remote. Though I don't feel that to be a bad option for a fresher but Shubham bhaiya and Nandini both told me that unpaid it not to be opted for. And Shibham bhaiya recommened to not go for remore interns as there won't be much of learning in those.</li> <li> <b> Fidelity Investment - </b> I was not eligible for this due to not cutting the cap of 80% in 12th standard </li> <li> <b> BnY Mellon - </b> now we are talking about the big names. Though it's shortlisting process or onf the steps, I think one of the test round id offline at the KTR campus, but that too only when you get shortlisted no <i> hehe</i> </li> </ul> Anyways, that's that. Let's see what happens."
+  },
+  {
+    "timestamp": "2025-07-15 02:33:55",
+    "entry": "<h1> Showing the project to Sara didi </h1> I am showing the project to sara did on local host"
+  },
+  {
+    "timestamp": "2025-07-15 10:58:59",
+    "entry": "<h1> Solved the two N-Queens problem on leetcode today. </h1> Saw Sanchit's profile today and noticed that he solved the N-Queens problem. Then I realised that I also have solved this problem when it was actually taught to us in DAA aat College. Monir modifications so the code and voila, there you have the solution altered according to the constraints in the leetcode question. Later on, solved the N-queens-II problem too. <br> Great so far... <br> <br> Made Sara Didi's portfolio yesterday and it was fun. Touched that CSS and HTML after a long time and it was bit of an adventure. Though I did my somewhat best and the result was satisfying. Now, she has the code with her and she will edit the content according to her. <i> So far so good...</i> <a href=\"https://github.com/lkhanna1505/SD-Portfolio\"> portfolio git repo link </a>"
+  },
+  {
+    "timestamp": "2025-07-15 11:39:03",
+    "entry": "<h1> <i> Mail dekh, SAP ke course ke liye 35,000 pay krne hai kal tk </i> </h1> <h3> A really funny thing happened yesterday. </h3> So, there's our college, launching a SAP course for the students without half of the students not even knowing about this, <i> Typical SRM behaviour... </i> Anyways... I was really interested to take up that course and continue my SAP journey but yet again, this is SRM we are talking about, the deadline for the course was 10AM and they already closed the form by 9:28. I even shared the screenshot of the same and raised the query to the mentro s and whereever I could but, don't forget, this is SRM we are talking about, <b> No response</b> <br> A few weeks have passed and yesterday, my teacher shared a document stating the compensatory course fees is to be paid by the students possitively. Later someone called me, I won't say the name but for reference, it was from <i> RA2311003030193. </i>Ahem Ahem! So, the person on the other side of the phone told me that the course form has been opened again and you have to 35k or so to avail the course. I was shoched! simply shocked but deep inside I also had an intuition that on surplus request, they might have opened the form again. Yeah, and the person also said that we have got a mail and mentor replied to my query about the course. I was so into the thing to get the course that I checked my mail twice and found nothing. Later I realised that the person was thinking that message shared by the mentor is a reply to my message whereas it was just a message that the mentor had to share in the group. The way panic struck on that side of the call, I still find it really funny to know that someone can be this naive.<br> Anyways, someone other than me in my year also knows about SAP and knows it's worth. What really should I do to stand out then?"
+  },
+  {
+    "timestamp": "2025-07-15 11:42:51",
+    "entry": "I'm still in doubt, not in doubt but pretty sure actually, that they might me wondering and still thinking and more overly, still inquiring here and there to get to know that this course is still open and they can enroll to this."
+  },
+  {
+    "timestamp": "2025-07-15 11:46:06",
+    "entry": "<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 15px; margin-bottom: 40px; box-shadow: 0 8px 32px rgba(0,0,0,0.1);\"><h1 style=\"color: white; text-align: center; margin: 0; font-size: 2.5em; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);\">How to Set Up a Local Git Repository and Push to GitHub</h1></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><p style=\"margin-bottom: 20px; font-size: 1.1em; line-height: 1.7; color: #555; text-align: justify;\">This guide outlines the steps to initialize a local Git repository and push your code to a new GitHub repository. It is assumed that Git is already installed on your system and configured with your desired username and email ID.</p></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #3498db; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">1</span>Initialize Local Git Repository</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Navigate to your local project directory using the VS Code CLI terminal and create a new local Git repository:</p><pre style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 20px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\"><code style=\"color: #61dafb; font-weight: 600;\">git init</code></pre></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #e74c3c; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">2</span>Commit Your Changes</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Once the repository is initialized, you can commit your files. You have two options:</p><ul style=\"list-style: none; padding-left: 0;\"><li style=\"margin-bottom: 15px; padding: 20px; background: #f8f9fa; border-left: 4px solid #28a745; border-radius: 8px; position: relative;\"><strong style=\"color: #28a745; font-weight: 600; font-size: 1.1em;\">Using VS Code Source Control:</strong><p style=\"margin: 10px 0 0 0; color: #555; line-height: 1.6;\">Click on the 'Source Control' icon on the left navbar in VS Code. You should see your files ready to be committed. Click the 'Commit' button, provide a comment, stage your changes, and then commit the files.</p></li><li style=\"margin-bottom: 15px; padding: 20px; background: #f8f9fa; border-left: 4px solid #17a2b8; border-radius: 8px;\"><strong style=\"color: #17a2b8; font-weight: 600; font-size: 1.1em;\">Using CLI:</strong><p style=\"margin: 10px 0 0 0; color: #555; line-height: 1.6;\">Alternatively, run the following command in the terminal:</p></li></ul><pre style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 20px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0;\"><code style=\"color: #61dafb; font-weight: 600;\">git commit -am \"Your comment\"</code></pre></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #9b59b6; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #9b59b6; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">3</span>Create a New GitHub Repository</h2><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">Visit your GitHub account and create a new repository.</p><div style=\"background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 20px; margin: 20px 0; border-left: 5px solid #f39c12;\"><p style=\"margin: 0; color: #856404; font-weight: 600;\"><span style=\"background: #f39c12; color: white; padding: 3px 8px; border-radius: 4px; margin-right: 10px; font-size: 0.9em;\">⚠️ Important:</span>When creating the repository, do not create a 'README.md', '.gitignore' file, or add any license to the repo. These settings can sometimes cause issues during the initial push.</p></div><p style=\"margin-bottom: 15px; color: #555; line-height: 1.6;\">After creating the repository, copy its link.</p></div><div style=\"background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 30px;\"><h2 style=\"color: #2c3e50; border-bottom: 3px solid #f39c12; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; font-size: 1.8em; font-weight: 600;\"><span style=\"background: #f39c12; color: white; padding: 5px 15px; border-radius: 50px; margin-right: 15px; font-size: 0.8em;\">4</span>Connect Local and Remote Repositories and Push</h2><p style=\"margin-bottom: 20px; color: #555; line-height: 1.6;\">Return to the terminal in VS Code and execute the following commands in succession:</p><div style=\"background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: #fff; border: none; padding: 25px; border-radius: 10px; overflow-x: auto; font-family: 'Fira Code', 'Monaco', 'Courier New', monospace; font-size: 1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin: 20px 0; line-height: 1.8;\"><div style=\"margin-bottom: 15px;\"><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git remote add origin &lt;Link to GitHub Repo&gt;</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Maps the remote repository link to your local Git repository</span></div><div style=\"margin-bottom: 15px;\"><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git remote -v</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Verify the link to your remote repository</span></div><div><code style=\"color: #61dafb; font-weight: 600; background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px;\">git push -u origin master</code><span style=\"color: #a0a0a0; font-style: italic; margin-left: 10px;\">// Push your changes to the remote GitHub repository</span></div></div></div><div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 25px; margin: 30px 0; box-shadow: 0 6px 25px rgba(102,126,234,0.3);\"><p style=\"margin: 0; color: white; font-size: 1.1em; line-height: 1.6;\"><span style=\"background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 20px; margin-right: 15px; font-weight: 600;\">📝 Note:</span>If this is the first time your local Git account is connecting to GitHub, you may be prompted to enter your GitHub credentials in a separate window.</p></div>"
+  },
+  {
+    "timestamp": "2025-07-16 14:06:52",
+    "entry": "<h1> Started SQL </h1> Did my leetcode push just now and also <strong> I caught upon to the last chapter of Blue Lock manga. </strong>I know that I was on break with this but Meenal messaged me and that sparked the fire in me once again. Guess what, Kira will be coming back. <br> Other than this, everything seems to be going fine. College is about to start soon and yeah, I don't feel like going there anytime soon.<br> I have my bus tickets for 23rd's night journey but before that, I also have the task to throw some of my stuff at Price PG. Guess, I'll be taking my laptop with me then. Anyways, I'll just have to carry the bigger bag with me the, nothing else seems plausible. <br/> I alsi have to buy mirror and get a screen guard on my phone, these two are the only taks at the point."
+  },
+  {
+    "timestamp": "2025-07-18 14:46:33",
+    "entry": "<h1>URGH</h1> Missed both of my LeetCode and GitHub streak yesterday. I'm not feeling well since last week so am not able to focus fully and give it my all to work and fun. Gotta correct these thigs. <br> Next up I have the upcoming two days to cut down the stuff that I have with me to just one bag that I can take to village on next thuraday. I'll have to shift the stuff to Prince PG, this weekend. Gotta plan that too. Other than this, I need to buy a mirror for my bathroom. rest everything seems good to go. I want to short it all down to just the laptop bag to be carried on the journey. Let's see.<br> <br> Firstly, gotta do my LeetCode submit right now."
+  },
+  {
+    "timestamp": "2025-07-18 15:34:40",
+    "entry": "<h1>I like goodies </h1> Who doesn't. I'm really behind this LeetCode goodies but you need hell a points to order those. What I'm thinking is to make another leetcode account and do something or the other thing there and exract all the points that I can out there and have te goodies somehow. On to the planning part."
+  },
+  {
+    "timestamp": "2025-07-18 15:38:43",
+    "entry": "There's this website <a href =\"walkcc.me/LeetCode\">walkccc.me </a> that has a lot of solutions for LeetCode questions. I think I'll be scrapping that to get the solution and somehow make a bot to paste all of those on LeetCode and automate the submission. <br> Firstly, I'll need a way to get the question name, it's leetcode link and the solution from the website. "
+  },
+  {
+    "timestamp": "2025-07-18 15:43:57",
+    "entry": "the website is really sorted and has a solution page which divides the problems into 4 vategores, <ul> <li>Data Structures</li> <li>Algorithms</li> <li>System Design </li>  <li>Special Topics</li> </ul> Further, these topics are then divided into several sub-categories like tree, graph, hashing, stack, queue etc. etc. <br> I'll smply be using selenium and beautiful soup to get all the solutions from them. <br> Every page has tons of link to each question. Luckily, each link has the number and the name of question as it's text, that too inscribed in a single &lt;ul&gt; with multiple &lt;li&gt;. How noob of them, haha."
+  },
+  {
+    "timestamp": "2025-07-18 16:37:04",
+    "entry": "Got the code, using the webchrome-driver to get the website, using selenium to get all the question number and their name as well as the leetcode links. Next, up I'm able to get to their solution page and extract the solution. Though it has some problems, sometimes it gets the java solution and sometimes not, in that case, it extracts the C++ solution. I think I'll completely move to getting the C++ solution as my main motive is just to get the leetcode answers, no matter the language it is in. <i>Back to the code...</i>"
+  },
+  {
+    "timestamp": "2025-07-18 17:01:29",
+    "entry": "<h4> Great </h4> Ok, so things are working well. Though, it is a really slow process but yeah, nothing much i can do. Now, I'd like to complete the leetcode solver by sdding the functionlaity to get the solutions, open the leetcode link, paste the solution, submit, wait for it to be accepted and then move onto the next question. Firstly I thought of a process to do it with another script but now I'm thinking to modify the existing script to do this task. I think I'll be going with somewhat of the same logic to open that link and paste the solutiob, check if the accepted code tab is activated or not and then move onto the next solution extracting and leetcode submitting. <br> For the future, I'm thinking to add a way that, if've done 10 questions on leetcode, it should not get those quetions and start from the up next questions. It's like, if I stop the script in between and start it the next time, it should not waste the time in answering the previous questions again but just skip those and start with the next questions. <br> Let me get the initial part first. <i>On to the code... </i>"
+  },
+  {
+    "timestamp": "2025-07-18 17:26:27",
+    "entry": "made a new leetcode accout, everything was going fine until hit the cloudflare are you human error. that's really irritating, need to resolve that somehow. I think I'll just use a different way to open my chrome sothat it does not have to login into with the account as I'll have the login pass saved into my chrome or even already logged into it. <br> <br> I'd have started to work on it quickly, but... <i> Samose ki khushbu aa rhi hai bahut acchi...</i>"
+  },
+  {
+    "timestamp": "2025-07-18 17:29:48",
+    "entry": "Aanways, back to it. So, the plan it <ul> <li> Create a back file that will take the url link as input and open that into the chrome using the chrome destination link so that it opens the actual chrome from my device, not any driver or such. This will, in a way, bypass the login required to get the problem.</li> <li>next up, opent he problem link from the json file and solve them as planned, submit, wait for acceptance </li> <li> Move onto the next question </li> </ul> I think this shiuld work fine. <i> Back to the code... </i>"
+  },
+  {
+    "timestamp": "2025-07-18 17:57:57",
+    "entry": "Nah, not working. I tried opening it in the general chrome in the device but it says the account needs to be verified to submit the solution. Guess, I'tt just have to do that and then move ahead. I think I'll use my someother already created gmails this time for this task and the sake of simplicity. <br> Also, there's an issue, it is not pasting the solutions automatically, that bit is still manually. Not that much of the hassle as you just have to press ctrl+V and ctrl+Enter. It'd still like to have it automatic. Let's say this is added to the future scope. For Now, I just have to get a verified LeetCode account and test it for the submission. Before that, I'll need to parse the solution once to remove all the code in a single line error. Guess I'll spending some more time on the <a href=\"https://www.walkccc.me/LeetCode\">walkccc.me </a> website"
+  },
+  {
+    "timestamp": "2025-07-18 18:42:54",
+    "entry": "Getting a bit tired and out of focus. I have some different plan too. I am thinking of creating a scraper that will take to the first leetcode solution and then click on the next button to get to the next question and extract it's solution. As in walkccc.me, you can have the solution in order by this way. I think this will somehow easeup the process and help in time complexity, I think it will be a but quicker than going back on the list of all questions website and then going to the next page every time."
+  },
+  {
+    "timestamp": "2025-07-18 19:12:41",
+    "entry": "It is working but I'd still like to automate the process of pasting and submitting the solution but it's getting a bit hard. <i> I should have taken backup of the last working code </i>. Anyways, will get back to it a bit later"
+  },
+  {
+    "timestamp": "2025-07-18 19:21:24",
+    "entry": "<h1> Got the working thing back into action</h1> Got my working thing back from the chat history. Will work on it later. So far, it can take the solution from the walkccc.me, get it into you clipboard, you just have to manually paste it and submit the answer, rest everything it does automatically. I'll look into the rest of the things later"
+  },
+  {
+    "timestamp": "2025-07-21 10:32:50",
+    "entry": "<h1> Missed everything in the last 2 days</h1>"
+  },
+  {
+    "timestamp": "2025-07-21 11:48:57",
+    "entry": "<h1>LeetCode Killed </h1> Finally, over with it. I left the thing where ever it was and it is working fine. As per sny changes are concerned... <h3> it will not waste time on any already solved question </h3> Yeah, I added a thing that if the question is already there in the json file, it means that it is also been solved, so do not waste time on scraping it again and submitting it on leetcode. After that, I've also pushed the poejct ont github. I'm thinking to add that to my resume, my portfolio and also making a separate websote for this project too. Let's see... Here's the link in case you wanna check it <a href =\"https://github.com/lkhanna1505/LeetCode-Killer\"> <i> repo-link/Leetcode-Killer </i></a>"
+  },
+  {
+    "timestamp": "2025-07-21 17:33:55",
+    "entry": "Updated my resume and also somethings on my portfolio. Somewhat completed my LeetCode-Killer Project and also hosted it's website. Everything seems to be going pretty godd. I'll now hurry for ghaziabad to leave some of my things there and retrn back empty handed so that I can have a easy journay back to BKTW. <br>on to the next step..."
+  },
+  {
+    "timestamp": "2025-07-23 11:58:55",
+    "entry": "<h1> Last day, it is...</h1> Let's see, how it goes."
+  },
+  {
+    "timestamp": "2025-07-24 22:26:37",
+    "entry": "<h1> Emergency!</h1> Forgot my mobile phone's password!!! <br> actually, it's not that of an issue 'cause most o the thing are backed, and the major loss will only be of the movies and webseries episodes that I've downloaded in that but still, I wanna explore the ways, I can to unlock it somehow.<br> <i> onto the grind...</i>"
+  },
+  {
+    "timestamp": "2025-07-24 23:17:15",
+    "entry": "Formatting my phone. I don't think I'll loose anythin major. Even if I do, there has to be some ways to recover all of them, right. Let's see, infact, I was about to do it, if not today."
+  },
+  {
+    "timestamp": "2025-07-24 23:22:45",
+    "entry": "Great, now it is even not getting into factory reset mode. URGH! Why does it always happens with me. Anyways, guess gotta ponder over it more."
+  },
+  {
+    "timestamp": "2025-07-25 17:14:56",
+    "entry": "Finally, remembered my phone's password. HASH! It's relief that I reacalled that and you know what, it wasn't that hard"
+  },
+  {
+    "timestamp": "2025-07-25 17:38:25",
+    "entry": "What is it with my brain!?<br>It can remember numbers like <br>1004928184793579 <br>1088539048956013 <br>46393939 <br>2147483647<br>3.141592653589793238462643387950<br>34768<br>32333435<br>And a hell lot of phone numbers of different people like Harjot Bhaiya, Abhinav Bhaiya, Sara Didi, kushagra bhaiya, shreshth bhaiya, harshil, tejasvi, nandini, himansh, thanesha, sanchit, mummy, papa, grandpa, grandma, maternal-grandma, massi, bua, tauji, tai-mumma, lakshita, aadi bhaiya, Rijul, purva didi, Bhaa-G... Aur bhi pta nhi, kitno ke numbers yaad honge.<br>Lekin sala, phone ka password, \"11223344\" nhi yaad aa rha tha 😅😅"
+  },
+  {
+    "timestamp": "2025-07-29 06:57:04",
+    "entry": "<h1>After so long </h1>I have came back to college and it's been so long that I've written anything here. Just been busy with a lot of tuff,. Anyways, listing some of the major events that happened: <ul> <li> <b> Missed my BnY test by just 20 seconds </b> The time to login the window was from 11:00AM to 11:20AM. Though I sat in front ofmy setup at 11:09 but still, I somehow messed up with my credentials and got late to finally proceed to the test screen.</li> <li> <b> Got back to college </b>and still there is some stuff left in to unpack and settle things up. Will do it soon</li> <li> <b>Collect the certificate form Noida </b>For once I need to go there and collect my final things to finish everythong up. Also, I need to get my pillow too.</li> <li> <b>Finish everythin up here in this PG too </b>I need to buy some stuff, just one visit to modinagar market and it'll be done. Let's keep it today's task, just after college to complete this and get all the things that I need to buy from the market.</li> </ul> That seems like it for now. As I'm back to college, I also need to start some other things, like DSA, LeetCode, the BodCon project, MERN, SQL, also gotta focus on my academics from now only. Well. there are some other goals of mine too, for this academic year (the ones' written in the blue diary) need to do everything keeping those in mind. Hash! For starters, need to wake up and do my daily chores first. <i>We'll see...</i>"
+  },
+  {
+    "timestamp": "2025-07-30 12:04:02",
+    "entry": "Got some of stuff, thanks to Alok and Adarsh as they were going modinagar and brought the stuff for me. <br> Didn't go to first half of college today... Meh! wasn't feeling like that today. Anyways, gotta settle and unpack the bags and get back tot he grind, 'cause ut's been really long. I have some more mini-project ideas that I'm thining to build and also some of those major peojects. Then, there's MERN and other things. Nothing will happen if Idon't move, so... <br><i> Gotta go...</i>"
+  },
+  {
+    "timestamp": "2025-07-31 00:37:55",
+    "entry": "<h1>Using this with my external portronics hydra 10 keyboard for the first time. It really is intertesting and also, I'm using my keyboard after a pretty long time. Feels fun and suddenly I'm realising that my keyboard is really less noisy and quite and moreoverly, super smooth to operate.</h1> Great, now back to work..."
+  },
+  {
+    "timestamp": "2025-07-31 00:40:56",
+    "entry": "Cool, now I'l be starting with the so called grind. I've a lot of projets on mind and for starters, I really need to get over with those BidCon parts and bits. Firstly, I'll start with some study in SaaS platforms  and how can I build them? Will my current knowlwdge be sufficient? If not, whatr all do I need tio learn further? <i>Let the research begin...</i>"
+  },
+  {
+    "timestamp": "2025-07-31 00:50:04",
+    "entry": "Registered for some hackathon Nandini shared with me that she got from the haveloc platform."
+  },
+  {
+    "timestamp": "2025-08-01 06:42:34",
+    "entry": "missed yesterday's leetcode <br> Did genuine leetcode after so many days, solved some 3 questions. Learned about System.arraycopy() in Java. It is a function that accepts five parameters (sourceArray, sourceArray_startIndex, destinationArray, destinaionArray_startIndex, lengthTillHowMuchIsItToBeCopied)"
+  },
+  {
+    "timestamp": "2025-08-02 16:22:16",
+    "entry": "<h1>Backend done </h1>Login is working good so far, I'll test it a bit more and move to other aspects soon <br> Remind me to change the passwords to the bcrypted form later and correct the loin accordignly"
+  },
+  {
+    "timestamp": "2025-08-03 16:00:49",
+    "entry": "<h1> Next target: DRDO Intern</h1>"
+  },
+  {
+    "timestamp": "2025-08-03 19:47:28",
+    "entry": "<h1> You wanna read this, here you go... </h1>"
+  },
+  {
+    "timestamp": "2025-08-03 19:55:13",
+    "entry": "<h1> New Projects</h1> There are multiple projects that I wanna create but first, there are the below two <ul> <li> Search for SRM students </li> <li>SRM Help <li> </ul> The help one is really easy and it will be based on only forntend. The SRM students one is a bit tricky to make. <br> I'll be starting witht he SRM students one tonight. I'll be needing a lot of things for that. Let's start the research"
+  },
+  {
+    "timestamp": "2025-08-03 19:58:23",
+    "entry": "For startes, the google contact search thing is really cool as you can search enything as /search/&lt;name&gt; or &lt;registration_number&gt;. This is cool as this gets most of the things done really well. Now I need someway to make this acessible to everyone.<br> Before that, i think I can start with coding the scraper part first to get the info of the searhc result. I also need to think of all the edge cases and all the possible cases that you can search for in this app. that's gonna cost a lot of thinking... Anyways, I'll get back to it after dinner"
+  },
+  {
+    "timestamp": "2025-08-03 22:50:44",
+    "entry": "Don't know but was watching SpyxFamily after dinner. <br>Anyways, on a break now so will be getting back to the project thingy. The search query string of google contact is really simple actually, I can easily modify it as for my google account series. I'll need to look how do I make it compoletely dynamic. I'll think about that later.<br>For now, I can search for any name, mailID or registration number. i just need to extract that result somehow and get it into the python so that I can play with it."
+  },
+  {
+    "timestamp": "2025-08-03 23:04:23",
+    "entry": "That's weird... Google contacts use two layers to show the results and both of them show the same thing. Why use two same things that too ontop of each other when it can be done by only one thing? Guess that's a typical google thing. What I can think of is, one is used to add the UI part and other to add the functionality. <br> Anyways, I've got the divs that I wanna target, let's get the actually triggering them and moving ahead."
+  },
+  {
+    "timestamp": "2025-08-03 23:50:25",
+    "entry": "Meh, a bit tired of it. Will get back to it later. Anyways, I also forgot to edit the marudhara edits for this week, I also need to get those done. Guess I'll be making a whole lot just at once."
+  },
+  {
+    "timestamp": "2025-08-04 00:48:25",
+    "entry": "One edit down and submitted so far. Guess, Mushoku will keep me up for a while and then I'll get to the second one..."
+  },
+  {
+    "timestamp": "2025-08-04 10:46:56",
+    "entry": "<h1> I am way behind schedule!!</h1> There are a lot of things that I want to do but just that, I don't know why I'm not able to courage up and complete all the tasks. Anyways, I hope listing them here works: <ul style=\"list-style-type: none\"><li><input type=\"checkbox\"> Unpack bags </li><li><input type=\"checkbox\"> Complete MWCS assignment</li> <li><input type=\"checkbox\" checked disabled> Clean the room's table </li> <li><input type=\"checkbox\" checked disabled> Buy a maths notebook </li> <li><input type=\"checkbox\"> Wash all clothes </li> <li><input type=\"checkbox\"> Go and collect all the documents from Noida </li>  </ul> These are somethings that I can remeber for now, though there surely are a lot of things and then there are thigns to study and projects to build. URGH!!! There's a lot of things. Anyways, gotta get to them as soon as possible. <i>Off to college...</i>"
+  },
+  {
+    "timestamp": "2025-08-04 10:53:15",
+    "entry": "There's one m09ore thing. I want to change my schedule and make it so that I'm up all night and sleep durig the day but I just can't pull this off. no worries, ione day, and soon enough, one day I'll nmake that my new habit and get on with it. when will I sleep then, you ask? Oh! ayways, they don't teach something important or worthy in class. That seems to be the best spot for this."
+  },
+  {
+    "timestamp": "2025-08-04 19:48:35",
+    "entry": "I don't think I did anything worth it so far, today but still, this day was really fun.<br> Anyways, getting to the point, introduced 085 to 217. Though they both were really shy and nervous, infact I also did not have any idea how do you make one of your friend meet another friend but it was fun. As they both said over call, afterwards, they both were ok with it. i just wish I didn't make any of them uncomfortable, they also didn't tell me anything. is it wrong foir me to trust them completely? i jsut wish they are telling me the truth. I am more concerned about 085 , at the end, 217 is also a boy and we boys don't feel things that much. I won't hope that everything was fine but I just hope, more like wish that they tell me if anything was not OK. <br> Spent time with 313. Told him my new philosophy about how human define work and on what basis do they take rest even after any recreational activity. he is also thinking to get more into coding. <br> Gave grabhacks unstop test, let's wait for the results. <br> Will be having dinner soon and was plannig to sleep but just recalled that there are some things that I need to take care of, will be going for them. <i>Till then, Sayonara...</i>"
+  },
+  {
+    "timestamp": "2025-08-05 10:42:14",
+    "entry": "going to Noida to collect documents. Before that, need to submit Nikhi's Anti ragging. Also, will be getting my deliverytoday, gotta be prepared for that too.<br> Wil be buying my maths notebook from noida.<br> ALso, this is serious, need to complete my OD project as soon as I get back 'cause that's something that will actually help others. Harshil needed that and I was unable to give that, shame on me!<br> You know what you need to know, <i> get you r ass off to work </i>"
+  },
+  {
+    "timestamp": "2025-08-05 10:42:53",
+    "entry": "<h1> Missed my LeetCode yesterday! </h1>"
+  },
+  {
+    "timestamp": "2025-08-05 13:34:58",
+    "entry": "Got my Laptop stand and the HDMI cable and also the cleaner kit delivered today. Super excited for this and also looking forward to all it brings along. <br> it's gonna change having fun..."
+  },
+  {
+    "timestamp": "2025-08-06 07:24:13",
+    "entry": "New day, new start, more fun.<br> They have some sort of conference or something at College today, gotta get in formals for this just a formality thingy. Anyways, I'll just leave for noida after that session and get my documents finally done.<br> <i> Off to it... </i>"
+  },
+  {
+    "timestamp": "2025-08-06 08:30:52",
+    "entry": "<h1> Try to turn your head upside down</h1> Just now, I was getting ready for the college and then the <i> aunty </i>came to clean my room. Along with her she also bought her son, seemed like 4-5 years old. I jumped over my bed to give her proper space to clean the room, so did her son. Well, he was sitting there and I was just standing behind him. When he tried to look at me, his head was naturally upside down and to help him, I also turned my head a bit. I don't know what got into him but now whereever he looks at me, he just turns his head to the left and in turn, I turn it to the right just so that we can see each other clearly ??. Great start, to be honest. Shared with him a banana as well. Oh... his name is Vansh by the way."
+  },
+  {
+    "timestamp": "2025-08-06 08:32:08",
+    "entry": "The 2 quetion marks in the previous entry are actually <i> Laughing emojis</i>. I don't know why but they are being shown like that..."
+  },
+  {
+    "timestamp": "2025-08-06 20:30:24",
+    "entry": "Hash! Finally, completed my Noida task. Got the documents. Anyways, snap back to reality... oh there goes gravity... WHAT!! no, no, no.<br>I have piled up a lot of tasks and I need to get over them soon. But firstly, gotta list them. <ul> <li><input type=\"checkbox\"> MWCS Assignment </li> <li><input type=\"checkbox\"> ML Project </li> <li><input type=\"checkbox\"> Maths notes </li> <li><input type=\"checkbox\"> Some Automata </li> <li><input type=\"checkbox\"> Gotta study maths too </li> <li><input type=\"checkbox\"> Update Resume </li> <li><input type=\"checkbox\"> Complete your OD project </li> <li><input type=\"checkbox\"> Complete your portfolio </li> <li><input type=\"checkbox\"> SRM cc help </li> <li><input type=\"checkbox\"> Search for SRM students </li> </ul> This is what I can think of right now and I just wish that they must be it but they actually aren't. For starters, <ul> <li><input type=\"checkbox\"> Reel edit </li> </ul> URGH!! <div class=\"gif-container\"><img src=\"https://media1.tenor.com/m/PL52nlgbrhoAAAAd/saala-ye-dukh-kahe-khatam-nahi-hota-bey.gif\" alt=\"Saala ye dukh kahe khatam nahi hota bey GIF\"></div><br><br> Tried something new. I hope it works..."
+  },
+  {
+    "timestamp": "2025-08-06 21:01:53",
+    "entry": "Dinner done. Will be sleeping now, good night! Now, good morning at 00:00 (midnight)"
+  },
+  {
+    "timestamp": "2025-08-06 21:08:40",
+    "entry": "<h1> Community Connect</h1> I also need to get the photos for the same. Make it's ppt and also the report for the same."
+  },
+  {
+    "timestamp": "2025-08-07 01:54:06",
+    "entry": "<h1> Great! </h1> Finally, woke somewhat on time and feeling great. Let's begin"
+  },
+  {
+    "timestamp": "2025-08-07 01:55:47",
+    "entry": "First thing that I wanna make is the OD gen porject. I wanna name it public OD Generator. I do have the script with me, I just need to modify it a bit, correct the formatting and make it more dynamic to get both the excel sheet and google sheets. I think I'll be going with the excel sheet format first. Let the coding begin"
+  },
+  {
+    "timestamp": "2025-08-07 01:57:17",
+    "entry": "First of all, I'll get the formatting to be done and final. I just need to rectify some borders for the heading portion and also try, if I can to get the table sezing to better so that it covers the whole page and gives space top everything on the page sufficiently."
+  },
+  {
+    "timestamp": "2025-08-07 02:17:32",
+    "entry": "great, got the formatting in place and also the reusult is now sorted in semester-wise format. getting the formatting in place now. I'm thinking to reduce to column name. You know what, scrap that, I'll leave that as it is. Getting to get it from python to JS somehow and then going ot host it somehow. Lemme research it a bit more"
+  },
+  {
+    "timestamp": "2025-08-07 02:40:09",
+    "entry": "<h1> Streamlit </h1> Great, tried streamlit for the first time and it is really good. I am thinking to go with it. Let's try it for once."
+  },
+  {
+    "timestamp": "2025-08-07 03:11:17",
+    "entry": "Streamlit rally is an amazing tool. Easy to user and super easy to integrate. I am done with the website and it works really well. I'll add some more validations and things to make the app more dynamic and streamlined in the future but so far, it has be really amazing. Below is the app link if you want to curate any OD for your event:<br> <a href=\"srmodgen.streamlit.app\"> srmodgen.steramlit.app</a>"
+  },
+  {
+    "timestamp": "2025-08-07 04:34:42",
+    "entry": "Everything up and ready to go. I'm just thinking to make another website for this project too. I think i'll be going with some ideas here too. Initially it was looking easy but I didn't like the first design. So, I'm thinking to make one oue of glass morphism design and a single page website. let's see, I do have some context ideas from pinterest."
+  },
+  {
+    "timestamp": "2025-08-07 05:07:46",
+    "entry": "<h1> OD Generator deployed </h1>Completed one more projecrt and added it to the collection. You can check this out from the link below: <br> <a href=\"http://srmodgen.vercel.app\">srmodgen.vercel.app</a><br>This somehow is my first glassmorphism website, it was interesting making it but I'm still wondering what is so special in this design format. Anyways, might be that it is more sppealing when it comes to the design of some particular websites only and not some whole websites."
+  },
+  {
+    "timestamp": "2025-08-07 05:14:07",
+    "entry": "<h1> Analytics </h1>Found a way to get the analytics of the number of hits on your webpages and all. It's really great feature by vercel but you project needs to be atleast in npm or a node project. Will shoft all my projects to this and implement it in some of my important projects next. Anyways, enough of this, off to Mushoku Tensei"
+  },
+  {
+    "timestamp": "2025-08-07 13:00:18",
+    "entry": "Guess I'll sleep super hard during today's PRP lecture."
+  },
+  {
+    "timestamp": "2025-08-07 13:03:56",
+    "entry": "I have everything harmony now. I think I have everything under sync now.."
+  },
+  {
+    "timestamp": "2025-08-07 22:20:46",
+    "entry": "<h1>Shhh!!!</h1> <!--<div id=\"hiddenContent\" style=\"display:none;\"></div>Accha bete, zyada dimag nhi hai kya tumhare mein? Yaha tk pahunch gye! Bahut badiya. Yaha koi halwa-pudi bat rha hai? Chalo, ulte pair wapis bhaag jao.. jao jao</div> --> <div id=\"hiddenMessage\" style=\"font-style:italic; color: red; display:block;\"> This content is hidden by the administrator and you need special access to see the actual content</div>"
+  },
+  {
+    "timestamp": "2025-08-09 09:59:55",
+    "entry": "Starting a new weekend with new zeal and enthu, but the same old project idea that is yet to be turned into reality. <i> on to coding...</i>"
+  },
+  {
+    "timestamp": "2025-08-09 18:13:15",
+    "entry": "<h4> Change the design and theme of this journal webapp to something more minimalist and glassmorphism type. </h4>"
+  },
+  {
+    "timestamp": "2025-08-10 07:16:39",
+    "entry": "While working on a major project, getting onto the working desk even before properly openinig my eyes this morning felt great..."
+  },
+  {
+    "timestamp": "2025-08-10 21:47:54",
+    "entry": "<h1>YRGH!! </h1> So I was trying to change the domain of my leetcode killer project to <i>fuckleetcode.vercel.app </i> but it said that this domain is already in use and not available. Then, I looked upto to search for this domain and look what I found out <br> <a href=\"fuckleetcode.vercel.app\"> <i>Click here</i> </a><br> Can I really not change the domain of my application because this domain is already bokked by this ugly ass, shitty, only HTML, chatGPT half prompt website..."
+  },
+  {
+    "timestamp": "2025-08-10 22:21:47",
+    "entry": "Life is like a script for an really interesting, adventure packed, filled with multiple impromptu scenes, frequent bloopers, every genre touching movie, handed over to you with you being the first casting preference and have the privilege to choose whatever role you want. Now it's upto you what role you decide for yourself and how you shape your script further. "
+  },
+  {
+    "timestamp": "2025-08-10 22:22:33",
+    "entry": "Also, the only director and the camera man is God, not those people around you who are just some supporting cast or side characters�in�your�script."
+  },
+  {
+    "timestamp": "2025-08-10 22:22:43",
+    "entry": "But remember, every scene is just one take... Act Carefully"
+  },
+  {
+    "timestamp": "2025-08-11 21:43:14",
+    "entry": "I have really low attendance in CN and ML. Gotta attend their lectures to cover those up.<br> Also gotta look for this IAF. It has only one lecture per week so gotta be regular in that."
+  },
+  {
+    "timestamp": "2025-08-13 04:06:43",
+    "entry": "."
+  },
+  {
+    "timestamp": "2025-08-13 10:20:39",
+    "entry": "feels great to be back to full fledged DSA after long time. Today's target is to have a lot of fun and make a hell lot of pregress. I have done my DSA of the day but am still thinking to do some more questions for the day. <br> Also, I'm thinking ot resume my One Piece journey. I check it this morning and I had left previously on episode 155."
+  },
+  {
+    "timestamp": "2025-08-13 15:10:56",
+    "entry": "What more can I ask for than to a chance to rewatch Haikyuu!"
+  },
+  {
+    "timestamp": "2025-08-14 18:39:11",
+    "entry": "Did two questions on LeetCode and it's just 10 days of streak &lt;cry&gt; When will I be back to my 47 days streak and that max streak on my leetcode will eventually show my current streak too... <br> Anyways, gotta travel early morning tomorrow and also pack my bags. URGH! <br> <i> On to haikyuu... </i>"
+  },
+  {
+    "timestamp": "2025-08-16 01:00:00",
+    "entry": "At my home as mom needed help with some stuff. Wasn't able to make much updates here becuase of this travel and all things. Just did my leetcode for the day. Recently was wining about not having that good af a streak so far and was about to miss it today also. Thanks to 085, got it in time. <br> Roaming around in super sleep deprived state and mistakenly also drank coffee... gotta see, how things goes. I think I should keep my headache medicines nearby..."
+  },
+  {
+    "timestamp": "2025-08-17 00:52:32",
+    "entry": "I know I'm not that much active now-a-days BUT if this time, somehow I miss my leetcode streak. I don't think I'll ever continue that in the future. It's really frustrating sometimes. "
+  },
+  {
+    "timestamp": "2025-08-22 08:03:57",
+    "entry": "A lot has happend in the past few days. Came back from home and am notfeeling well since that day. Life's really out of track and that is costing me a lot, really need to look into that. <br> There are a lot of people whose rent I willnever be able to pay. This time it's someone whose registration, If I'll write will know whom am I talking about. But yeah, thaks for telling me and asking me to try NeetCode. That's exatly the solution I was looking for. <br>Anyways, also gotta complete my assignment, edit that reel, study a lot, and moreoverly, work on that big project. <br>You know. it might be just beacuse of that not feeling well and that travel fatigue but I don't feel like doing anything rigt now. Ijust want a big long rest, watching Haikyuu, sipping coffee and eating smething tasty and interesting. For now, what I can do is <strong>hope</strong>. As said by someone, \"Koshish, aur kr bhi kua skte hai...\""
+  },
+  {
+    "timestamp": "2025-08-22 08:07:44",
+    "entry": "It's just that the most prminent examples out there are not matured enough and alo not having even the slightest kink of a normal sane person who thinks and feel about his/her and their partners' future. Thay just have nothing but shit and relationships have lost what they were actaully supposed to be. For starters, it's about supporting each other and bein there for each other.<br> But for me, I could use someone just to talk things out and share evereything with them. In turn, I'd also like to hear for to what thery have to say. But you know what... aven't found someone likewise, so far. Meh! i've got you and that's enough...<br> <i> 22-08-2025, 08:15:05</i><br>PS: by talk things out I just wanna convey that, I like sharing with someone what all happened in that day. Even more that that, I like to know from the other person what happened with them, in their day. My uncle says Iinherited it from my grandma, the thing to listen carefully and with full attention to what someone has to say. What I believe is that a relationship is where you do these things with your partner, at the very least. Though these all just become another speculation, 'cause never ben into an actual relationship, so, ca't say much..."
+  },
+  {
+    "timestamp": "2025-08-22 08:10:56",
+    "entry": "I also need to trim my beard but the day tat I plan to do so, the electricty bulb got fused.<br> Which reminds me of that, yesterday there was some sort of electricity outage at out PG and t make things worse, I even fucked the things that were working. I was just out there with the switch board opened and trying to get the right thing but instead, what I did was even shortcircuit the power back-up there... <br> Though right now, things are backl up, well and better but still, I need to get my elctric bulbs changed. On to start the new day."
+  },
+  {
+    "timestamp": "2025-08-22 13:18:27",
+    "entry": "Back from lunch, it was quick today. Anyways, getting to the main thing. <br> First of all, getting my things straight, I will work on that project tonight. i really need to make some progress in that... whatever it takes. Other than that, I am also thinking to get this journal entry thing over mobile phone too. I just need to figure out a way to do this via flutter aplication. The little that I researched, we surely can do it via mobile but the question is how???"
+  },
+  {
+    "timestamp": "2025-08-22 13:22:42",
+    "entry": "how did I made this for PC... I simply used bash scripting to do so. I have a script written in Java.. no some JavaScript. That script has bash codes to pusht the string input on github using bash script and that program's class file is written in my bash script folder, already added in the environment variables so that I can run the script from anywhere in the computer, anywhere in the cmd. <br> I just realised that I have not document this \"mrun\" project of mine and then I realised that this mrun project itself is used to document the projects. If this was still under making how could I have documented it. Anyways, getting back to the logic of the code, there was a lot of bash sripting involved. I just need to figure out a way to do so from the mobile. "
+  },
+  {
+    "timestamp": "2025-08-22 13:39:57",
+    "entry": "just had hook, went there and searched for it and to te surprise, there exists a dart package for github. It also has some attributes for the github repio link and the branch name. I think I can go with that to proceed with the project. I'll also need to look into that markup inpu being converted into json format. <br> Will look into that later. Right now, I'm late and I need to go the college. Will get back to it as soon as I'm back, If I don't sleep &#128517;"
+  },
+  {
+    "timestamp": "2025-08-22 13:42:39",
+    "entry": "Just now, almost lost the backup files. Was really scared but retrieved them from the original file. <br> <i> Hask!!! That was scary... </i>"
+  },
+  {
+    "timestamp": "2025-08-23 11:41:10",
+    "entry": "<h1>Ok ji... </h1> Good morning! I know it's alot late but morningslike these where the last night ended with you doing what you like, and dy starts with a cup of coffee in your hand (thoung it's a bit late) are still EPIC. <br> Anyways, about last night, you know, I like to rea books bu have never comopleted any of them ever. Still out of all the books that I've started somehow or other, I was really influenced by this one and is the only one I recommed everyone to give a try... It's the Bhagvd Gita. I know it sounds really religious and related stuff but this book really shows you the tiny detials in the bigger picture and also leaves somethings for you to figure out. Had a really reminiscing time to read it after a long time. Will write about the quote that I read, later.<br> Will be getting to the fun now..."
+  },
+  {
+    "timestamp": "2025-08-23 12:11:18",
+    "entry": "What do I think of today... <ul> <li> <input type=\"checkbox\"> Java</li> <li> <input type=\"checkbox\"> Academics</li> <li> <input type=\"checkbox\"> The Poject</li></ul> I also need to trim my beard and for that I need to get the light at my bathroom fixed. Guess I'll alsdo the laundry at night. <br>The keyboard is getting really sticky, I'll cean this later too. Anyways, onto the hostel now."
+  },
+  {
+    "timestamp": "2025-08-24 19:50:13",
+    "entry": "<h2>Now I think I shouldn't have let Gojo butt in... morelike, head in</h2><iframe src=\"https://drive.google.com/file/d/1t_6fCWZT5FozWM_Q835-PCI5QaZADfiu/preview\" allow=\"autoplay\" frameborder=\"0\"></iframe><p>Feels great to relive your old hobbies. Will surely be doing more of this in the future. </p>"
+  },
+  {
+    "timestamp": "2025-08-24 20:54:22",
+    "entry": "This has been on my mind since this evening and while continuing rewatching Hakyuu, I've made my decision to re-read haikyuu Manga... Chapter 295, wartch out!"
+  },
+  {
+    "timestamp": "2025-08-24 22:56:55",
+    "entry": "<h1> Next target: 200 day LeetCode badge! </h1>"
+  },
+  {
+    "timestamp": "2025-08-27 04:31:23",
+    "entry": "<h1> You just need to submit on LeetCode for 300 days to get the 365 days LeetCode badge</h1>"
+  },
+  {
+    "timestamp": "2025-08-27 05:02:48",
+    "entry": "I used to do that tanaka slap. You know the one, where he used to merci-less-ly slap his face with both of his hands and snapo back to reality. Guess that's something I'll be doing again. <br> Anyways, got up on time today and feels great. Will be studying something for the exam now and going for a little run afterwards. On to the day. <br> <br> By the way, I've done the DSA for the day"
+  },
+  {
+    "timestamp": "2025-08-27 06:57:42",
+    "entry": "<h1>Felt Great!</h1> Did this after not so long... Realised that Bikanerwala is not that far... Infact, <i>Chhota-SRM</i> is not far at all... Still, the feeling of catching breath is an unknown territory."
+  },
+  {
+    "timestamp": "2025-08-27 08:18:41",
+    "entry": "Though it's also something to feel shameful of but personally, it also feels great to rewatch Haikyuu, having forgot some of the small epic scenes so that I can relive the nerve reacking spikes and those goosegumps combo and block shut outs..."
+  },
+  {
+    "timestamp": "2025-08-29 05:40:20",
+    "entry": "<i>This entry is for <strong>17-08-2025 </strong> </i> <br> Past few days have been supercaliafragilisticexpialidocious-ly hectic. My sleep schedule has been something like... Did I mention that I've also had a lot of work between those sleeping�napping�periods. So how these went were, I was called home as my father just got transferred and mummy needed help with packing, shifting and stuff. I was not unable to get the proper tickets so had to get the earliest tickets for the next day. It was a day journey which exhausted be badly. Did I mention that I also did not get proper sleep the night before the journey. To add to this, some relatives were also visiting us between those days. and GOD, it's gets messy when your younger sister who's already to much to handle pacts up with her favourite cousin and they both just don't let you sleep in the first place, the games they wanna play are something that we should not talk about.<br>Anyways, so, I have 2 days of sleep pent up and guess what, the children force everyone to go the swimming pool the next day. URGH! that was tiresome but fun at the same time. Thanks to me sneaking upto them and pulling them underwater just to scare everyone... Though at the end it got me outcasted and every one was scared of me but not my sister. What she did was she herself was dedicated to pull the prank on me. Though she failed miserably but still, I liked and support that spirit. And who can forget Charvi... The way she was dedicated to learn to swim and even encouraged me to pull her underwater. I found that  bit funny. Anyways, what I want to say is that, the day was also hectic. I think I got a proper sleep of 6hrs that day. But still, the next 2 days were actual hell. Full on work, running here and there, no breakfast, no lunch. What, sleep? Don't make me laugh. Somehow made through those and the day I came back, there was this SkillCrest test. Well, that's a different story that will be covered later."
+  },
+  {
+    "timestamp": "2025-08-29 06:03:34",
+    "entry": "These exams are just there to disrupt ourt schedule. Life wes going fun and great and then they pop up so that you don't feel easy and relieved for even once."
+  },
+  {
+    "timestamp": "2025-08-29 06:17:15",
+    "entry": "<h1><i>Last seen chhupane wali duniya mein loyalty dhundh�rhe�ho </i></h1>"
+  },
+  {
+    "timestamp": "2025-08-29 06:33:11",
+    "entry": "I'll ve making some serious changes in the website so won't be making entries for some time"
+  },
+  {
+    "timestamp": "2025-09-16 19:41:22",
+    "entry": "This is a test entry to check the shift to linux"
+  },
+  {
+    "timestamp": "2025-09-16 19:54:46",
+    "entry": "This is to test is the porogram is working fine from remote locations also."
+  },
+  {
+    "timestamp": "2025-09-16 20:01:35",
+    "entry": "I hope it works this time"
+  },
+  {
+    "timestamp": "2025-09-16 20:25:51",
+    "entry": "This is another test entry. Changes the SSH key from the github setting but it prompted that github has stopped the supprt for shell. I still hope that it works."
+  },
+  {
+    "timestamp": "2025-09-16 20:28:31",
+    "entry": "I think it worked. Just to be sure, this is another entry from the terminal froma random location"
+  },
+  {
+    "timestamp": "2025-09-16 20:31:16",
+    "entry": "Damn! and we are back in business. Now, I have a lot of backlog in entries so the first thing is to cover them all and after that getting onto the odgen project 'cause I recently got to know that I have this project that has some actual use case and in fact, there are actual folks from differnet clubs using it so, change of plan, not giving it to hackhound now. Will be developing it simply as my own project now."
+  },
+  {
+    "timestamp": "2025-09-17 12:37:46",
+    "entry": "<div style=\"color:red;font-size:1.2rem;\"><i>This content is not as such hidden by the user, if you can breath, you surely can look up for the text. It's just that I was raelly pissed while writing this and I don't want you to change my image after reading his. I know you don't judge people an to be precise there are just some curse words in here but still, I just don't want you to know about these directly. Hope it's ok...</i></div><div style=\"content-visibility: hidden;\">I surely am a part of really smart people of my class. Smart people, no, smart ass bithces. <br> What the hell is worng with them! Though they are really pricky about the thing that there aren't many successful mass-bunks from our class and when I go and confirm the thing from the teacher himslef/hersilf at that time, they are in a life-edeath situation to attend the class and presnt their stupud-ass project to the teacher that the teacher has already told that they can present it in her cabin only whihc is far better considering you won't have to face this stupid class if you mess up something but I don't know why they just want a big old load up their ass and fuck this presentation of theirs in the lab only. What if some senior teacher sees and questions this low attendance in the class? But no, why would they think this much they just don't have the capacity to load this info up their peanut sized dick brain to comprehend even if the teacher itself is screaming this up their ears.<br> Then their comes super smart ass who have just kicked off some lucky shots up their bats and think that they are the god of this game. Those stupid, fat belly, shit eating, woblly hanging cunts think that what they do is absolute cool and smart. Why can't just they realise that this disrupts the harmony as lot. Simple thing, if something happens to them, they'll simply go upto the seniors crying their asses off and infact when the senior even gets to know the truth, kicked his ass too. I know I'm not making mu sense but there is someone 241 who thinks that he's just the ruler of the world and the society revolves around them. Stupid idiot, just live a diy without fater's money, then you'll realise what life it. URGHH!!!!! I'm just totally fed up of this class, but there's no where to go. I just no one thing, from now on, I don't want to be the part of any mass bunk of this well of dick-heads.</div>"
+  },
+  {
+    "timestamp": "2025-09-19 02:43:09",
+    "entry": "<h1>Borderline saved from anti-ratgging today</h1>What happened was that had some with the PR person and infact she also had fun but called her friends. Them being typical boys, wanted to become hero and had some not-good interactions with me before cause a lot of trouble. But it ended with me and 313 being mature and getting low. Though we had full support and advice not to back down but you know what, that was the best course of action. Not for us, not for them but for her character, 'cause society... They can forget us, can forget the fight but a girl's charcter, that's more sensitive than a glass of wine. URGH! Life throws pretty weird things and tackling them can be really nerve racking. Thanks to my friends that I'm out of it and girls out there are genuily super dumb."
+  },
+  {
+    "timestamp": "2025-09-19 03:34:31",
+    "entry": "I need to completely finish around 10-15 questions on LeetCode so that I can start the thing of 1 One Piece Episode and then 1 LeetCode question. All thanks to 085 for the suggestion..."
+  },
+  {
+    "timestamp": "2025-10-30 01:06:39",
+    "entry": "this is an entry where I am showing my project to Samradh"
+  },
+  {
+    "timestamp": "2025-12-17 23:23:58",
+    "entry": "Kassh ek mahilla mitra hoti jo ki bass yeh sab sunn leti ki aaj din mein kya-kya hua. Kuchh nhi, 30min mein sab bta deta and I'm damn sure ki usse bahut mza aata. Uske baad, bass use usme bhi interest hota, yeh event management planning and sab aur inn sab ke baare mein bhi sunti.Kasam se, itna mann lga ke kaam krta na!!! Halanki abhi bhi bahut mann lagta hai lekin tb alag ho motivation pr kaam krta 🔥🔥🔥"
+  },
+  {
+    "timestamp": "2025-12-17 23:26:23",
+    "entry": "Things have gone really crazzy revently and It's a shame that I was not able to update everything here lately. Might cover everything shortly. <h2> I have written something. Tried that for the first time. I don't think it's gonne reach till there...</h2>"
+  },
+  {
+    "timestamp": "2025-12-17 23:27:44",
+    "entry": "<i>I like her<br>How do I tell her?<br><br>More important question,<br>Should I actually tell her?<br><br>If I were to tell her,<br>Would she have told me to wait for her?<br>Or it was nothing to wait for her?<br><br>If I were to keep it to myself,<br>Why bother, if I should tell her?<br><br>All this, for the first time,<br>It's not should I tell her...<br>Now it's, how do I tell her?"
+  },
+  {
+    "timestamp": "2025-12-18 00:46:33",
+    "entry": "Did my today's leetcode just now and to be honest, I don't find it fun anymore. I also don't want something new or anything in my life. What I want is that, I want some results, I want to imply on it and I want to apply my skill somewhere. I just want to work it out somewhere and vent it all out. Going with the flow till I get there."
+  },
+  {
+    "timestamp": "2025-12-18 01:14:24",
+    "entry": "I actually forgot a lot about this json editing of mine. Gotta revise all the concepts that too from really basic!!"
+  },
+  {
+    "timestamp": "2025-12-18 01:17:32",
+    "entry": "I feel really sad that she is not gonna read all this. I feel more sad that she might not even be reading my texts. GOD, OH GOD! If I could just talk to her, just talk to her. If all I could do is just talk to her that's be really all I would have needed. But if this is what the nature and the universe thinks, be it. Though I am adviced to not think this way but what can I do if she is better than me. If she's so good that I don't even deserve her... no no no Lakshya, you should not be thinking about all this..."
+  },
+  {
+    "timestamp": "2025-12-18 22:58:46",
+    "entry": "Came to village and kinda actually enjoying holidays. Working on GIT and also on my LEETCODE. Was not able to do much other than these but will try my best tomorrow. Can't seem to loose her thoughts, recalled her again today while I was driving my bike. I have her messages on my WhatsApp, just not on seen. Oh God! What should I do!!??? One side says as she is not happy with me, I should just let her go and on the other side I just can't let her go as I'm damn sure that I won't be able to find someone else even close to her! Like, how many girls are out there who have the similar intersts as of me in entertainment and are also pretty goal oriented, are logical regarding things, study hard, are sensible and a bit socially awkward at the same time. URGH!!! Anyways, can't do much you know! I just shouldn't force myself on her. She deserves a lot better than me, she deserves someone surely not like me, weak and good for nothing shit! Yup, this thought haunts me more, what have I actually done so far? Nothing!! The uncool, not talented, socially awkward, party pooper, good for nothing, pain in the ass, no self esteem, pulling down others idiot, trying to fit in everywhere and not caring for himself. <br>God just don't... but what you can do. I just can't stop myself from thinking shit of me and here I am begging to you, making me look even worse."
+  },
+  {
+    "timestamp": "2025-12-19 18:00:12",
+    "entry": "also done with today's question. things going pretty smooth but not satisfied with this all. rajveer is taking pretty long for the run of the show. Asked him to take Varun's help for the same. gagandeep is working on the pitch deck. This is his first time wokring on something thsi formal of a design but he'll figure it out.<br> I don't feel like talking about this texted her, more like replied to her today. Still don't know if I'm doing the right thing or not.<br> Anyways, Will br going back to SGNR tomorrow and coming back again the day after tomorrow.<br> Watching One Piece. Just completed I guess some 180 episodes or 190 something. I think my One Piece episodes will soon cross my LeetCode questions. <strong> talking about the leetcode questions, I also got the Knight badhe on LeetCode</strong>, figuers that It wasn't that hard all along. Anyways, don't get so high. This all is still not enough. Any just need to solve atleast 3 questions for just 4 contests and they'll get the knight badge. I need to work on my other skills too. <br> I want to make a cool project, will think o some ideas soon and start woking on them. I also need to update my LinkedIn and possibly my resume. I'd like to add the volunteering section to both and add som eof my GitHub projects to LinkedIn."
+  },
+  {
+    "timestamp": "2025-12-19 18:02:16",
+    "entry": "Recently saw the profile of Satwik and he has done quite a lot of things. I will quickly need to get some intern and start getting something in hand. There are a lot of things, for starters, I can work on Social Boooster's website. That might be a great thing.<br> I simply can't forget how she humilated my mother. <strong> Come on Lakshya, you have to work for this... </strong>"
+  },
+  {
+    "timestamp": "2025-12-23 21:37:10",
+    "entry": "Will be starting codeforces now..."
+  },
+  {
+    "timestamp": "2025-12-24 13:57:19",
+    "entry": "Got a LeetCode ban form those people who submitted the code after me. That's really absurd, what the hell was LeetCode even thinking while doing this. Anyways, I've raised a request to look into the matter and I really hope that this gets resolved. Fingers crossed..."
+  },
+  {
+    "timestamp": "2025-12-25 17:14:44",
+    "entry": "Nothing progressive in getting my LeetCode Contest vilation and LeetCoins up so far. This is not good. Anyways, what has happened, has happened. I'll need to keep extra care from now onward."
+  },
+  {
+    "timestamp": "2025-12-25 17:20:29",
+    "entry": "<h2>Icing on the cake</h2>Here I lost my right to attend any contest, and there I also lost my Knight Badge and to regain that, I'll have to give contests. URGHH!!!! Why is everything supposde to go wrong now at the same time. Guess that's god's way of saying <i>Merry Christmas</i>"
+  },
+  {
+    "timestamp": "2025-12-26 10:36:24",
+    "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."
+  },
+  {
+    "timestamp": "2025-12-26 11:22:53",
+    "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."
+  },
+  {
+    "timestamp": "2025-12-26 11:28:21",
+    "entry": "going good. I am at my GrandParents and coping up somwhow. Forgot my earphones, forgot my brush... This is what all I know so far, will come to about more things as I go ahead."
+  },
+  {
+    "timestamp": "2025-12-26 11:34:53",
+    "entry": "Just now it was showing that the git operation failed and now it has three same entries at different times. I think I'll need to look into the code once again."
+  },
+  {
+    "timestamp": "2025-12-26 18:12:15",
+    "entry": "Setting up flutter in Linux. I had the deadline to submit the project by this evening but here I'm setting up the SDK and all. Anyways, on the happy note, talked to her today and won't forget this day now. Now, she is following me on Instagram................................. <br> Don't worry much, these dots just show me hiding my face user the blanket............. Anyways, now I just need to make sure that I don't seem creepy by sending her too much reels. Aur yeh khuda bhi na jane kyu ab mahobbat ki reels bhejne lga hai, jaha kabhi hassi aur Haikyuu hua krta tha..........."
+  },
+  {
+    "timestamp": "2025-12-26 19:16:37",
+    "entry": "Never knew that installing and setting up FLutter was this tideous"
+  },
+  {
+    "timestamp": "2025-12-26 20:50:28",
+    "entry": "<h2>Are you still reading this????...................</h2>"
+  },
+  {
+    "timestamp": "2025-12-27 02:48:14",
+    "entry": "Android Studio not working that well and I'm feeling really sleepy. I will look into that tomorrow but!!! I just recalled that I have not done today's leetcode DCC... URGH!!! Guess, I'll also have to force that now."
+  }
+]
