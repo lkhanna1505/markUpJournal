@@ -1,121 +1,104 @@
-<!-- <!DOCTYPE html> -->
-<!-- <html lang="en"> -->
-<!--   <head> -->
-<!--     <meta charset="UTF-8" /> -->
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-<!--     <title>My Journal Entries</title> -->
-<!--     Tailwind CSS CDN -->
+<!DOCTYPE html>
+<html lang="en">
 
-<!--     <script src="https://cdn.tailwindcss.com"></script> -->
-<!--     <style> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Journal Entries</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-<!--       -->
+<body class="dark">
+  Theme Toggle Button
+  <button id="themeToggle" title="Toggle theme">🌙</button>
 
-<!--     </style> -->
+  <div id="app-container" class="flex flex-col items-center">
+    Main Journal View
 
-<!-- -->
+    <div id="mainView" class="w-full">
+      <h1 class="text-4xl font-extrabold text-primary mb-8 text-center responsive-title">
+        My Journal
+      </h1>
 
-<!--     <link rel="stylesheet" href="style.css" /> -->
-<!--   </head> -->
-<!--   <body class="dark"> -->
-<!--      Theme Toggle Button -->
+      Navigation Buttons
 
-<!--     <button id="themeToggle" title="Toggle theme">🌙</button> -->
-<!-- -->
-<!--     <div id="app-container" class="flex flex-col items-center"> -->
-<!--        Main Journal View -->
+      <div class="flex justify-center gap-4 mb-8 nav-buttons">
+        <button id="viewByDateBtn"
+          class="btn-primary text-white font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
+          📅 View by Date
+        </button>
+        <button id="allEntriesBtn"
+          class="btn-secondary font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
+          📖 All Entries
+        </button>
+      </div>
 
-<!--       <div id="mainView" class="w-full"> -->
-<!--         <h1 -->
-<!--           class="text-4xl font-extrabold text-primary mb-8 text-center responsive-title" -->
-<!--         > -->
-<!--           My Journal -->
-<!--         </h1> -->
-<!-- -->
-<!--          Navigation Buttons -->
+      <div id="journalEntries" class="w-full">
+        Journal entries will be loaded here by JavaScript
 
-<!--         <div class="flex justify-center gap-4 mb-8 nav-buttons"> -->
-<!--           <button -->
-<!--             id="viewByDateBtn" -->
-<!--             class="btn-primary text-white font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105" -->
-<!--           > -->
-<!--             📅 View by Date -->
-<!--           </button> -->
-<!--           <button -->
-<!--             id="allEntriesBtn" -->
-<!--             class="btn-secondary font-semibold py-2 px-6 rounded-lg transition duration-200 ease-in-out transform hover:scale-105" -->
-<!--           > -->
-<!--             📖 All Entries -->
-<!--           </button> -->
-<!--         </div> -->
-<!-- -->
-<!--         <div id="journalEntries" class="w-full"> -->
-<!--            Journal entries will be loaded here by JavaScript -->
+        <p class="text-center text-muted text-lg" id="loadingMessage">
+          Loading journal entries...
+        </p>
+      </div>
+    </div>
 
-<!--           <p class="text-center text-muted text-lg" id="loadingMessage"> -->
-<!--             Loading journal entries... -->
-<!--           </p> -->
-<!--         </div> -->
-<!--       </div> -->
-<!-- -->
-<!--        Date List View -->
+    Date List View
 
-<!--       <div id="dateListView" class="w-full" style="display: none"> -->
-<!--         <div class="flex items-center justify-between mb-8 flex-wrap gap-4"> -->
-<!--           <h1 -->
-<!--             class="text-4xl font-extrabold text-primary text-center flex-1 responsive-title" -->
-<!--           > -->
-<!--             Journal Dates -->
-<!--           </h1> -->
-<!--           <button -->
-<!--             id="backToMainBtn" -->
-<!--             class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out" -->
-<!--           > -->
-<!--             ← Back -->
-<!--           </button> -->
-<!--         </div> -->
-<!--         <div id="datesList" class="w-full"> -->
-<!--            Date list will be populated here -->
+    <div id="dateListView" class="w-full" style="display: none">
+      <div class="flex items-center justify-between mb-8 flex-wrap gap-4">
+        <h1 class="text-4xl font-extrabold text-primary text-center flex-1 responsive-title">
+          Journal Dates
+        </h1>
+        <button id="backToMainBtn"
+          class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+          ← Back
+        </button>
+      </div>
+      <div id="datesList" class="w-full">
+        Date list will be populated here
 
-<!--         </div> -->
-<!--       </div> -->
-<!--     </div> -->
-<!-- -->
-<!--     Full Screen Day View -->
+      </div>
+    </div>
+  </div>
 
-<!--     <div id="fullScreenView" class="full-screen-view" style="display: none"> -->
-<!--       <div class="full-screen-container"> -->
-<!--         <div class="flex items-center justify-between mb-6"> -->
-<!--           <button -->
-<!--             id="backToDateListBtn" -->
-<!--             class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out" -->
-<!--           > -->
-<!--             ← Back to Dates -->
-<!--           </button> -->
-<!--         </div> -->
-<!--         <div id="dayContent"> -->
-<!--           Day content will be populated here -->
+  Full Screen Day View
 
-<!--         </div> -->
-<!--       </div> -->
-<!--     </div> -->
-<!-- -->
-<!--     <div id="messageBox"></div> -->
-<!-- -->
-<!--      <script> -->
+  <div id="fullScreenView" class="full-screen-view" style="display: none">
+    <div class="full-screen-container">
+      <div class="flex items-center justify-between mb-6">
+        <button id="backToDateListBtn"
+          class="btn-secondary font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+          ← Back to Dates
+        </button>
+      </div>
+      <div id="dayContent">
+        Day content will be populated here
 
-<!--       -->
+      </div>
+    </div>
+  </div>
 
-<!--     </script> -->
+  <div id="messageBox"></div>
 
-<!-- -->
-<!--      The iframe previw and full imag toggle div -->
+  <script>
 
-<!--     <div id="iframeModal" style="display: none"></div> -->
-<!--     <script src="script.js"></script> -->
-<!--   </body> -->
-<!-- </html> -->
+  </script>
 
+
+  The iframe previw and full imag toggle div
+
+  <div id="iframeModal" style="display: none"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -431,4 +414,4 @@
       })();
     </script>
   </body>
-</html>
+</html> -->
