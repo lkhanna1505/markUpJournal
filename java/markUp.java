@@ -12,8 +12,8 @@ public class markUp {
         Scanner scanner = new Scanner(System.in);
 
         // POSIX paths on Linux (note forward slashes and no escaping needed)
-        String journalFilePath = "/home/ccd/Coding/markUp_Journal/journal.json";
-        String repoPath = "/home/ccd/Coding/markUp_Journal"; // Root of your Git repository
+        String journalFilePath = "../journal.json";
+        String repoPath = "../"; // Root of your Git repository
 
         try {
             System.out.println("Welcome to markUp Journal!");
